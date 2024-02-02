@@ -1,8 +1,9 @@
 from django.shortcuts import render
+from .models import Artist
 
 # Create your views here.
 
-def index(request):
-    """ A view to return the artist detail page """
+def artist_detail(request, pk):
     
-    return render(request, 'artists/artist_detail.html')
+    artist = Artist.objects.get(pk=pk)
+    return render(request, 'artists/artist_detail.html', {'artist': artist})
