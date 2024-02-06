@@ -459,6 +459,7 @@ Testing documentation can be found [here.](TESTING.md)
 ## Credits
 ### Media
 ![Research for color combinations](https://www.color-hex.com/color-palette/11590)
+![Digital artwork from freepik.com](https://www.freepik.com/free-photos-vectors/digital-art)
 
 
 ### Code
