@@ -3,7 +3,6 @@ html {
 }
 
 body {
-    background: url('/media/hero-image.webp') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -172,6 +171,11 @@ a.category-badge > span.badge:hover {
     overflow-y: auto;
 }
 
+.deliver-banner {
+    background-color: black;
+}
+
+.home-bg 
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
