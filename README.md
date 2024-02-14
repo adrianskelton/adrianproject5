@@ -406,7 +406,9 @@ The error messages recognise invalid and not active codes as well.
 ### Marketing
 
 
-- Facebook Page
+I made a facebook business page for my site as I felt that was the best way to engage with a large audience and build up a clientbase organically. As most artists are on facebook and have their own social media pages, the business facebook page could then link up to all of theirs and generate interest by the artists also promoting Nordic Art Collective and visa versa. Regular posts to the page such as new art, interviews with artists and other art related articles could be posted both on the site at a later stage in development and then shared on social media via the business page. 
+
+![](media/readme/facebook-page.mp4)
 
 
 
@@ -458,11 +460,13 @@ Testing documentation can be found [here.](TESTING.md)
 
 ## Credits
 ### Media
-![Research for color combinations](https://www.color-hex.com/color-palette/11590)
-![Digital artwork from freepik.com](https://www.freepik.com/free-photos-vectors/digital-art)
+- [Research for color combinations](https://www.color-hex.com/color-palette/11590)
+- [Digital artwork from freepik.com](https://www.freepik.com/free-photos-vectors/digital-art)
 
 
 ### Code
+
+[CSS idea for custom horizontal rule](https://jsfiddle.net/yLKNh/186/)
 
 
 ### Acknowledgements

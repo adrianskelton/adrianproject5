@@ -74,10 +74,10 @@
                                     <a href="{% url 'home' %}" class="dropdown-item">Product Management</a>
                                 {% endif %}
                                 <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
-                                <a href="{% url 'home' %}" class="dropdown-item">Logout</a>
+                                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
                             {% else %}
-                                <a href="{% url 'home' %}" class="dropdown-item">Register</a>
-                                <a href="{% url 'home' %}" class="dropdown-item">Login</a>
+                                <a href="{% url 'account_signup' %}" class="dropdown-item" class="dropdown-item">Register</a>
+                                <a href="{% url 'account_login' %}" class="dropdown-item" class="dropdown-item">Login</a>
                             {% endif %}
                         </div>
                     </li>
@@ -135,6 +135,12 @@
     {% endblock %}
 
     {% block content %}
+    {% endblock %}
+
+    {% block footer %}
+    <footer>
+        <p class="footer">&copy; 2024 Nordic Art Collective</p>
+    </footer>
     {% endblock %}
 
     {% block postloadjs %}

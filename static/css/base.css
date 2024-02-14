@@ -9,6 +9,15 @@ body {
     font-family: 'Chivo';
 }
 
+footer {
+    max-width: 90%;
+    display: flex;
+}
+
+.hero-text {
+    align-items: flex-start;
+    display: flex;
+}
 .logo-image {
     max-height: 100px;
 }
@@ -105,6 +114,35 @@ a.category-badge > span.badge:hover {
 
 input[name='q']::placeholder {
     color: #aab7c4
+}
+
+.custom-hr {
+
+        text-align: center; /* horizontal centering */
+        line-height: 0px; /* vertical centering */
+        height: 1px; /* gap between the lines */
+        margin: 20px 10px; /* 20px space above/below, 10px left/right */
+        overflow: visible;
+      
+        /* ensure 1px gap between borders */
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        -ms-box-sizing: content-box;
+        -o-box-sizing: content-box;
+        box-sizing: content-box;
+      }
+      
+      .custom-hr:after {
+        content: url('/media/logo-hr.png');
+        display: inline; 
+        background-color: transparent; 
+        padding: 0 0.5em; /* size of background color knockout */
+      }
+      
+      /* opera doesn't render correctly. hide section sign */
+      x:-o-prefocus, .custom-hr:after {
+        content: "";
+      }
 }
 
 /* ------------------------------- bootstrap toasts */
@@ -239,8 +277,7 @@ input[name='q']::placeholder {
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
   .container {
-    max-width: 80%;
-  }
+    max-width: 1342px;
 }
 
 /* fixed top navbar only on medium and up */
@@ -262,6 +299,14 @@ input[name='q']::placeholder {
 @media (max-width: 991px) {
     .header-container {
         padding-top: 116px;
+    }
+
+    
+
+    .hero-text {
+        flex-direction: column;
+        align-items: center; 
+        text-align: center; 
     }
 
     body {
