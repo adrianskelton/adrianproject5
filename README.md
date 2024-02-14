@@ -408,7 +408,12 @@ The error messages recognise invalid and not active codes as well.
 
 I made a facebook business page for my site as I felt that was the best way to engage with a large audience and build up a clientbase organically. As most artists are on facebook and have their own social media pages, the business facebook page could then link up to all of theirs and generate interest by the artists also promoting Nordic Art Collective and visa versa. Regular posts to the page such as new art, interviews with artists and other art related articles could be posted both on the site at a later stage in development and then shared on social media via the business page. 
 
-![](media/readme/facebook-page.mp4)
+Below is a video showing the page with a few articles posted, all of these posts could be boosted to gain a greater audience depending on the companies marketing budget.
+
+<video src="media/readme/facebook-page.mp4">
+
+<img src="media/readme/facebook-screenshot.webp">
+
 
 
 
