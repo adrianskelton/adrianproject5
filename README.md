@@ -412,8 +412,8 @@ Below is a video showing the page with a few articles posted, all of these posts
 
 <video src="media/readme/facebook-page.mp4">
 
-<img src="media/readme/facebook-screenshot.webp">
 
+![]("media/readme/facebook-screenshot.webp")
 
 
 
@@ -477,3 +477,15 @@ Testing documentation can be found [here.](TESTING.md)
 ### Acknowledgements
 
 ### Comments
+
+
+3 custom models:
+
+artist - done
+
+same app...
+
+blog 
+
+comment
+

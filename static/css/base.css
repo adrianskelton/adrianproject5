@@ -3,8 +3,8 @@ html {
 }
 
 body {
-    background-size: cover;
     height: calc(100vh - 164px);
+    background-size: cover;
     color: #555;
     font-family: 'Chivo';
 }
@@ -291,7 +291,7 @@ input[name='q']::placeholder {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 364px;
     }
 }
 
