@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'profiles',
-    'giftcard',
+    'blog',
 
     # Other
     'crispy_forms',
@@ -160,9 +160,9 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-FREE_DELIVERY_THRESHOLD = 50
+FREE_DELIVERY_THRESHOLD = 300
 STANDARD_DELIVERY_PERCENTAGE = 10
-STRIPE_CURRENCY = 'usd'
+STRIPE_CURRENCY = 'SEK'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', 'pk_test_51Oh8MjAYK60dzMLR2s3k6AOgXzBGT0wbKPAeXlJuyiRDzETvqthEVHlrZsCkLFxAGwSgIxV6ftEKKFxCkvnk8Xxg00MA33jRTR')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', 'sk_test_51Oh8MjAYK60dzMLRJeZgCC4VAOE5fn292YNdxLBJSiuBn2dAU4O6lAbFt60tqPCulsP5IeuXYvacbJgiYQFm8v3y00px9Yze5N')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')

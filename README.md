@@ -87,17 +87,16 @@ Benefits:
 ### Colour Scheme
 The colour scheme is of the website is quite toned down as not to take away from the prints so that they are the main focus and the user experience of the website is ease of functionality in focus without color distractions in the navigation. I did this also in mind that most Scandinavian homes have subdued interior home colours and the website then mimics this.
 
-    1. --
+
+
+    1. Background color usage - #d7e1ea
     2. --
     3. --
-    4. --
-    5. --
-    6. --
 
 
 
 
-![Colour Scheme](./assets/readme-images/colour-schema.PNG)
+![Colour Scheme](./media/readme/color-pallet.png)
 ### Database Schema
 ![database schema](./assets/readme-images/database.png)
 
@@ -410,12 +409,9 @@ I made a facebook business page for my site as I felt that was the best way to e
 
 Below is a video showing the page with a few articles posted, all of these posts could be boosted to gain a greater audience depending on the companies marketing budget.
 
-<video src="media/readme/facebook-page.mp4">
-
+video src="media/readme/facebook-page.mp4">
 
 ![]("media/readme/facebook-screenshot.webp")
-
-
 
 
 ## Testing
@@ -424,8 +420,17 @@ Testing documentation can be found [here.](TESTING.md)
 |Bug|Status|
 | ---| ---|
 |[BUG: report #35](https://github.com/adrianskelton)|Closed|
+### bug non-nullable
+While making changes to the models in my post and comment app I kept getting errors. 
+You are trying to add a non-nullable field 'image' to post without a default; we can't do that (the database needs something to populate existing rows).
+Please select a fix:
+ 1) Provide a one-off default now (will be set on all existing rows with a null value for this column)
+ 2) Quit, and let me add a default in models.py
+Select an option: 
+### Fix: 
+Select option 2 and Add a default to the string where the field is throwing the error.
 
-
+### bug images not uploading
 
 
 ## Technologies And Languages
@@ -475,6 +480,8 @@ Testing documentation can be found [here.](TESTING.md)
 
 
 ### Acknowledgements
+
+[Color pallette idea](https://www.color-hex.com/color-palette/11590)
 
 ### Comments
 

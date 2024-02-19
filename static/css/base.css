@@ -3,15 +3,27 @@ html {
 }
 
 body {
+    padding-top: 200px;
     height: calc(100vh - 164px);
     background-size: cover;
     color: #555;
     font-family: 'Chivo';
 }
 
+article {
+    margin-top: 170px; 
+}
+
+/* over-ride font awesome default color */
+.fab {
+    color: grey; !important
+}
+
 footer {
-    max-width: 90%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #343a40;
 }
 
 .hero-text {
@@ -20,6 +32,11 @@ footer {
 }
 .logo-image {
     max-height: 100px;
+}
+
+.blog-image {
+    float: right;
+    max-width: 400px;
 }
 
 /* from Bulma */
@@ -214,7 +231,7 @@ input[name='q']::placeholder {
 }
 
 .deliver-banner {
-    background-color: black;
+    background-color:#d7e1ea;
 }
 
 /* Allauth form formatting */

@@ -1,6 +1,7 @@
 body {
     height: calc(100vh - 164px);
-    background: url('/media/hero-image.webp') top/cover fixed !important;
-    background-size: cover;  
-    animation: fadeBackground 5s forwards !important;
+    background: url('/media/hero-image2.webp') top/cover fixed !important;
+    background-position: center;
+    background-attachment: fixed; 
+    max-height: 500px; 
 }
