@@ -8,10 +8,12 @@ body {
     background-size: cover;
     color: #555;
     font-family: 'Chivo';
-}
+} 
+
+
 
 article {
-    margin-top: 170px; 
+    margin-top: 30px; 
 }
 
 /* over-ride font awesome default color */
@@ -135,10 +137,10 @@ input[name='q']::placeholder {
 
 .custom-hr {
 
-        text-align: center; /* horizontal centering */
-        line-height: 0px; /* vertical centering */
-        height: 1px; /* gap between the lines */
-        margin: 20px 10px; /* 20px space above/below, 10px left/right */
+        text-align: center; 
+        line-height: 0px; 
+        height: 1px; 
+        margin: 20px 150px; 
         overflow: visible;
       
         /* ensure 1px gap between borders */
@@ -160,7 +162,7 @@ input[name='q']::placeholder {
       x:-o-prefocus, .custom-hr:after {
         content: "";
       }
-}
+
 
 /* ------------------------------- bootstrap toasts */
 
@@ -232,6 +234,10 @@ input[name='q']::placeholder {
 
 .deliver-banner {
     background-color:#d7e1ea;
+}
+
+.deliver-banner:before {
+    content: url('/media/before-dot.png');
 }
 
 /* Allauth form formatting */

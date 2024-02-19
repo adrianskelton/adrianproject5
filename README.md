@@ -392,6 +392,11 @@ The error messages recognise invalid and not active codes as well.
 
 ## Future Features
 
+A few of the features that would be applied in future. 
+- Giftcards available to purchase and send to friends online, thereby growing the community and generating more sales.
+- Add a mailing list when the number of users has increased more
+- Youtube social media channel with regular content creation
+
 
 ## Search Engine Optimization SEO and Marketing
 
@@ -400,6 +405,11 @@ The error messages recognise invalid and not active codes as well.
 
 ### SEO
 
+The keywords I tried to focus on were "sweden photo prints", "swedish artists" and other non generic longer keywords as the internet is already flooded with art print sites, I wanted the keywords to zero in on the geographical location as this is where the marketing will be and it is part of the brand. 
+
+The content in the blog section also uses the artists name and the keywords of prints and order to help push the seo quality up.
+
+The alt image descriptions were also thought of with the artists name and name of the print. The meta keywords were filled with again geographic based keywords including sweden and nordic in the keywords as well as the artists names.
 
 
 ### Marketing
@@ -486,13 +496,5 @@ Select option 2 and Add a default to the string where the field is throwing the 
 ### Comments
 
 
-3 custom models:
 
-artist - done
-
-same app...
-
-blog 
-
-comment
 
