@@ -204,10 +204,7 @@ lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum
 
 ![products](./assets/readme-images/features/products-home.PNG)
 
-#### Newsletter
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
 
-![newsletter](./assets/readme-images/features/newsletter.PNG)
 
 ### Products Page
 lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
@@ -361,19 +358,8 @@ lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum
 
 ![shopping cart no stock](./assets/readme-images/features/cart-no-stock.PNG)
 
-##### Discount Codes
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-
-![discount code success](./assets/readme-images/features/discount-code-success.PNG)
-
-The error messages recognise invalid and not active codes as well. 
-
-![discount code invalid](./assets/readme-images/features/discount-code-invalid.PNG)
-
-![discount code inactive](./assets/readme-images/features/discount-code-inactive.PNG)
 
 ### Checkout
-
 
 ![checkout](./assets/readme-images/features/checkout.PNG)
 
@@ -482,6 +468,7 @@ Select option 2 and Add a default to the string where the field is throwing the 
 ### Media
 - [Research for color combinations](https://www.color-hex.com/color-palette/11590)
 - [Digital artwork from freepik.com](https://www.freepik.com/free-photos-vectors/digital-art)
+- [Favicon generator](https://favicon.io/favicon-converter/)
 
 
 ### Code
@@ -489,10 +476,11 @@ Select option 2 and Add a default to the string where the field is throwing the 
 [CSS idea for custom horizontal rule](https://jsfiddle.net/yLKNh/186/)
 
 
+
 ### Acknowledgements
 
 [Color pallette idea](https://www.color-hex.com/color-palette/11590)
-
+[Tutorial on custom 404](https://www.youtube.com/watch?v=oX_XKlPJAQk&ab_channel=ThinkThank)
 ### Comments
 
 
