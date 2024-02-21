@@ -25,7 +25,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #343a40;
+    background-color: #d7e1ea;
+    color:#212529;
 }
 
 .hero-text {
@@ -232,14 +233,6 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
-.deliver-banner {
-    background-color:#d7e1ea;
-}
-
-.deliver-banner:before {
-    content: url('/media/before-dot.png');
-}
-
 /* Allauth form formatting */
 
 .allauth-form-inner-content p {
@@ -324,7 +317,13 @@ input[name='q']::placeholder {
         padding-top: 116px;
     }
 
+    .deliver-banner {
+        background-color:#d7e1ea;
+    }
     
+    .deliver-banner:before {
+        content: url('/media/before-dot.png');
+    }   
 
     .hero-text {
         flex-direction: column;
