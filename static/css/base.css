@@ -3,17 +3,15 @@ html {
 }
 
 body {
-    padding-top: 200px;
+    padding-top: 144px;
     height: calc(100vh - 164px);
     background-size: cover;
     color: #555;
     font-family: 'Chivo';
 } 
 
-
-
 article {
-    margin-top: 30px; 
+    margin-top: 10px; 
 }
 
 /* over-ride font awesome default color */
@@ -26,7 +24,10 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: #d7e1ea;
-    color:#212529;
+    color: #212529;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .hero-text {
@@ -84,6 +85,7 @@ footer {
     background: black;
     color: white !important;
 }
+
 
 .shop-now-button:hover,
 .shop-now-button:active,
@@ -316,14 +318,6 @@ input[name='q']::placeholder {
     .header-container {
         padding-top: 116px;
     }
-
-    .deliver-banner {
-        background-color:#d7e1ea;
-    }
-    
-    .deliver-banner:before {
-        content: url('/media/before-dot.png');
-    }   
 
     .hero-text {
         flex-direction: column;

@@ -38,3 +38,8 @@ def new_post(request):
         form = PostForm()
 
     return render(request, 'blog/new_post.html', {'form': form})
+
+def blog_view(request):
+    all_posts = Post.objects.all()
+
+    return render(request, 'blog/blog_list.html', {'all_posts': all_posts})

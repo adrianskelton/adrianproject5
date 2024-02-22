@@ -424,7 +424,7 @@ Please select a fix:
  2) Quit, and let me add a default in models.py
 Select an option: 
 ### Fix: 
-Select option 2 and Add a default to the string where the field is throwing the error.
+The above still did not work so I had to rollback to a previous migration before the errors. I found this information on [Stackoverflow](https://stackoverflow.com/questions/32123477/how-to-revert-the-last-migration)
 
 ### bug images not uploading
 
