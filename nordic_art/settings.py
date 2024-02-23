@@ -113,7 +113,7 @@ WSGI_APPLICATION = 'nordic_art.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 #DATABASES = {
-    #'default': dj_database_url.parse('postgres://mykmmrki:cy_nxN4hM_ndbiLjX104anVJXXQKR3mF@abul.db.elephantsql.com/mykmmrki')
+    #'default': dj_database_url.parse('')
         #'ENGINE': 'django.db.backends.sqlite3',
         #'NAME': BASE_DIR / 'db.sqlite3',
        # }
