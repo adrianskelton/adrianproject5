@@ -143,7 +143,7 @@ input[name='q']::placeholder {
         text-align: center; 
         line-height: 0px; 
         height: 1px; 
-        margin: 20px 150px; 
+        padding: 20px 5%; 
         overflow: visible;
       
         /* ensure 1px gap between borders */
@@ -158,7 +158,7 @@ input[name='q']::placeholder {
         content: url('/media/logo-hr.png');
         display: inline; 
         background-color: transparent; 
-        padding: 0 0.5em; /* size of background color knockout */
+        padding: 0 5%; /* size of background color knockout */
       }
       
       /* opera doesn't render correctly. hide section sign */
@@ -328,4 +328,10 @@ input[name='q']::placeholder {
     body {
         height: calc(100vh - 116px);
     }
+
+    .custom-hr {
+        margin: 20px auto; 
+        width: 80%; 
+      }
 }
+

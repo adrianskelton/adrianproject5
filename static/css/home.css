@@ -5,3 +5,11 @@ body {
     background-attachment: fixed; 
     max-height: 500px; 
 }
+
+/* For round artist images on homepage */
+.img-fluid-rounded {
+    border-radius: 50%; 
+    border: 2px solid white; 
+    overflow: hidden; 
+    max-width: 450px;
+}

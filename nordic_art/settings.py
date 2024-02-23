@@ -1,5 +1,7 @@
 from pathlib import Path
 import os
+import dj_database_url
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -14,7 +16,7 @@ SECRET_KEY = 'django-insecure-w(&322i&89f5p3xo%84)*o-6bau#j^2u(9gb3p%5d!qz(cwh+*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-adrianskelt-adrianproje-kkcdyjvttop.ws-eu107.gitpod.io', '8000-adrianskelt-adrianproje-kkcdyjvttop.ws-eu108.gitpod.io']
+ALLOWED_HOSTS = ['https://nordic-art-22f58cb8c917.herokuapp.com/' '8000-adrianskelt-adrianproje-kkcdyjvttop.ws-eu107.gitpod.io', '8000-adrianskelt-adrianproje-kkcdyjvttop.ws-eu108.gitpod.io']
 
 
 # Application definition
@@ -110,13 +112,22 @@ WSGI_APPLICATION = 'nordic_art.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+#DATABASES = {
+    #'default': dj_database_url.parse('postgres://mykmmrki:cy_nxN4hM_ndbiLjX104anVJXXQKR3mF@abul.db.elephantsql.com/mykmmrki')
+        #'ENGINE': 'django.db.backends.sqlite3',
+        #'NAME': BASE_DIR / 'db.sqlite3',
+       # }
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
-}
-
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
