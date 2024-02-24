@@ -1,1 +1,1 @@
-web: gunicorn nordic_art.wsgi:application
+web: gunicorn nordic_art.wsgi
