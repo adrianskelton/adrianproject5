@@ -464,6 +464,10 @@ The above still did not work so I had to rollback to a previous migration before
 
 ### Cloning Repository
 
+### Migrating database content
+
+Because I had a lot of products and data in sqllite already that did not migrate to elephantSQL I used this tutorial to move the data (https://hevodata.com/learn/sqlite-to-postgresql/#Method_1_SQLite_to_PostgreSQL_using_Django)
+
 ## Credits
 ### Media
 - [Research for color combinations](https://www.color-hex.com/color-palette/11590)
