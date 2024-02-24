@@ -16,7 +16,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['nordic-art-22f58cb8c917.herokuapp.com' '8000-adrianskelt-adrianproje-kkcdyjvttop.ws-eu107.gitpod.io', '8000-adrianskelt-adrianproje-kkcdyjvttop.ws-eu108.gitpod.io']
+ALLOWED_HOSTS = ['nordic-art-22f58cb8c917.herokuapp.com',
+                 '8000-adrianskelt-adrianproje-kkcdyjvttop.ws-eu107.gitpod.io',
+                 '8000-adrianskelt-adrianproje-kkcdyjvttop.ws-eu108.gitpod.io',]
 
 
 # Application definition
