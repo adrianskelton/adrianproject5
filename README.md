@@ -468,6 +468,14 @@ The above still did not work so I had to rollback to a previous migration before
 
 Because I had a lot of products and data in sqllite already that did not migrate to elephantSQL I used this tutorial to move the data (https://hevodata.com/learn/sqlite-to-postgresql/#Method_1_SQLite_to_PostgreSQL_using_Django)
 
+error... 
+django.db.utils.IntegrityError: Problem installing fixture '/workspace/adrianproject5/whole.json': Could not load profiles.UserProfile(pk=1): duplicate key value violates unique constraint "profiles_userprofile_user_id_key"
+DETAIL:  Key (user_id)=(2) already exists.
+fix...
+gitpod /workspace/adrianproject5 (main) $ python manage.py loaddata --exclude auth.permission --exclude contenttypes --exclude profiles whole.json
+Installed 100 object(s) (of 203) from 1 fixture(s)
+gitpod /workspace/adrianproject5 (main) $ 
+
 ## Credits
 ### Media
 - [Research for color combinations](https://www.color-hex.com/color-palette/11590)
