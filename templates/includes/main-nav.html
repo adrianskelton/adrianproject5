@@ -7,7 +7,7 @@
                 Prints
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=photography" class="dropdown-item">Phototgraphy</a>
+                <a href="{% url 'products' %}?category=photography" class="dropdown-item">Photography</a>
                 <a href="{% url 'products' %}?category=digital_art" class="dropdown-item">Digital</a>
             </div>
         </li>
@@ -27,6 +27,11 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'blog_view' %}" id="blog-link" aria-haspopup="true" aria-expanded="false">
                 Blog
             </a>
+            {% if user.is_authenticated and user.is_staff %}
+            <li class="dropdown-menu border-0" aria-labelledby="create-blogpost-link">
+                <a class="nav-link" href="{% url 'create_post' %}">Create Post</a>
+            </li>
+        {% endif %}
         </li>
 
         <li class="nav-item dropdown">
