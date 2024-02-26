@@ -24,7 +24,7 @@
 
             <div class="mt-4">
                 <p><strong>Bio:</strong> {{ artist.bio }}</p>
-                <p><strong>Total Sales:</strong> ${{ artist.total_sales }}</p>
+                <p><strong>Total Sales:</strong> SEK{{ artist.total_sales }}</p>
 
                 {% if artist.website %}
                     <p><strong>Website:</strong> <a href="{{ artist.website }}" target="_blank">{{ artist.website }}</a></p>
@@ -36,7 +36,7 @@
                     {% for product in artist.product_set.all %}
                         <p><strong>{{ product.name }}</strong>: {{ product.description }}</p>
                         <img src="{{ product.image.url }}" alt="{{ product.name }}" class="img-fluid rounded img-art-page">
-                        <p> ${{ product.price }}</p>
+                        <p> SEK{{ product.price }}</p>
                     {% endfor %}
                 </div>
             </div>

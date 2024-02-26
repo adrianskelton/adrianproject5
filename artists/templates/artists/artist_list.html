@@ -36,7 +36,7 @@
                     {% for product in artist.product_set.all %}
                         <p><strong>{{ product.name }}</strong>: {{ product.description }}</p>
                         <img src="{{ product.image.url }}" alt="{{ product.name }}" class="img-fluid rounded img-art-page">
-                        <p> ${{ product.price }}</p>
+                        <p> SEK{{ product.price }}</p>
                     {% endfor %}
                 </div>
             </div>

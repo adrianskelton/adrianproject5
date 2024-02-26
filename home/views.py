@@ -12,5 +12,6 @@ def about_us(request):
     
     return render(request, 'home/about_us.html')
 
+
 def handling_404(request, exception):
     return render(request, '404.html')
