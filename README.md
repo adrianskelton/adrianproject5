@@ -446,7 +446,6 @@ The above still did not work so I had to rollback to a previous migration before
  - [Favicon Generator](https://favicon.io/favicon-converter/) was used to generate Favicon
 
 
-
 ## Deployment
 ### Before Deployment
 
@@ -460,7 +459,6 @@ The above still did not work so I had to rollback to a previous migration before
 ### Deployment on Heroku
 
 ### Creating a fork
-
 
 ### Cloning Repository
 
