@@ -4,10 +4,6 @@ from django.utils import timezone
 from .models import Post, Comment
 from .forms import PostForm, CommentForm
 
-def blog_view(request):
-    posts = Post.objects.all()
-    return render(request, 'blog/blog_home.html', {'posts': posts})
-
 def post_detail(request, post_id):
     post = get_object_or_404(Post, pk=post_id)
     comments = Comment.objects.filter(post=post)
