@@ -12,7 +12,7 @@ body {
 } 
 
 .header-padding {
-    padding-top: 80px;
+    padding-top: 94px;
 }
 
 article {
@@ -41,6 +41,7 @@ footer {
 }
 .logo-image {
     max-height: 100px;
+    padding-left: 118px;
 }
 
 .blog-image {
