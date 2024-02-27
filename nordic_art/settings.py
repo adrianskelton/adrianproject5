@@ -110,9 +110,9 @@ LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'nordic_art.wsgi.application'
 
-#DATABASES = {
-#    'default': dj_database_url.parse('postgres://kafogeuz:VZ7IuW94pq8octrWT8qxO1r5yIUYAYqZ@abul.db.elephantsql.com/kafogeuz')
-#}
+DATABASES = {
+    'default': dj_database_url.parse('postgres://kafogeuz:VZ7IuW94pq8octrWT8qxO1r5yIUYAYqZ@abul.db.elephantsql.com/kafogeuz')
+}
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
@@ -124,17 +124,17 @@ WSGI_APPLICATION = 'nordic_art.wsgi.application'
  #   }
 
 
-if 'DATABASE_URL' in os.environ:
-    DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-    }
-else:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        }
-    }
+#if 'DATABASE_URL' in os.environ:
+#    DATABASES = {
+#        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+#    }
+#else:
+#    DATABASES = {
+#        'default': {
+#            'ENGINE': 'django.db.backends.sqlite3',
+#            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#        }
+#    }
 
 
 # Password validation
