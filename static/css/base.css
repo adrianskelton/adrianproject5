@@ -48,6 +48,11 @@ footer {
     max-width: 400px;
 }
 
+.blog-image-list {
+    float: right;
+    max-width: 30vh;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;

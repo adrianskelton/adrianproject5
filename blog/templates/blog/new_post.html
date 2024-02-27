@@ -3,7 +3,7 @@
 
 {% block content %}
   <div class="container mt-5 header-padding">
-    <h2>Create a New Blog Post</h2>
+    <h2>Create a new blog post</h2>
     <form method="post" enctype="multipart/form-data">
       {% csrf_token %}
       {{ form|crispy }}

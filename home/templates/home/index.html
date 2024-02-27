@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
+    <div class="container header-container header-padding">
         <div class="row">
             <div class="col"></div>
         </div>
@@ -15,44 +15,21 @@
 {% endblock %}
 
 {% block content %}
-<div class="container h-100">
-    <div class="row h-100">
-        <div class="col-12 col-md-6 my-auto hero-text text-center custom-slider">
-            <!-- Don't wrap targets in parent -->
-            <s id="s1"></s> 
-            <s id="s2"></s>
-            <s id="s3"></s>
-            
-            <div class="slider">
-                <div style="background:#5b8;">
-                    <h2>PURE <b>CSS</b> SLIDESHOW</h2>
-                    <p>Responsive Slideshow Gallery created using CSS only<br>by Roko</p>
-                </div>
-                <div style="background:#85b;">
-                    <h2>Slide 2</h2>
-                </div>
-                <div style="background:#e95;">
-                    <h2>Slide 3</h2>
-                </div>
-                
-                <div class="prevNext">
-                    <div><a href="#s4"></a><a href="#s2"></a></div>
-                    <div><a href="#s1"></a><a href="#s3"></a></div>
-                    <div><a href="#s2"></a><a href="#s4"></a></div>
-                </div>
-                
-                <div class="bullets">
-                    <a href="#s1">1</a>
-                    <a href="#s2">2</a>
-                    <a href="#s3">3</a>
-                </div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="">
+                <!-- Your text content goes here -->
+                <p><h2>Nordic Art Collective</h2></p>
+                <p>We developed Nordic Art from the realisation that the up and coming artists in Sweden was not well represented online.
+
+                    We have the knowledge of the latest trends locally and globally to promote the best digital and photographic artists. </p>
+                <p><a href="{% url 'products' %}" class="btn btn-primary">Shop Now</a></p>
             </div>
         </div>
-
-        <div class="col-12 col-md-6">
-            {% for artist in artists %}
-                <img src="{{ artist.image.url }}" alt="{{ artist.full_name }}" class="img-fluid rounded">
-            {% endfor %}
+        <div class="col-md-6">
+            <!-- Your image goes here -->
+            <img src="{% static 'media/hero-image.webp' %}" alt="Your Image" class="img-fluid">
         </div>
     </div>
 </div>

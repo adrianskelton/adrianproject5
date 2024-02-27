@@ -1,21 +1,34 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block content %}
     <div class="container header-padding">
         <h2>Blog Posts</h2>
-        <ul class="blog-post-list">
+        <div class="row">
             {% for post in all_posts %}
-                <li>
+                <div class="col-md-6">
                     <div class="blog-post-item">
                         <div class="blog-post-image">
-                            <img src="{{ post.featured_image.url }}" alt="{{ post.title }}">
+                            {% if post.image %}
+                                <img src="{{ post.image.url }}" class="blog-image-list" alt="{{ post.title }}">
+                            {% else %}
+                                <!-- Provide a default image or handle the absence of an image -->
+                                <img src="{% static 'default-image.jpg' %}" alt="{{ post.title }}">
+                            {% endif %}
                         </div>
+
                         <div class="blog-post-details">
                             <h3><a href="{% url 'post_detail' post_id=post.id %}">{{ post.title }}</a></h3>
                             <p>{{ post.pub_date|date:"F j, Y" }}</p>
+                            <p>{{ post.content|truncatewords:50 }}</p>
+                            <a href="{% url 'post_detail' post_id=post.id %}">Read More</a>
                         </div>
                     </div>
-                </li>
+                </div>
+
+                {% if forloop.counter|divisibleby:2 and not forloop.last %}
+                    </div><div class="row">
+                {% endif %}
             {% endfor %}
-        </ul>
+        </div>
     </div>
 {% endblock %}
