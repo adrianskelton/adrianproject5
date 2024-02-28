@@ -10,7 +10,7 @@ def index(request):
 def contact(request):
     """ A view to return the about us page """
     
-    return render(request, 'home/contact.html')
+    return render(request, 'home/contact_us.html')
 
 
 def handling_404(request, exception):

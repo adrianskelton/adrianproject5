@@ -73,6 +73,10 @@ footer {
     size: large;
 }
 
+.btn-nordic {
+    background-color: #d7e1ea;
+}
+
 .shop-now-button {
     background: black;
     color: white;

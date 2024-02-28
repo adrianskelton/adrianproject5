@@ -5,7 +5,7 @@ from .views import contact
 
 urlpatterns = [
     path('', views.index, name='home'),
-    path('contact/', contact, name='contact'),
+    path('contact/', views.contact, name='contact_form'),
 ]
 
 handler404 = 'home.views.handling_404'

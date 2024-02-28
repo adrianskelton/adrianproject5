@@ -96,7 +96,7 @@ The colour scheme is of the website is quite toned down as not to take away from
 
 
 
-![Colour Scheme](./media/readme/color-pallet.png)
+![Colour Scheme](static/media/readme/color-pallett.webp)
 ### Database Schema
 ![database schema](./assets/readme-images/database.png)
 
