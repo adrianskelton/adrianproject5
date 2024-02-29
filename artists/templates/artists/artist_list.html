@@ -31,13 +31,14 @@
                     {% endif %}
                 </div>
 
-                <div class="mt-4">
+                <div class="mt-4 scrollable-wrap">
                     <h2>Prints</h2>
                     {% for product in artist.product_set.all %}
-                        <p><strong>{{ product.name }}</strong>: {{ product.description }}</p>
+                    <div class="print-item">
+                        <p><strong>{{ product.name }}</strong></p>
                         <img src="{{ product.image.url }}" alt="{{ product.name }}" class="img-fluid rounded img-art-page">
-                        <p> SEK{{ product.price }}</p>
-                    {% endfor %}
+                    </div>
+                {% endfor %}
                 </div>
             </div>
             <div class="col-md-6 mt-4">

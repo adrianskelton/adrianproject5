@@ -16,3 +16,15 @@ body {
 .img-art-page {
     width: 100px;
 }
+
+/* Scrollable wrapper for the artist products */
+
+.scrolling-wrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.print-item {
+    display: inline-block;
+    margin-right: 
+}

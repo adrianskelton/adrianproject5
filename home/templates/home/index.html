@@ -2,16 +2,16 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container header-padding">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container header-padding">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
 
 {% block extra_css %}
-    <link rel="stylesheet" href="{% static 'css/home.css' %}">
-    <link rel="stylesheet" href="{% static 'css/slider.css' %}">
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+<link rel="stylesheet" href="{% static 'css/slider.css' %}">
 {% endblock %}
 
 {% block content %}
@@ -20,13 +20,21 @@
         <div class="col-md-6">
             <div class="">
                 <!-- Your text content goes here -->
-                <p><h2>Nordic Art Collective</h2></p>
-                <p class="home-article">We developed Nordic Art from the realisation that the up and coming artists in Sweden was not well represented online.
-                </p><p>
-                    Nordic Art was conceived with the understanding that emerging artists in Sweden lacked a substantial online platform 
-                    for representation. Driven by this insight, we aim to bridge the gap and provide a dedicated space for showcasing the 
-                    incredible talents within the realm of digital and photographic art.</p><p>Our team possesses a deep understanding of both 
-                    local and global art trends, allowing us to curate and promote the works of the most promising artists. At Nordic Art, 
+                <p>
+                <h2>Nordic Art Collective</h2>
+                </p>
+                <p class="home-article">We developed Nordic Art from the realisation that the up and coming artists in
+                    Sweden was not well represented online.
+                </p>
+                <p>
+                    Nordic Art was conceived with the understanding that emerging artists in Sweden lacked a substantial
+                    online platform
+                    for representation. Driven by this insight, we aim to bridge the gap and provide a dedicated space
+                    for showcasing the
+                    incredible talents within the realm of digital and photographic art.</p>
+                <p>Our team possesses a deep understanding of both
+                    local and global art trends, allowing us to curate and promote the works of the most promising
+                    artists. At Nordic Art,
                     we believe in empowering artists by offering them a prominent online presence. </p>
                 <p><a href="{% url 'products' %}" class="btn btn-nordic">Shop Now</a></p>
             </div>
