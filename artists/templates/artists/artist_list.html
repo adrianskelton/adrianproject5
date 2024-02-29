@@ -2,68 +2,74 @@
 {% load static %}
 
 {% block extra_css %}
-    <link rel="stylesheet" href="{% static 'artists/css/artists.css' %}">
+<link rel="stylesheet" href="{% static 'artists/css/artists.css' %}">
 {% endblock %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
 
 {% block content %}
 <div class="container mt-5">
+    {% for artist in artists %}
     <div class="row">
-        {% for artist in artists %}
-            <div class="col-md-6 mt-4">
-                <div class="text-center">
-                    <h1>{{ artist.full_name }}</h1>
-                </div>
+        <div class="col-md-6 mt-4">
+            <div class="text-center">
+                <h1>{{ artist.full_name }}</h1>
+            </div>
 
-                <div class="mt-4">
-                    <p><strong>Bio:</strong> {{ artist.bio }}</p>
-                    <p><strong>Total Sales:</strong> {{ artist.total_sales }}</p>
+            <div class="mt-4">
+                <p><strong>Bio:</strong> {{ artist.bio }}</p>
+                <p><strong>Total Sales:</strong> {{ artist.total_sales }}</p>
 
-                    {% if artist.website %}
-                        <p><strong>Website:</strong> <a href="{{ artist.website }}" target="_blank">{{ artist.website }}</a></p>
-                    {% endif %}
-                </div>
+                {% if artist.website %}
+                <p><strong>Website:</strong> <a href="{{ artist.website }}" target="_blank">{{ artist.website }}</a></p>
+                {% endif %}
+            </div>
 
-                <div class="mt-4 scrollable-wrap">
-                    <h2>Prints</h2>
-                    <div class="scrolling-wrapper">
-                        {% for product in artist.product_set.all %}
-                            <div class="print-item">
-                                <a href="{% url 'product_detail' product.id %}">
-                                    <img src="{{ product.image.url }}" alt="{{ product.name }}" class="img-fluid rounded img-art-page" onmouseover="displayBuyNow(this)" onmouseout="hideBuyNow(this)">
-                                    <span class="buy-now" onclick="location.href='{% url 'product_detail' product.id %}'">Buy Now</span>
-                                </a>
-                            </div>
-                        {% endfor %}
+            <div class="mt-4 scrollable-wrap">
+                <h2>Prints</h2>
+                <div class="scrolling-wrapper">
+                    {% for product in artist.product_set.all %}
+                    <div class="print-item">
+                        <a href="{% url 'product_detail' product.id %}">
+                            <img src="{{ product.image.url }}" alt="{{ product.name }}"
+                                class="img-fluid rounded img-art-page" onmouseover="displayBuyNow(this)"
+                                onmouseout="hideBuyNow(this)">
+                            <span class="buy-now" onclick="location.href='{% url 'product_detail' product.id %}'">Buy
+                                Now</span>
+                        </a>
                     </div>
+                    {% endfor %}
+                </div>
             </div>
-            <div class="col-md-6 mt-4">
-                <div class="row mt-4">
-                    <div class="col-md-12">
-                        <img src="{{ artist.image.url }}" alt="{{ artist.full_name }}" class="img-fluid rounded">
+        </div>
 
-                    </div>
+        <div class="col-md-6 mt-4">
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <img src="{{ artist.image.url }}" alt="{{ artist.full_name }}" class="img-fluid rounded">
                 </div>
             </div>
-            {% if not forloop.last %}
-            <div class="row">
-                <div class="col-md-12 custom-hr">
-                    <!-- Empty div for the background image hr -->
-                </div>
-            
-        {% endif %}
-            </div>
-        {% endfor %}
+        </div>
     </div>
+
+    {% if not forloop.last %}
+    <div class="row">
+        <div class="col-md-12 custom-hr">
+            <!-- Empty div for the background image hr -->
+        </div>
+    </div>
+    {% endif %}
+
+    {% endfor %}
+</div>
 {% endblock %}
 
 {% block extra_js %}
-    <script src="{% static 'artists/js/buynow.js' %}"></script>
+<script src="{% static 'artists/js/buynow.js' %}"></script>
 {% endblock %}
