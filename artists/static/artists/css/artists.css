@@ -26,5 +26,33 @@ body {
 
 .print-item {
     display: inline-block;
-    margin-right: 
+    margin-right: 15px;
+}
+
+.buy-now {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.img-art-page {
+    position: relative;
+}
+
+.img-art-page:hover .buy-now {
+    display: block;
+}
+
+/* Additional styling for Buy Now button */
+.img-art-page:hover {
+    filter: brightness(90%);
 }

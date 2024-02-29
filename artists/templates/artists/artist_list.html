@@ -33,13 +33,16 @@
 
                 <div class="mt-4 scrollable-wrap">
                     <h2>Prints</h2>
-                    {% for product in artist.product_set.all %}
-                    <div class="print-item">
-                        <p><strong>{{ product.name }}</strong></p>
-                        <img src="{{ product.image.url }}" alt="{{ product.name }}" class="img-fluid rounded img-art-page">
+                    <div class="scrolling-wrapper">
+                        {% for product in artist.product_set.all %}
+                            <div class="print-item">
+                                <a href="{% url 'product_detail' product.id %}">
+                                    <img src="{{ product.image.url }}" alt="{{ product.name }}" class="img-fluid rounded img-art-page" onmouseover="displayBuyNow(this)" onmouseout="hideBuyNow(this)">
+                                    <span class="buy-now" onclick="location.href='{% url 'product_detail' product.id %}'">Buy Now</span>
+                                </a>
+                            </div>
+                        {% endfor %}
                     </div>
-                {% endfor %}
-                </div>
             </div>
             <div class="col-md-6 mt-4">
                 <div class="row mt-4">
@@ -59,4 +62,8 @@
             </div>
         {% endfor %}
     </div>
+{% endblock %}
+
+{% block extra_js %}
+    <script src="{% static 'artists/js/buynow.js' %}"></script>
 {% endblock %}
