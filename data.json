@@ -1,0 +1,2886 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 207,
+  "fields": {
+    "action_time": "2024-02-12T07:49:28.593Z",
+    "user": 7,
+    "content_type": 4,
+    "object_id": "1",
+    "object_repr": "admin",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 208,
+  "fields": {
+    "action_time": "2024-02-12T07:49:50.091Z",
+    "user": 7,
+    "content_type": 4,
+    "object_id": "7",
+    "object_repr": "admin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 209,
+  "fields": {
+    "action_time": "2024-02-12T19:50:13.620Z",
+    "user": 7,
+    "content_type": 13,
+    "object_id": "5",
+    "object_repr": "Jessie print 1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 210,
+  "fields": {
+    "action_time": "2024-02-12T19:50:36.934Z",
+    "user": 7,
+    "content_type": 13,
+    "object_id": "8",
+    "object_repr": "Rachael Ray Ceramic Olive Oil Dispenser",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Sku\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 211,
+  "fields": {
+    "action_time": "2024-02-13T09:23:10.414Z",
+    "user": 7,
+    "content_type": 13,
+    "object_id": "11",
+    "object_repr": "Chef Designs Black-Trimmed Cook ShirtBig & Tall",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 212,
+  "fields": {
+    "action_time": "2024-02-13T09:23:10.417Z",
+    "user": 7,
+    "content_type": 13,
+    "object_id": "16",
+    "object_repr": "Gift Card",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 213,
+  "fields": {
+    "action_time": "2024-02-13T09:23:10.419Z",
+    "user": 7,
+    "content_type": 13,
+    "object_id": "20",
+    "object_repr": "JCPenney Home Oven Mitt",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 214,
+  "fields": {
+    "action_time": "2024-02-13T09:23:10.420Z",
+    "user": 7,
+    "content_type": 13,
+    "object_id": "21",
+    "object_repr": "Farberware Sonoma 2-qt. Whistling Tea Kettle",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 215,
+  "fields": {
+    "action_time": "2024-02-13T09:23:10.422Z",
+    "user": 7,
+    "content_type": 13,
+    "object_id": "23",
+    "object_repr": "Dickies Heavyweight Long-Sleeve Pocket Tee",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 216,
+  "fields": {
+    "action_time": "2024-02-13T09:23:10.424Z",
+    "user": 7,
+    "content_type": 13,
+    "object_id": "26",
+    "object_repr": "JCPenney Home Ashley Scalloped Stoneware 50-pc. Dinnerware Set - Service for 8",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 217,
+  "fields": {
+    "action_time": "2024-02-13T09:23:10.425Z",
+    "user": 7,
+    "content_type": 13,
+    "object_id": "27",
+    "object_repr": "Rachael Ray Porcelain II 10-pc. Cookware Set",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 218,
+  "fields": {
+    "action_time": "2024-02-15T10:42:26.867Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "1",
+    "object_repr": "Artists in focus: Kassidy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 219,
+  "fields": {
+    "action_time": "2024-02-15T11:05:26.919Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "1",
+    "object_repr": "Artists in focus: Kassidy",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 220,
+  "fields": {
+    "action_time": "2024-02-15T11:05:44.818Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "2",
+    "object_repr": "test",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 221,
+  "fields": {
+    "action_time": "2024-02-19T08:28:25.441Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "2",
+    "object_repr": "test",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 222,
+  "fields": {
+    "action_time": "2024-02-19T09:46:23.919Z",
+    "user": 7,
+    "content_type": 19,
+    "object_id": "5",
+    "object_repr": " on hey",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 223,
+  "fields": {
+    "action_time": "2024-02-19T09:46:23.922Z",
+    "user": 7,
+    "content_type": 19,
+    "object_id": "4",
+    "object_repr": " on hey",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 224,
+  "fields": {
+    "action_time": "2024-02-19T09:46:23.923Z",
+    "user": 7,
+    "content_type": 19,
+    "object_id": "3",
+    "object_repr": " on hey",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 225,
+  "fields": {
+    "action_time": "2024-02-19T09:46:23.926Z",
+    "user": 7,
+    "content_type": 19,
+    "object_id": "2",
+    "object_repr": " on hey",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 226,
+  "fields": {
+    "action_time": "2024-02-19T09:46:23.927Z",
+    "user": 7,
+    "content_type": 19,
+    "object_id": "1",
+    "object_repr": " on hey",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 227,
+  "fields": {
+    "action_time": "2024-02-19T09:46:48.623Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "8",
+    "object_repr": "hey",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 228,
+  "fields": {
+    "action_time": "2024-02-19T09:46:48.625Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "7",
+    "object_repr": "hey",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 229,
+  "fields": {
+    "action_time": "2024-02-19T09:46:48.627Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "6",
+    "object_repr": "this guy",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 230,
+  "fields": {
+    "action_time": "2024-02-19T09:46:48.628Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "5",
+    "object_repr": "wow artist",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 231,
+  "fields": {
+    "action_time": "2024-02-19T09:46:48.630Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "4",
+    "object_repr": "wow artist",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 232,
+  "fields": {
+    "action_time": "2024-02-19T09:46:48.631Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "3",
+    "object_repr": "wow",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 233,
+  "fields": {
+    "action_time": "2024-02-19T09:46:48.632Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "1",
+    "object_repr": "Artists in focus: Kassidy",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 234,
+  "fields": {
+    "action_time": "2024-02-19T11:17:59.743Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "4",
+    "object_repr": "ww",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"comment\", \"object\": \"admin on ww\", \"fields\": [\"Author\", \"Text\"]}}, {\"changed\": {\"name\": \"comment\", \"object\": \"admin on ww\", \"fields\": [\"Author\", \"Text\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 235,
+  "fields": {
+    "action_time": "2024-02-19T11:18:58.680Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "5",
+    "object_repr": "no man",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 236,
+  "fields": {
+    "action_time": "2024-02-19T11:22:09.788Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "5",
+    "object_repr": "no man",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 237,
+  "fields": {
+    "action_time": "2024-02-19T11:22:09.796Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "4",
+    "object_repr": "ww",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 238,
+  "fields": {
+    "action_time": "2024-02-19T11:22:09.799Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "3",
+    "object_repr": "wt",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 239,
+  "fields": {
+    "action_time": "2024-02-19T11:22:09.805Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "2",
+    "object_repr": "This focus",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 240,
+  "fields": {
+    "action_time": "2024-02-19T11:22:09.807Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "1",
+    "object_repr": "This focus",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 241,
+  "fields": {
+    "action_time": "2024-02-19T11:26:14.650Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "6",
+    "object_repr": "New artist focus",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 242,
+  "fields": {
+    "action_time": "2024-02-20T08:30:34.010Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "6",
+    "object_repr": "New artist focus",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"comment\", \"object\": \"admin on New artist focus\", \"fields\": [\"Author\", \"Text\"]}}, {\"changed\": {\"name\": \"comment\", \"object\": \"admin on New artist focus\", \"fields\": [\"Author\", \"Text\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 243,
+  "fields": {
+    "action_time": "2024-02-22T11:15:31.219Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "6",
+    "object_repr": "New artist focus",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 244,
+  "fields": {
+    "action_time": "2024-02-22T11:24:24.889Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "7",
+    "object_repr": "this",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 245,
+  "fields": {
+    "action_time": "2024-02-23T07:41:53.310Z",
+    "user": 7,
+    "content_type": 13,
+    "object_id": "25",
+    "object_repr": "giftcard",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 246,
+  "fields": {
+    "action_time": "2024-02-23T08:12:00.702Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "6",
+    "object_repr": "New artist focus: Kasiddy Obzitz",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 247,
+  "fields": {
+    "action_time": "2024-02-23T08:21:46.773Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "6",
+    "object_repr": "New artist focus: Kasiddy Obzitz",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 248,
+  "fields": {
+    "action_time": "2024-02-23T08:21:57.539Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "6",
+    "object_repr": "New artist focus: Kasiddy Obzitz",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 249,
+  "fields": {
+    "action_time": "2024-02-24T18:08:54.161Z",
+    "user": 7,
+    "content_type": 17,
+    "object_id": "15",
+    "object_repr": "E8094AB1089D4457861A5759ACA6419A",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 250,
+  "fields": {
+    "action_time": "2024-02-24T18:08:54.166Z",
+    "user": 7,
+    "content_type": 17,
+    "object_id": "14",
+    "object_repr": "613CC326E5334620B3BA034DBFE1123D",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 251,
+  "fields": {
+    "action_time": "2024-02-24T18:08:54.168Z",
+    "user": 7,
+    "content_type": 17,
+    "object_id": "13",
+    "object_repr": "FE3E5C23ABF046A2AD58E9BF6BCEEB52",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 252,
+  "fields": {
+    "action_time": "2024-02-24T18:08:54.171Z",
+    "user": 7,
+    "content_type": 17,
+    "object_id": "12",
+    "object_repr": "477FF4A804ED4C6F9992D8720947AE03",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 253,
+  "fields": {
+    "action_time": "2024-02-24T18:08:54.172Z",
+    "user": 7,
+    "content_type": 17,
+    "object_id": "11",
+    "object_repr": "EE3AAA34C89B48BBB446663F9CE38C51",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 254,
+  "fields": {
+    "action_time": "2024-02-24T18:08:54.173Z",
+    "user": 7,
+    "content_type": 17,
+    "object_id": "10",
+    "object_repr": "1E7DCC56662645A4AAEE79FF03004398",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 255,
+  "fields": {
+    "action_time": "2024-02-24T18:08:54.174Z",
+    "user": 7,
+    "content_type": 17,
+    "object_id": "9",
+    "object_repr": "239B46480A9F4C8EB1CCC719C26257CA",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 256,
+  "fields": {
+    "action_time": "2024-02-24T18:08:54.176Z",
+    "user": 7,
+    "content_type": 17,
+    "object_id": "8",
+    "object_repr": "990C32F7BF6C4E2D99B7CA80883CA318",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 257,
+  "fields": {
+    "action_time": "2024-02-24T18:08:54.177Z",
+    "user": 7,
+    "content_type": 17,
+    "object_id": "7",
+    "object_repr": "8D0FD3E25038423AADCE57716C42C5D5",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 258,
+  "fields": {
+    "action_time": "2024-02-24T18:08:54.178Z",
+    "user": 7,
+    "content_type": 17,
+    "object_id": "6",
+    "object_repr": "D331DB6DFE03451583BCFE16CBC20CCF",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 259,
+  "fields": {
+    "action_time": "2024-02-24T18:08:54.179Z",
+    "user": 7,
+    "content_type": 17,
+    "object_id": "5",
+    "object_repr": "118090A9632B411288F921D019367CA0",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 260,
+  "fields": {
+    "action_time": "2024-02-24T18:08:54.181Z",
+    "user": 7,
+    "content_type": 17,
+    "object_id": "4",
+    "object_repr": "B55B5D14970D4479A5B787F2A2C9F6AC",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 261,
+  "fields": {
+    "action_time": "2024-02-24T18:08:54.182Z",
+    "user": 7,
+    "content_type": 17,
+    "object_id": "3",
+    "object_repr": "E4B2748123ED4C85A1C0712849E04BA2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 262,
+  "fields": {
+    "action_time": "2024-02-24T18:08:54.183Z",
+    "user": 7,
+    "content_type": 17,
+    "object_id": "2",
+    "object_repr": "9C29D81941A54B60903D4315F2533BA2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 263,
+  "fields": {
+    "action_time": "2024-02-25T10:23:06.225Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "8",
+    "object_repr": "Rachael Ray Ceramic Olive Oil Dispenser",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 264,
+  "fields": {
+    "action_time": "2024-02-25T10:57:17.628Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "Kassidy print 01",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\", \"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 265,
+  "fields": {
+    "action_time": "2024-02-25T10:57:43.207Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "Kassidy print 02",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\", \"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 266,
+  "fields": {
+    "action_time": "2024-02-25T10:57:59.660Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "3",
+    "object_repr": "Kassidy print 03",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 267,
+  "fields": {
+    "action_time": "2024-02-25T10:58:40.308Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "3",
+    "object_repr": "Kassidy print 03",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 268,
+  "fields": {
+    "action_time": "2024-02-25T10:59:13.523Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "4",
+    "object_repr": "Kassidy print 04",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Price\", \"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 269,
+  "fields": {
+    "action_time": "2024-02-25T10:59:54.351Z",
+    "user": 7,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "Kasiddy Obzitz",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 270,
+  "fields": {
+    "action_time": "2024-02-25T11:24:20.881Z",
+    "user": 7,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "Jessie Jackson",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Website\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 271,
+  "fields": {
+    "action_time": "2024-02-26T09:06:13.494Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "5",
+    "object_repr": "Jessie print 1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 272,
+  "fields": {
+    "action_time": "2024-02-26T09:06:51.617Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "6",
+    "object_repr": "Print 2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\", \"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 273,
+  "fields": {
+    "action_time": "2024-02-26T09:07:07.886Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "6",
+    "object_repr": "Jessie Print 2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 274,
+  "fields": {
+    "action_time": "2024-02-26T09:07:25.705Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "6",
+    "object_repr": "Jessie Print 2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 275,
+  "fields": {
+    "action_time": "2024-02-26T09:07:36.871Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "5",
+    "object_repr": "Jessie print 1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 276,
+  "fields": {
+    "action_time": "2024-02-26T09:07:48.911Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "8",
+    "object_repr": "Rachael Ray Ceramic Olive Oil Dispenser",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 277,
+  "fields": {
+    "action_time": "2024-02-26T09:08:00.851Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "8",
+    "object_repr": "Rachael Ray Ceramic Olive Oil Dispenser",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Artist\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 278,
+  "fields": {
+    "action_time": "2024-02-26T09:10:58.175Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "8",
+    "object_repr": "Annie print 3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Sku\", \"Name\", \"Description\", \"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 279,
+  "fields": {
+    "action_time": "2024-02-26T09:12:02.457Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "7",
+    "object_repr": "Annie print 3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\", \"Price\", \"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 280,
+  "fields": {
+    "action_time": "2024-02-26T09:13:08.595Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "10",
+    "object_repr": "Annie print 4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Name\", \"Description\", \"Price\", \"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 281,
+  "fields": {
+    "action_time": "2024-02-26T09:13:54.682Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "13",
+    "object_repr": "Kassidy print 05",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Price\", \"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 282,
+  "fields": {
+    "action_time": "2024-02-26T09:14:35.923Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "6",
+    "object_repr": "Jessie Print 2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 283,
+  "fields": {
+    "action_time": "2024-02-26T09:16:37.494Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "14",
+    "object_repr": "Jessie Print 3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 284,
+  "fields": {
+    "action_time": "2024-02-26T09:16:49.631Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "14",
+    "object_repr": "Jessie Print 3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 285,
+  "fields": {
+    "action_time": "2024-02-26T09:21:37.318Z",
+    "user": 7,
+    "content_type": 15,
+    "object_id": "3",
+    "object_repr": "Annie Lebofitz",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\", \"Website\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 286,
+  "fields": {
+    "action_time": "2024-02-26T09:23:09.685Z",
+    "user": 7,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "Jessie Jackson",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 287,
+  "fields": {
+    "action_time": "2024-02-26T12:10:23.801Z",
+    "user": 7,
+    "content_type": 19,
+    "object_id": "6",
+    "object_repr": "New artist focus: Kasiddy Obzitz",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 288,
+  "fields": {
+    "action_time": "2024-02-26T12:10:59.778Z",
+    "user": 7,
+    "content_type": 19,
+    "object_id": "6",
+    "object_repr": "New artist focus: Kasiddy Obzitz",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"comment\", \"object\": \"Anonymous on New artist focus: Kasiddy Obzitz\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 289,
+  "fields": {
+    "action_time": "2024-02-26T12:17:49.319Z",
+    "user": 7,
+    "content_type": 19,
+    "object_id": "6",
+    "object_repr": "New artist focus: Kasiddy Obzitz",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 290,
+  "fields": {
+    "action_time": "2024-02-26T12:30:16.987Z",
+    "user": 7,
+    "content_type": 19,
+    "object_id": "6",
+    "object_repr": "New artist focus: Kasiddy Obzitz",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 291,
+  "fields": {
+    "action_time": "2024-02-26T12:57:18.162Z",
+    "user": 7,
+    "content_type": 19,
+    "object_id": "6",
+    "object_repr": "New artist focus: Kasiddy Obzitz",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 292,
+  "fields": {
+    "action_time": "2024-02-26T12:59:05.663Z",
+    "user": 7,
+    "content_type": 20,
+    "object_id": "1",
+    "object_repr": "joey on New artist focus: Kasiddy Obzitz",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Author\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 293,
+  "fields": {
+    "action_time": "2024-02-28T19:05:02.194Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "8",
+    "object_repr": "Annie print 3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 294,
+  "fields": {
+    "action_time": "2024-02-29T06:04:12.139Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "8",
+    "object_repr": "Annie print 3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 295,
+  "fields": {
+    "action_time": "2024-02-29T06:05:04.951Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "Kassidy print 02",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 296,
+  "fields": {
+    "action_time": "2024-02-29T06:05:24.619Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "3",
+    "object_repr": "Kassidy print 03",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 297,
+  "fields": {
+    "action_time": "2024-02-29T06:05:42.195Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "4",
+    "object_repr": "Kassidy print 04",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 298,
+  "fields": {
+    "action_time": "2024-02-29T06:06:10.359Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "14",
+    "object_repr": "Jessie Print 3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 299,
+  "fields": {
+    "action_time": "2024-02-29T06:06:30.796Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "5",
+    "object_repr": "Jessie print 1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 300,
+  "fields": {
+    "action_time": "2024-02-29T06:07:05.944Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "6",
+    "object_repr": "Jessie Print 2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 301,
+  "fields": {
+    "action_time": "2024-02-29T06:26:55.110Z",
+    "user": 7,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "Kasiddy Obzitz",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 302,
+  "fields": {
+    "action_time": "2024-02-29T06:27:27.463Z",
+    "user": 7,
+    "content_type": 15,
+    "object_id": "3",
+    "object_repr": "Annie Lebofitz",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 303,
+  "fields": {
+    "action_time": "2024-02-29T06:27:54.920Z",
+    "user": 7,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "Jessie Jackson",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 304,
+  "fields": {
+    "action_time": "2024-02-29T06:29:55.370Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "Kassidy print 01",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 305,
+  "fields": {
+    "action_time": "2024-02-29T06:30:25.496Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "10",
+    "object_repr": "Annie print 4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 306,
+  "fields": {
+    "action_time": "2024-02-29T06:32:17.794Z",
+    "user": 7,
+    "content_type": 14,
+    "object_id": "8",
+    "object_repr": "Annie print 3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Sku\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 307,
+  "fields": {
+    "action_time": "2024-02-29T12:30:43.575Z",
+    "user": 7,
+    "content_type": 19,
+    "object_id": "7",
+    "object_repr": "Artists View: AI",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 308,
+  "fields": {
+    "action_time": "2024-02-29T12:57:46.699Z",
+    "user": 7,
+    "content_type": 19,
+    "object_id": "6",
+    "object_repr": "New artist focus: Kasiddy Obzitz",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 309,
+  "fields": {
+    "action_time": "2024-02-29T12:58:17.185Z",
+    "user": 7,
+    "content_type": 19,
+    "object_id": "7",
+    "object_repr": "Artists View: Jessie Jackson on AI",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 310,
+  "fields": {
+    "action_time": "2024-02-29T13:04:38.025Z",
+    "user": 7,
+    "content_type": 19,
+    "object_id": "7",
+    "object_repr": "Artists View: Jessie Jackson on AI",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 311,
+  "fields": {
+    "action_time": "2024-02-29T14:45:37.237Z",
+    "user": 7,
+    "content_type": 19,
+    "object_id": "6",
+    "object_repr": "New artist focus: Kasiddy Obzitz",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 7,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 7,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 7,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 7,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add email address",
+    "content_type": 8,
+    "codename": "add_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change email address",
+    "content_type": 8,
+    "codename": "change_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete email address",
+    "content_type": 8,
+    "codename": "delete_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view email address",
+    "content_type": 8,
+    "codename": "view_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add email confirmation",
+    "content_type": 9,
+    "codename": "add_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change email confirmation",
+    "content_type": 9,
+    "codename": "change_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete email confirmation",
+    "content_type": 9,
+    "codename": "delete_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view email confirmation",
+    "content_type": 9,
+    "codename": "view_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add social application",
+    "content_type": 10,
+    "codename": "add_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change social application",
+    "content_type": 10,
+    "codename": "change_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete social application",
+    "content_type": 10,
+    "codename": "delete_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view social application",
+    "content_type": 10,
+    "codename": "view_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add social account",
+    "content_type": 11,
+    "codename": "add_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change social account",
+    "content_type": 11,
+    "codename": "change_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete social account",
+    "content_type": 11,
+    "codename": "delete_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view social account",
+    "content_type": 11,
+    "codename": "view_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add social application token",
+    "content_type": 12,
+    "codename": "add_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change social application token",
+    "content_type": 12,
+    "codename": "change_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete social application token",
+    "content_type": 12,
+    "codename": "delete_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view social application token",
+    "content_type": 12,
+    "codename": "view_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add category",
+    "content_type": 13,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change category",
+    "content_type": 13,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete category",
+    "content_type": 13,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view category",
+    "content_type": 13,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 14,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 14,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 14,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 14,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add artist",
+    "content_type": 15,
+    "codename": "add_artist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change artist",
+    "content_type": 15,
+    "codename": "change_artist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete artist",
+    "content_type": 15,
+    "codename": "delete_artist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view artist",
+    "content_type": 15,
+    "codename": "view_artist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add order",
+    "content_type": 16,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change order",
+    "content_type": 16,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete order",
+    "content_type": 16,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view order",
+    "content_type": 16,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add order line item",
+    "content_type": 17,
+    "codename": "add_orderlineitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change order line item",
+    "content_type": 17,
+    "codename": "change_orderlineitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete order line item",
+    "content_type": 17,
+    "codename": "delete_orderlineitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view order line item",
+    "content_type": 17,
+    "codename": "view_orderlineitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add user profile",
+    "content_type": 18,
+    "codename": "add_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change user profile",
+    "content_type": 18,
+    "codename": "change_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete user profile",
+    "content_type": 18,
+    "codename": "delete_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view user profile",
+    "content_type": 18,
+    "codename": "view_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 73,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 19,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 74,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 19,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 75,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 19,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 76,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 19,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 77,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 20,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 78,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 20,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 79,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 20,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 80,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 20,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$spzmlvIkrWXTHJJMKdWD6U$ircrIa9GkHJ2PX0YjPYONcND+cM3TNmk3AC+EctN+F4=",
+    "last_login": "2024-02-10T19:13:53.887Z",
+    "is_superuser": false,
+    "username": "adrian",
+    "first_name": "",
+    "last_name": "",
+    "email": "info@hempmonster.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-01-30T20:38:33.867Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$mzKsh50mULGubeflk2mm6l$ExxGE2PweV9azBDLdhzk148D53RUMyAWu019yDYUUQw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Jessie",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-02-06T17:12:46.527Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$l8vDrNqa9ufIArbQLmxfXo$kQ4uP55pF2I5n9pxG3bCrh8j9jb0HlWXbmj5SZxOiI4=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Annie",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-02-06T17:17:22.257Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$wA9o7BT9mE5FuCZHFh1auX$NugiqgUDo3dWoZCc6DnoQL+zLA5EePibbyM2Wpdnq0E=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "kassidy",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-02-09T11:39:56.209Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$RaZXcfTNV0hHrOFst3U3go$FOQDzn5B6U++yohPP+8HcCfZrNnM3eZVIbs7jiKXHyg=",
+    "last_login": "2024-02-19T14:00:20.237Z",
+    "is_superuser": false,
+    "username": "joey",
+    "first_name": "",
+    "last_name": "",
+    "email": "stink@stink.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-02-10T19:16:51.628Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$rc8nspNkioDQBER7sNP1pp$k0vjSLqGrJTYjnXo0UJd+BXoWs8SA3kXvw/F5BABjzw=",
+    "last_login": "2024-02-25T10:22:09.172Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "info@hempmonster.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-02-12T07:48:30Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "account",
+    "model": "emailaddress"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "account",
+    "model": "emailconfirmation"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "socialaccount",
+    "model": "socialapp"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "socialaccount",
+    "model": "socialaccount"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "socialaccount",
+    "model": "socialtoken"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "products",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "products",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "artists",
+    "model": "artist"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "checkout",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "checkout",
+    "model": "orderlineitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "profiles",
+    "model": "userprofile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 19,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 20,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0z6xl2ix5hjl85wqn2f1w63dthzzf048",
+  "fields": {
+    "session_data": ".eJxVjL0OgzAQg9_lZhSRkEQhY_c-A7rLXYC2AomfCfHuDRILky37sw8g7CEe4CBqX4GGaCowENvii4Szgg73bej2VZZuZIiFeWSE6SvTVfAHp35WaZ62ZSR1IepuV_WeWX6vm30cDLgOZS02WZutziTBBwrGtq52usHkOXsR51iQE1nPIbS5NkgN1T6zsTplYjj_ahhAQQ:1rXH8b:BweoS3JDO6GqAYuMVeCmlwRF3M0ZJ5wlRKlRYxiTGLQ",
+    "expire_date": "2024-02-20T08:49:05.398Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "291xqanhzys17l79mh0ccdu90ha7uwde",
+  "fields": {
+    "session_data": ".eJyrVkpKTFeyqlYyBBGZJam5xfFJlfHFmVWpIIFcJStDHaViIFlbq6NkikuNZS0QAACLjBh9:1rXJZ4:hD5FQDXY3mVZ8qGyEH9EDv75uJgRtkRZ4Macz_wEFig",
+    "expire_date": "2024-02-20T11:24:34.229Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2ny1dlfskr963kmpst653y9n566ryiy8",
+  "fields": {
+    "session_data": "eyJiYWciOnsiMiI6eyJpdGVtc19ieV9zaXplIjp7Im0iOjF9fX19:1rXIyE:G_3rLaSmOb8C06WosevtxEUSFBMmNcPk05iqdKAWmo4",
+    "expire_date": "2024-02-20T10:46:30.945Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6h60mw4dt7lenr9fd9ettgydevtdp3ge",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHDdABx6b7fQBgYpGrapI-V8d-1SRe6veec-1IxbWuL2yJzHIq6KK9Ovxun_JBxB-Wextuk8zSu88B6V_RBF91PRZ7Xw_07aGlp3zpnMNUahBAgMHBChorikChZRnAYqCPuvClEhFJYSJztXCUP5yDq_QHIXTcC:1rdwSE:iwIVTgMBYt9aR6lStp2SnOBoxk49syqYouzilpEurP4",
+    "expire_date": "2024-03-09T18:08:54.284Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7khlsqw28sbectupij7tifnbpabfxscw",
+  "fields": {
+    "session_data": "e30:1rZR0O:Otbfcn9s9oSk90ulAJfNoyWkcAiTZmwuDWoBvEklshI",
+    "expire_date": "2024-02-26T07:45:32.826Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7np6z97tt1btk21wtcsjjgdclcl8eca0",
+  "fields": {
+    "session_data": "e30:1rZQyu:23iZ6WztKeHZVgwTXXJGM9nD0tBG8qBQOnar1Iu9OJo",
+    "expire_date": "2024-02-26T07:44:00.072Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "c0use3xt844sw81kttevib9nbmv9xel4",
+  "fields": {
+    "session_data": ".eJxVjDsOhDAMBe_iGiESnCik3H7PgOzYAXZXIPGpEHdfkGho38y8HZg6iDsYiFiAheiPAlra1r7dFp3bQSCe8LExpa-OF5APjd1Upmlc54HLSylvupTvSfT3ut3HQU9Lf9aKCTGjyazBBw4WG1c5U1Pykr2qc6IkidFLCE2uLHHNlc9i0aTMAscfYOU9tQ:1rXI82:VtomNBJmhRwmoyEX70vrLKsq2IKAncH13A8iP0dhtuY",
+    "expire_date": "2024-02-20T09:52:34.520Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "c7dpsb9wenag013tg1rhrsizidzi8mtx",
+  "fields": {
+    "session_data": ".eJyrVkpKTFeyqlYyARGZJam5xfFJlfHFmVWpIIGKYiUrQx2lihwwlatkZVYLBADKJRDV:1rXKQs:t139-hZNHz2C_7YZMvnVTTOOm07pDI8iaP8fTMxZQlY",
+    "expire_date": "2024-02-20T12:20:10.761Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cmk6ox94hvw9nrfa3n5g5algca1cmhdn",
+  "fields": {
+    "session_data": ".eJxVjDsOgzAQRO-yNbLwV8Zl-pwB7XrXQBKBFKBC3D2g0FCN9ObNbEDYQdrAQLIVaPsPSH6voMV16dt1lm87MKQD3xhhfst4FvzCsZtUnsblO5A6FXW1s3pOLJ_H5d4Oepz7Yy0uO1ecLiQxRIrGNb722mIOXIKI9yzImVzgGJtSGyRLdShsnM6FGPYfXCg-9A:1rXHiS:WegAWK52GT1Rv_lTQKkOJFHPsf0Ux5teKIUnV7TnBC4",
+    "expire_date": "2024-02-20T09:26:08.474Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hozlqohcw3rpuxg8h3wwi3ckkc8g0j41",
+  "fields": {
+    "session_data": "e30:1rZQws:crvgz67BVCAhhKgrjNQm5pC-teoZ7hIs5N1mjeAf6Fg",
+    "expire_date": "2024-02-26T07:41:54.544Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "i0wclkoanqkpxv85megpkvomaaltih29",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAQRf-la0NK6QNYuvcbmjIzShVb04LRGP9dMKhxe86598EcQJzCaK-U_N4TWjo7P7A2TMOw-dopU2It02zDbKacfQyWbhef7qzlM3PT2L8j6_HT_Vjn4ERhEXh04RALiGFMviuWpFhtLnYRadiu7d9B73I_r4UxICrloGkUqJJLXoEmXYEEXRtjauJIGgUpRZo6XUuSAkmUCI1ACez5AuqtUIk:1rYsr2:JRqFeDntCqdNMCG4VHny6oFW6S6MLhDsgvzKB5aUW_4",
+    "expire_date": "2024-02-24T19:17:36.176Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mhhybykfkzphp2j3yqbo8j378rg4c3zh",
+  "fields": {
+    "session_data": "e30:1rZR1b:YYv673fA0_i5N5S4as7l6C4JdiESCdPbLXLIHYQenqA",
+    "expire_date": "2024-02-26T07:46:47.123Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qu2hp5j70rqzn8ufcb6427d1pjmsrx12",
+  "fields": {
+    "session_data": ".eJxVjL0OgzAQg9_lZhRByA8wdu8zRMnlBGlLqAhIpajvXiIxtB48-LO9g7HrMpg10WyChw4UFL-Zs3inmIG_2dhPDKe4zMGxXGEnTew6eXpczu7fwWDTcKy51shrabFtJcqqFGWNilSNAlWjtW6o9KQ8JylJkVONIME98cpjy73AfJoopTBFQ69nmDfoygKc7aHbQWQLC43JuM2k8KYcjNBVn0NfqWdLcg:1rZ3vZ:oMahON9477KOAU0l1740xECRGvGuBOQAoxUOSE5xbp8",
+    "expire_date": "2024-02-25T07:07:01.207Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "v2orarfgxqbhl4vu7dbe37bkc48s6iq4",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCYYmfo0r1nIBQGWzWQQOvGeHfbpAvd_vf-ewvn12Vya-Pq5igGgeL0u40-PDjvIN59vhUZSl7qPMpdkQdt8loiPy-H-xeYfJu2t7JgTKd6UnpkJLC9MWhBd5YTBCTUUQdCBToB0DkxJUKrg7LUKSLaos2_2M05FTEsdeXPF1dGO-M:1rc1mo:Y8gJSZCGP2GcBK4zJi3iX98Vr31j6JV5t3dC78pmGls",
+    "expire_date": "2024-03-04T11:26:14.733Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "v7tcxqrpt30yb0xljw0r8zuvltx0qokt",
+  "fields": {
+    "session_data": ".eJxVjMsOgyAQRf-FdUPA8qrL7v0GMgyD2DaYiK6M_15MXLTbe849O_OwrdlvlRY_RdYzy26_WwB8UzlBfEEZZ45zWZcp8FPhF618mCN9npf7F8hQc3sriCQSoHLOok4gSQAEbayzpJMkpagTUqWmGOycuSdMDp0gYfGhtGnRACPr9-P4AhhnO2s:1rfhfG:611nNflDf3ihy9lF8wn05axOGP9kXfLGwCwKUiRdAuo",
+    "expire_date": "2024-03-14T14:45:38.043Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "w1qyfjze3pld16axr0lmtts2xpz65d3f",
+  "fields": {
+    "session_data": "e30:1rZR1v:fZl-GULHhBjl3o94zGoCYHjG2bAa_l6aYFrQGeJqglw",
+    "expire_date": "2024-02-26T07:47:07.972Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xj3dbosm3l55azb3xzt6e84i2ve0aq4x",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgA6Eu3XsGMsMMUjU0Ke3KeHdt0oVu_3vvv1TCba1p67KkidVZWXX63QjzQ9oO-I7tNus8t3WZSO-KPmjX15nleTncv4OKvX5rgQxQwBaSGCJFB6M33g6YA5cg4j0LciYIHONYjEMayITCDmwuxOr9AfqQOPQ:1rUuuW:5U5C3dll7-3tjAnSyR_m1vhihNtUZKw3nwq4BLn_9k8",
+    "expire_date": "2024-02-13T20:40:48.064Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zz3zwurxjgvxqbrumqym34eclhqox8f3",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQRO9CHSFYE7O4TJ8zID6LTT62ZOwisXL3GMlFMsUU82ZmY9aty2DXQrPNkXVMs9Nv5l2401hBvLmxn3iYxmXOntcKP2jh1ynS43J0_w4GV4Z9LQwo1YgWhfSkEUyrlDYgG0MJgkYtowyoBcgEgOdEmFAbGYTBRiDifupdz7qNYbW80LNY_7Ilv6kGT9bJz64vbnVCQQ:1rdQof:Ui0gGJQ6DaBICdV_cOgMu8YyjAFEBC-xkresdY-dg14",
+    "expire_date": "2024-03-08T08:21:57.657Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "nordicartcollective.example.com",
+    "name": "nordicartcollective.example.com"
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "email": "info@hempmonster.com",
+    "verified": true,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 3,
+  "fields": {
+    "user": 6,
+    "email": "stink@stink.com",
+    "verified": true,
+    "primary": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 6,
+  "fields": {
+    "name": "giftcard",
+    "friendly_name": "Gift Card"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 7,
+  "fields": {
+    "name": "digital_art",
+    "friendly_name": "Digital Art"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 8,
+  "fields": {
+    "name": "new_arrivals",
+    "friendly_name": "New Arrivals"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 9,
+  "fields": {
+    "name": "photography",
+    "friendly_name": "Photography"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "category": 9,
+    "sku": "pp5001340155",
+    "name": "Kassidy print 01",
+    "description": "Kassidy print 01",
+    "has_sizes": true,
+    "price": "150.00",
+    "rating": null,
+    "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+    "image": "kassidy_print1.webp",
+    "artist": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "category": 9,
+    "sku": "pp5001600425",
+    "name": "Kassidy print 02",
+    "description": "Beautifully shot underwater image",
+    "has_sizes": true,
+    "price": "150.00",
+    "rating": null,
+    "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0113201617034987M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+    "image": "Kasiddy_Obzitz_portrait.webp",
+    "artist": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "category": 9,
+    "sku": "pp5001730010",
+    "name": "Kassidy print 03",
+    "description": "Another amazing print from Kassidy",
+    "has_sizes": true,
+    "price": "150.00",
+    "rating": null,
+    "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1230201417013175M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+    "image": "kassidy_print3.webp",
+    "artist": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "category": 7,
+    "sku": "pp5001890157",
+    "name": "Kassidy print 04",
+    "description": "Kassidy print 04",
+    "has_sizes": true,
+    "price": "150.00",
+    "rating": null,
+    "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0716201503423610M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+    "image": "kassidy_print4.webp",
+    "artist": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "category": 7,
+    "sku": "pp5002111605",
+    "name": "Jessie print 1",
+    "description": "Jessie print 1",
+    "has_sizes": true,
+    "price": "150.00",
+    "rating": null,
+    "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1115201210371197C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+    "image": "jessie-print1.jpg",
+    "artist": 2
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "category": 7,
+    "sku": "pp5002260206",
+    "name": "Jessie Print 2",
+    "description": "Jessie Jackson print 2",
+    "has_sizes": true,
+    "price": "150.00",
+    "rating": null,
+    "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0624201520422666C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+    "image": "jessie-print2.jpg",
+    "artist": 2
+  }
+},
+{
+  "model": "products.product",
+  "pk": 7,
+  "fields": {
+    "category": 9,
+    "sku": "pp5002440521",
+    "name": "Annie print 3",
+    "description": "Annie print 3",
+    "has_sizes": true,
+    "price": "150.00",
+    "rating": null,
+    "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0226201317034754M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+    "image": "Annie-print-3.webp",
+    "artist": 3
+  }
+},
+{
+  "model": "products.product",
+  "pk": 8,
+  "fields": {
+    "category": 9,
+    "sku": "pp5001340212",
+    "name": "Annie print 3",
+    "description": "Annie print 3",
+    "has_sizes": true,
+    "price": "150.00",
+    "rating": null,
+    "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0926201317071162M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+    "image": "Annie-print-3.webp",
+    "artist": 3
+  }
+},
+{
+  "model": "products.product",
+  "pk": 10,
+  "fields": {
+    "category": 9,
+    "sku": "pp5002701115",
+    "name": "Annie print 4",
+    "description": "Annie print 4",
+    "has_sizes": true,
+    "price": "150.00",
+    "rating": null,
+    "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0418201317011949M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+    "image": "Annie_Lebofitz_Print4.jpg",
+    "artist": 3
+  }
+},
+{
+  "model": "products.product",
+  "pk": 13,
+  "fields": {
+    "category": 9,
+    "sku": "pp5002820147",
+    "name": "Kassidy print 05",
+    "description": "Kassidy print 05",
+    "has_sizes": true,
+    "price": "150.00",
+    "rating": null,
+    "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0430201405053680M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+    "image": "kassidy_print5.jpg",
+    "artist": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 14,
+  "fields": {
+    "category": 7,
+    "sku": "pp5002111222",
+    "name": "Jessie Print 3",
+    "description": "Jessie Print 3",
+    "has_sizes": true,
+    "price": "150.00",
+    "rating": null,
+    "image_url": null,
+    "image": "jessie-print3.jpg",
+    "artist": 2
+  }
+},
+{
+  "model": "artists.artist",
+  "pk": 1,
+  "fields": {
+    "user": 5,
+    "full_name": "Kasiddy Obzitz",
+    "bio": "Born in South Africa, Kasiddy specialises in underwater photography. She grew up with a fascination for the ocean and is a self confessed water baby, living as much in the water as possible than out of it. \r\n\r\nHer latest exhibition in London sold out solidifying her trajectory as one of the most popular underwater photographers currently out there.",
+    "total_sales": 6,
+    "image": "artist_images/Kasiddy_Obzitz_portrait.webp",
+    "website": "http://www.kassidyart.com"
+  }
+},
+{
+  "model": "artists.artist",
+  "pk": 2,
+  "fields": {
+    "user": 3,
+    "full_name": "Jessie Jackson",
+    "bio": "Jessie Jackson is a digital artist born in the sleepy town of gävling on the west coast of Sweden. \r\nInspired by her love of nature and all things abstract her popularity has grown with every exhibition.",
+    "total_sales": 4,
+    "image": "artist_images/jessie-jackson-portrait.webp",
+    "website": "http://www.jessieart.com"
+  }
+},
+{
+  "model": "artists.artist",
+  "pk": 3,
+  "fields": {
+    "user": 4,
+    "full_name": "Annie Lebofitz",
+    "bio": "Annie's love for photography was so great that she changed her surname to Lebofitz, as a homage to her favourite photographer Annie Lebowitz.\r\nHer passion and work ethic has made her one of Swedens most sought after commercial photographers, however it is her personal work in her exhibits that draw the most attention. Risky and over the top, they are not only gaining in popularity but in price too as they are becoming sought after throughout not only Sweden but the world.",
+    "total_sales": 0,
+    "image": "artist_images/Annie_Lebofitz_portrait.webp",
+    "website": "http://www.annielebofitz.se"
+  }
+},
+{
+  "model": "profiles.userprofile",
+  "pk": 50,
+  "fields": {
+    "user": 2,
+    "default_phone_number": null,
+    "default_street_address1": null,
+    "default_street_address2": null,
+    "default_town_or_city": null,
+    "default_county": null,
+    "default_postcode": null,
+    "default_country": null
+  }
+},
+{
+  "model": "profiles.userprofile",
+  "pk": 51,
+  "fields": {
+    "user": 3,
+    "default_phone_number": null,
+    "default_street_address1": null,
+    "default_street_address2": null,
+    "default_town_or_city": null,
+    "default_county": null,
+    "default_postcode": null,
+    "default_country": null
+  }
+},
+{
+  "model": "profiles.userprofile",
+  "pk": 52,
+  "fields": {
+    "user": 4,
+    "default_phone_number": null,
+    "default_street_address1": null,
+    "default_street_address2": null,
+    "default_town_or_city": null,
+    "default_county": null,
+    "default_postcode": null,
+    "default_country": null
+  }
+},
+{
+  "model": "profiles.userprofile",
+  "pk": 53,
+  "fields": {
+    "user": 5,
+    "default_phone_number": null,
+    "default_street_address1": null,
+    "default_street_address2": null,
+    "default_town_or_city": null,
+    "default_county": null,
+    "default_postcode": null,
+    "default_country": null
+  }
+},
+{
+  "model": "profiles.userprofile",
+  "pk": 54,
+  "fields": {
+    "user": 6,
+    "default_phone_number": null,
+    "default_street_address1": null,
+    "default_street_address2": null,
+    "default_town_or_city": null,
+    "default_county": null,
+    "default_postcode": null,
+    "default_country": null
+  }
+},
+{
+  "model": "profiles.userprofile",
+  "pk": 55,
+  "fields": {
+    "user": 7,
+    "default_phone_number": null,
+    "default_street_address1": null,
+    "default_street_address2": null,
+    "default_town_or_city": null,
+    "default_county": null,
+    "default_postcode": null,
+    "default_country": null
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "New artist focus: Kasiddy Obzitz",
+    "content": "What inspired you to become an underwater photographer?\r\n\r\nUnderwater photography is a unique and challenging field. What sparked your interest, and how did you decide to pursue a career capturing the beauty beneath the waves?\r\nCan you share a memorable experience or encounter you've had while capturing images underwater?\r\nEvery dive must bring its own set of challenges and surprises. Tell us about a particularly memorable moment or an encounter that left a lasting impact on you during one of your underwater photography expeditions.\r\n\r\nWhat kind of equipment and techniques do you use to capture stunning underwater images?\r\nUnderwater photography requires specialized gear and techniques. Could you walk us through the equipment you use and any unique approaches you've developed to overcome the technical challenges of shooting in an underwater environment?\r\n\r\nHow do you navigate the delicate balance between capturing the beauty of marine life and respecting the underwater ecosystem?\r\n\r\nWith concerns about environmental impact and conservation, how do you ensure that your work as an underwater photographer aligns with sustainable practices? How can underwater photographers contribute to the preservation of marine life and habitats?\r\n\r\nWhat advice do you have for aspiring underwater photographers looking to enter the field?\r\n\r\nFor those who are inspired by your work and want to pursue a career in underwater photography, what advice do you have? Are there specific skills, knowledge, or experiences that aspiring underwater photographers should focus on to thrive in this challenging and rewarding profession?",
+    "image": "post/Kasiddy_Obzitz_portrait.webp",
+    "pub_date": "2024-02-22T11:04:23Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "Artists View: Jessie Jackson on AI",
+    "content": "Q: How do you view the role of artificial intelligence (AI) in enhancing artistic expression?\r\n\r\nA: AI, in my opinion, serves as a valuable tool that augments creativity rather than replacing the human touch. It helps artists overcome creative blocks, offering new possibilities and pushing the boundaries of traditional artistic methods.\r\n\r\nQ: What challenges and ethical considerations do you see arising with the integration of AI into the creative process?\r\n\r\nA: There are valid concerns, especially regarding issues of authorship, plagiarism, and authenticity. It's crucial for artists to maintain control over their work and establish clear ethical guidelines within the art community as AI-generated art gains popularity.\r\n\r\nQ: How has the creative process in digital art been transformed by the integration of AI tools?\r\n\r\nA: AI has become a collaborative partner, suggesting ideas and perspectives that I might not have considered. It allows for efficient experimentation with different styles and techniques, leading to a continuous refinement and evolution of the artistic work.\r\n\r\nQ: Can you elaborate on AI's role as a muse in the creative process?\r\n\r\nA: Absolutely. AI-generated art serves as a muse by inspiring new ideas and pushing artists to explore uncharted territories. Its ability to analyze vast datasets and generate unique patterns acts as a catalyst for artists seeking fresh perspectives.\r\n\r\nQ: Looking ahead, how do you envision the future relationship between AI and art?\r\n\r\nA: I see a future where AI and art coexist harmoniously. It's important to recognize that AI is a tool, not a replacement for human creativity. Artists have the responsibility to harness its potential while shaping the evolving relationship between AI and art.",
+    "image": "post/article-ai.webp",
+    "pub_date": "2024-02-29T12:26:09Z"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 6,
+    "author": "joey",
+    "content": "I love her work!!! :)",
+    "pub_date": "2024-02-26T12:10:32Z",
+    "user": 6
+  }
+}
+]

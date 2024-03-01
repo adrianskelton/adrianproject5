@@ -1,8 +1,9 @@
 # Nordic Art Collective-PP5
-![Nordic Art Collective preview](./assets/readme-images/responsive.png)
+![Nordic Art Collective preview](static/media/readme/responsive.webp)
 
-[Link to deployed site](hot yet)
-Nordic Art Collective
+[Live site on heroku](https://nordic-art-22f58cb8c917.herokuapp.com/)
+
+[Github repository](https://github.com/adrianskelton/adrianproject5)
 
 
 # Table Of Content
@@ -124,16 +125,23 @@ I chose 2 fonts that look clean and minimalistic from google fonts.
 <details>
 <summary>Home</summary>
 
-![Home](./assets/readme-images/home-wireframe.jpg)
+![Home](static/media/readme/wireframe-landing.webp)
 
 </details>
 
 - Product
 
 <details>
-<summary>Product</summary>
+<summary>Product list</summary> 
 
-![product](./assets/readme-images/product-wireframe.jpg)
+![product](static/media/readme/wireframe-artist-list.webp)
+
+- Product
+
+<details>
+<summary>Product detail</summary> 
+
+![product](static/media/readme/wireframe-product-detail.webp)
 
 </details>
 
@@ -405,7 +413,7 @@ I made a facebook business page for my site as I felt that was the best way to e
 
 Below is a video showing the page with a few articles posted, all of these posts could be boosted to gain a greater audience depending on the companies marketing budget.
 
-video src="media/readme/facebook-page.mp4">
+<video src="static/media/readme/facebook-page.mp4">
 
 ![]("media/readme/facebook-screenshot.webp")
 

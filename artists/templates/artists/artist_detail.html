@@ -35,7 +35,7 @@
                     <h2>Prints</h2>
                     {% for product in artist.product_set.all %}
                         <p><strong>{{ product.name }}</strong>: {{ product.description }}</p>
-                        <img src="{{ product.image.url }}" alt="{{ product.name }}" class="img-fluid rounded img-art-page">
+                        <img src="{{ product.image.url }}" alt="{{ product.name }}" class="img-fluid buy-now rounded img-art-page">
                         <p> SEK{{ product.price }}</p>
                     {% endfor %}
                 </div>
