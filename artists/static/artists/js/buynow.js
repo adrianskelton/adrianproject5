@@ -1,7 +1,13 @@
 function displayBuyNow(element) {
-    element.getElementsByClassName("buy-now")[0].style.display = "block";
+    var buyNowElements = element.getElementsByClassName("buy-now");
+    if (buyNowElements.length > 0) {
+        buyNowElements[0].style.display = "block";
+    }
 }
 
 function hideBuyNow(element) {
-    element.getElementsByClassName("buy-now")[0].style.display = "none";
+    var buyNowElements = element.getElementsByClassName("buy-now");
+    if (buyNowElements.length > 0) {
+        buyNowElements[0].style.display = "none";
+    }
 }
