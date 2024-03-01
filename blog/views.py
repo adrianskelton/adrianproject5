@@ -23,7 +23,7 @@ def post_detail(request, post_id):
 @permission_required('blog.add_post')  # Ensure the user has the required permission
 def new_post(request):
     if request.method == 'POST':
-        form = PostForm(request.POST)
+        form = PostForm(request.POST, request.FILES)
         if form.is_valid():
             new_post = form.save(commit=False)
             new_post.author = request.user
