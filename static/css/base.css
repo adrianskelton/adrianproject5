@@ -23,6 +23,10 @@ article {
     margin-top: 10px; 
 }
 
+.article-content {
+    white-space: pre-wrap;
+}
+
 /* over-ride font awesome default color */
 .fab {
     color: grey; !important
@@ -31,17 +35,26 @@ article {
 footer {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between; 
     background-color: #d7e1ea;
     color: #212529;
     position: fixed;
     bottom: 0;
     width: 100%;
+    padding: 10px;
+    display: inline;
 }
 
 .footer-social {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
+    white-space: pre-wrap;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: flex-start;
+    white-space: pre-wrap;
 }
 
 .hero-text {

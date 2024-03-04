@@ -5,7 +5,7 @@ from django.utils import timezone
 from .models import Post, Comment
 from .forms import PostForm, CommentForm
 
-@login_required
+
 def post_detail(request, post_id):
     post = get_object_or_404(Post, pk=post_id)
     comments = Comment.objects.filter(post=post)
@@ -19,7 +19,7 @@ def post_detail(request, post_id):
             new_comment.user = request.user
             new_comment.pub_date = timezone.now()
             new_comment.save()
-
+    
     return render(request, 'blog/post_detail.html', {'post': post, 'comments': comments, 'comment_form': comment_form})
 
 @permission_required('blog.add_post')  # Ensure the user has the required permission
