@@ -39,6 +39,11 @@ footer {
     width: 100%;
 }
 
+.footer-social {
+    display: flex;
+    justify-content: end;
+}
+
 .hero-text {
     align-items: flex-start;
     display: flex;
@@ -252,6 +257,16 @@ input[name='q']::placeholder {
     height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
+}
+
+/* Mailchimp styling override */
+
+#mc_embed_signup {
+    background-color: #d7e1ea !important;
+}
+
+#mc_embed_signup .helper_text {
+    background-color: #d7e1ea !important;
 }
 
 /* Allauth form formatting */

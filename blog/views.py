@@ -1,9 +1,11 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import permission_required
+from django.contrib.auth.decorators import login_required
 from django.utils import timezone
 from .models import Post, Comment
 from .forms import PostForm, CommentForm
 
+@login_required
 def post_detail(request, post_id):
     post = get_object_or_404(Post, pk=post_id)
     comments = Comment.objects.filter(post=post)

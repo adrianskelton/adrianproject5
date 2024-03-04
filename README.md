@@ -436,8 +436,10 @@ Select an option:
 ### Fix: 
 The above still did not work so I had to rollback to a previous migration before the errors. I found this information on [Stackoverflow](https://stackoverflow.com/questions/32123477/how-to-revert-the-last-migration)
 
-### bug images not uploading
+### bug no white space
+I was posting all the blog posts from the admin and for some reason it was stripping 
 
+[White space article](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space)
 
 ## Technologies And Languages
 
