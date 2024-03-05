@@ -4,6 +4,7 @@ from django.contrib.auth.decorators import login_required
 from django.utils import timezone
 from .models import Post, Comment
 from .forms import PostForm, CommentForm
+from django.contrib import messages
 
 
 def post_detail(request, post_id):
@@ -41,3 +42,26 @@ def blog_view(request):
     all_posts = Post.objects.all()
 
     return render(request, 'blog/blog_list.html', {'all_posts': all_posts})
+
+def edit_comment(request, comment_id):
+    comment = get_object_or_404(Comment, id=comment_id, user=request.user)
+
+    if request.method == 'POST':
+        form = CommentForm(request.POST, instance=comment)
+        if form.is_valid():
+            form.save()
+            return redirect('post_detail', post_id=comment.post.id)
+    else:
+        form = CommentForm(instance=comment)
+
+    return render(request, 'blog/edit_comment.html', {'form': form, 'comment': comment})
+
+def delete_comment(request, comment_id):
+    comment = get_object_or_404(Comment, id=comment_id, user=request.user)
+
+    if request.method == 'POST':
+        comment.delete()
+        messages.success(request, 'Your comment has been deleted.')
+        return redirect('post_detail', post_id=comment.post.id)
+
+    return render(request, 'blog/delete_comment.html', {'comment': comment})

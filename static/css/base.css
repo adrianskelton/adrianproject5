@@ -27,6 +27,11 @@ article {
     white-space: pre-wrap;
 }
 
+.padding-account {
+    padding-left: 20px;  
+    padding-right: 20px; 
+}
+
 /* over-ride font awesome default color */
 .fab {
     color: grey; !important
@@ -38,7 +43,7 @@ footer {
     justify-content: space-between; 
     background-color: #d7e1ea;
     color: #212529;
-    position: fixed;
+    position: ;
     bottom: 0;
     width: 100%;
     padding: 10px;

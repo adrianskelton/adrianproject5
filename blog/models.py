@@ -19,5 +19,8 @@ class Comment(models.Model):
     pub_date = models.DateTimeField('date commented', default=timezone.now)
     user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
 
+    def author_name(self):
+        return self.user.username if self.user else 'Anonymous'
+
     def __str__(self):
         return f"{self.author} on {self.post.title}"
