@@ -24,7 +24,7 @@
         <p>{{ comment.author_name }} said on {{ comment.pub_date|date:"F j, Y" }}:</p>
         <p>{{ comment.comment }}</p>
         {% if comment.user == request.user %}
-        <div>
+        <div class="comment-crud">
           <a href="{% url 'edit_comment' comment.id %}" class="btn btn-primary">Edit</a>
           <a href="{% url 'delete_comment' comment.id %}" class="btn btn-danger">Delete</a>
       </div>

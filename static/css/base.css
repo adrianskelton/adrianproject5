@@ -37,11 +37,15 @@ article {
     color: grey; !important
 }
 
+.comment-crud {
+    padding-top: 10px;
+    padding-bottom: 22px;
+}
+
 footer {
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    background-color: #d7e1ea;
     color: #212529;
     position: ;
     bottom: 0;
@@ -53,13 +57,13 @@ footer {
 .footer-social {
     display: flex;
     justify-content: flex-end;
-    white-space: pre-wrap;
+    
 }
 
 .footer-icon {
+    margin-right: 10px;
     display: flex;
-    justify-content: flex-start;
-    white-space: pre-wrap;
+    flex-direction: row-reverse;
 }
 
 .hero-text {
