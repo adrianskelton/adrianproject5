@@ -99,7 +99,7 @@ The colour scheme is of the website is quite toned down as not to take away from
 
 ![Colour Scheme](static/media/readme/color-pallett.webp)
 ### Database Schema
-![database schema](./assets/readme-images/database.png)
+![database schema](static/media/readme/database.webp)
 
 1. User:
 lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
@@ -115,7 +115,7 @@ lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum
 I chose 2 fonts that look clean and minimalistic from google fonts.
 1. Chivo 
 
-![Krub](./assets/readme-images/font-chivo.png)
+![Krub](static/media/readme/font-chivo.png)
 2. Krub
 
 ![Libre Baskerville](./assets/readme-images/font-krub.png)

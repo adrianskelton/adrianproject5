@@ -22,7 +22,7 @@
       {% for comment in comments %}
       <div class="mb-12">
         <p>{{ comment.author_name }} said on {{ comment.pub_date|date:"F j, Y" }}:</p>
-        <p>{{ comment.comment }}</p>
+        <p>{{ comment.content }}</p>
         {% if comment.user == request.user %}
         <div class="comment-crud">
           <a href="{% url 'edit_comment' comment.id %}" class="btn btn-primary">Edit</a>
