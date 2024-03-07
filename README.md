@@ -113,12 +113,12 @@ lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum
 
 ### Fonts
 I chose 2 fonts that look clean and minimalistic from google fonts.
-1. Chivo 
+1. Chivo ![Chivo](static/media/readme/font-krub.png)
 
 ![Krub](static/media/readme/font-chivo.png)
 2. Krub
 
-![Libre Baskerville](./assets/readme-images/font-krub.png)
+
 
 ### Wireframes
 - Home

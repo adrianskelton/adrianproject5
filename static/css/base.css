@@ -7,9 +7,13 @@ body {
     height: calc(100vh - 164px);
     background-size: cover;
     color: #555;
-    font-family: 'Chivo';
+    font-family: 'Krub';
     padding-bottom: 80px;
 } 
+
+h1, h2, h3, h4 {
+    font-family: 'Chivo';
+}
 
 a {
    color: #283139; 
