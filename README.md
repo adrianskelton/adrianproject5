@@ -113,14 +113,23 @@ lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum
 
 ### Fonts
 I chose 2 fonts that look clean and minimalistic from google fonts.
-1. Chivo ![Chivo](static/media/readme/font-krub.png)
 
-![Krub](static/media/readme/font-chivo.png)
-2. Krub
+
+
+![Chivo](static/media/readme/font-krub.webp)
+
+#### Chivo #### - used for 
+
+![Krub](static/media/readme/font-chivo.webp)
+
+Krub - Used for the headings of  
 
 
 
 ### Wireframes
+
+Included below are the wireframes I made for the most detailed pages, the account functionality pages I skipped over as they didnt require much layout planning. 
+
 - Home
 <details>
 <summary>Home</summary>

@@ -24,6 +24,18 @@ class Product(models.Model):
     description = models.TextField()
     has_sizes = models.BooleanField(default=False, null=True, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2)
+    size = models.CharField(max_length=2, choices=[
+        ('xs', 'XS'),
+        ('s', 'S'),
+        ('m', 'M'),
+        ('l', 'L'),
+        ('xl', 'XL'),
+    ], null=True, blank=True)
+    price_xs = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
+    price_s = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
+    price_m = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
+    price_l = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
+    price_xl = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
     rating = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)

@@ -47,11 +47,11 @@
                                 <div class="col-12">
                                     <p><strong>Size:</strong></p>
                                     <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size'>
-                                        <option value="xs">XS</option>
-                                        <option value="s">S</option>
-                                        <option value="m" selected>M</option>
-                                        <option value="l">L</option>
-                                        <option value="xl">XL</option>
+                                        <option value="xs">XS - SEK{{ product.price_xs }}</option>
+                                        <option value="s">S - SEK{{ product.price_s }}</option>
+                                        <option value="m" selected>M - SEK{{ product.price_m }}</option>
+                                        <option value="l">L - SEK{{ product.price_l }}</option>
+                                        <option value="xl">XL - SEK{{ product.price_xl }}</option>
                                     </select>
                                 </div>
                             {% endif %}
