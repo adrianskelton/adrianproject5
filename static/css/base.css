@@ -88,6 +88,10 @@ footer {
     padding-top: 37px;
 }
 
+.blog-post-image {
+    padding: 10px;
+}
+
 .blog-image {
     float: right;
     max-width: 400px;
@@ -95,6 +99,7 @@ footer {
 
 .blog-image-list {
     float: right;
+    padding: 10px;
     max-width: 30vh;
 }
 

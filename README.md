@@ -91,9 +91,7 @@ The colour scheme is of the website is quite toned down as not to take away from
 
 
     1. Background color usage - #d7e1ea
-    2. --
-    3. --
-
+    2. Background color (same as boothstrap bg-lite) - #f8f9fa 
 
 
 
