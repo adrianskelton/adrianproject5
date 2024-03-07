@@ -226,7 +226,8 @@ lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum
 
 
 ### Products Page
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
+I made a way to update the prices of the products in a batch manner instead of doing the tedious changes one by one. I did this by using djangos basecommand feature. ![Django basecommand](https://docs.djangoproject.com/en/5.0/howto/custom-management-commands/)
+I then made simple script to do this. 
 
 ![pagination](./assets/readme-images/features/pagination.PNG)
 
