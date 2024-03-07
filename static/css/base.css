@@ -11,6 +11,11 @@ body {
     padding-bottom: 80px;
 } 
 
+a:hover {
+    color: #17a2b8;
+    text-decoration: none;
+}
+
 h1, h2, h3, h4 {
     font-family: 'Krub';
 }
@@ -58,10 +63,10 @@ footer {
     display: inline;
 }
 
-.footer-social {
+.footer-header {
     display: flex;
     justify-content: flex-end;
-    
+    background-color: #f8f9fa;
 }
 
 .footer-icon {
