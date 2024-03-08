@@ -8,4 +8,5 @@ urlpatterns = [
     path('contact/', views.contact, name='contact_form'),
 ]
 
-handler404 = 'home.views.handling_404'
+handler404 = 'home.views.custom_404'
+handler500 = 'home.views.handler500'
