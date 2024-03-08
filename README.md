@@ -182,13 +182,21 @@ lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum
 
 ## Features
 #### Navbar
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
+The navigation bar remains a constant feature on every page, crafted with Bootstrap and fine-tuned for complete responsiveness. The left segment is dedicated to content navigation, while the right side pertains to user authentication. Authenticated users have additional options, whereas unauthenticated users are prompted to log in or register.
 
-![navbar desktop](./assets/readme-images/features/nav-desktop.PNG)
+On the mobile version of the navbar, all content is revealed upon clicking a hamburger icon. Upon activation, a dropdown display appears, presenting all navigation links.
 
-![navbar desktop](./assets/readme-images/features/nav-mobile.PNG)
+![navbar desktop](static/media/readme/feature-header-desktop.webp)
+**Desktop header**
 
-![navbar desktop](./assets/readme-images/features/nav-open-mobile.PNG)
+![navbar desktop](static/media/readme/feature-header-mobile-closed.webp)
+
+**Mobile header Closed**  
+
+![navbar desktop](static/media/readme/feature-header-mobile-open.webp)
+
+**Mobile header Expanded**
+
 
 ### Toasts
 lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
