@@ -457,6 +457,12 @@ I was posting all the blog posts from the admin and for some reason it was strip
 
 [White space article](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space)
 
+***Bug:***
+While trying to create custom 404 and 500 pages I kept just getting a simple error "A server error occurred. Please contact the administrator." instead of the custom pages I had made. 
+
+***Fix:*** 
+Reading up I saw I could not use extends from tags in custom 404 and 500 pages [Stackoverflow](https://stackoverflow.com/questions/75071972/i-have-problem-with-cutomizing-the-404-page-in-django)
+
 ## Technologies And Languages
 
 ### Languages Used
