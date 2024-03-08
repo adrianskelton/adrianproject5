@@ -1,13 +1,15 @@
 function displayBuyNow(element) {
-    var buyNowElements = element.getElementsByClassName("buy-now");
-    if (buyNowElements.length > 0) {
-        buyNowElements[0].style.display = "block";
+    console.log('Mouse over');
+    var buyNowElement = element.querySelector(".buy-now");
+    if (buyNowElement) {
+        buyNowElement.style.display = "block";
     }
 }
 
 function hideBuyNow(element) {
-    var buyNowElements = element.getElementsByClassName("buy-now");
-    if (buyNowElements.length > 0) {
-        buyNowElements[0].style.display = "none";
+    console.log('Mouse out');
+    var buyNowElement = element.querySelector(".buy-now");
+    if (buyNowElement) {
+        buyNowElement.style.display = "none";
     }
 }

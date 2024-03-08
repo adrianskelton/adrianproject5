@@ -37,7 +37,8 @@ article {
 }
 
 .padding-account {
-    padding-left: 20px;  
+    padding-top: 96px;
+    padding-left: 146px;  
     padding-right: 20px; 
 }
 
@@ -374,6 +375,7 @@ input[name='q']::placeholder {
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
+
     .fixed-top-desktop-only {
         position: fixed;
         top: 0;
@@ -389,6 +391,12 @@ input[name='q']::placeholder {
 
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
+    .padding-account {
+        padding-top: 96px;
+        padding-left: 42px;  
+        padding-right: 20px; 
+    }
+    
     .header-container {
         padding-top: 116px;
     }
