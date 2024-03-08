@@ -28,19 +28,26 @@
                 <p><strong>Website:</strong> <a href="{{ artist.website }}" target="_blank">{{ artist.website }}</a></p>
                 {% endif %}
             </div>
-
             <div class="mt-4 scrollable-wrap">
                 <h2>Prints</h2>
                 <div class="scrolling-wrapper">
                     {% for product in artist.product_set.all %}
                     <div class="print-item">
-                        <a href="{% url 'product_detail' product.id %}">
-                            <img src="{{ product.image.url }}" alt="{{ product.name }}"
-                                class="img-fluid rounded img-art-page" onmouseover="displayBuyNow(this)"
-                                onmouseout="hideBuyNow(this)">
-                            <span class="buy-now" onclick="location.href='{% url 'product_detail' product.id %}'">Buy
-                                Now</span>
-                        </a>
+                        <div class="img-art-page">
+                            <a href="{% url 'product_detail' product.id %}">
+                                <div class="imageprice-hover-text-container">
+                                    <div class="imageprice-hover-image">
+                                        <img src="{{ product.image.url }}" alt="{{ product.name }}" class="img-fluid rounded img-art-page">
+                                    </div>
+                                    <div class="imageprice-hover-text">
+                                        <div class="image-hover-text-bubble">
+                                            <span class="image-hover-text-title">{{ product.name }}</span>
+                                            View Print
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                     {% endfor %}
                 </div>

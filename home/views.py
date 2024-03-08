@@ -2,6 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 
+
 def index(request):
     """ A view to return the index page """
     
@@ -15,8 +16,5 @@ def contact(request):
 def custom_404(request, exception):
     return render(request, '404.html', status=404)
 
-def custom_500(request, *args, **argv):
-    response = render_to_response('500.html', {},
-                                  context_instance=RequestContext(request))
-    response.status_code = 500
-    return response
+def custom_500(request, exception):
+    return render(request, '500.html', status=500)

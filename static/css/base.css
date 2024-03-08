@@ -42,9 +42,9 @@ article {
     padding-right: 20px; 
 }
 
-/* over-ride font awesome default color */
+/* override font awesome default color */
 .fab {
-    color: grey; !important
+    color: grey !important;
 }
 
 .comment-crud {
@@ -57,7 +57,6 @@ footer {
     align-items: center;
     justify-content: space-between; 
     color: #212529;
-    position: ;
     bottom: 0;
     width: 100%;
     padding: 10px;
@@ -368,10 +367,12 @@ input[name='q']::placeholder {
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1342px;
-}
+
+@media (min-width: 1200px) { 
+    .container {
+      max-width: 1342px;
+    }
+  }
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
@@ -396,7 +397,7 @@ input[name='q']::placeholder {
         padding-left: 42px;  
         padding-right: 20px; 
     }
-    
+
     .header-container {
         padding-top: 116px;
     }
