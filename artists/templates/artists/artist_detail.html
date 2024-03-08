@@ -24,8 +24,6 @@
 
             <div class="mt-4">
                 <p><strong>Bio:</strong> {{ artist.bio }}</p>
-                <p><strong>Total Sales:</strong> SEK{{ artist.total_sales }}</p>
-
                 {% if artist.website %}
                     <p><strong>Website:</strong> <a href="{{ artist.website }}" target="_blank">{{ artist.website }}</a></p>
                 {% endif %}
