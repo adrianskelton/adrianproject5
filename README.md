@@ -161,9 +161,9 @@ The inception of the Nordic Art Collective website traces back to the establishm
 
 For accessing specific details:
 
-To view the project Kanban board, kindly [follow this link](https://github.com/users/adrianskelton/projects/7)
-For milestones, please [follow this link](https://github.com/leec313/Fetch-and-Feast/milestones)
-To explore issues, please [follow this link](https://github.com/adrianskelton/adrianproject5/issues?q=is%3Aissue)
+- To view the project Kanban board, kindly [follow this link](https://github.com/users/adrianskelton/projects/7)
+- For milestones, please [follow this link]()
+- To explore issues, please [follow this link](https://github.com/adrianskelton/adrianproject5/issues?q=is%3Aissue)
 
 #### Epics(Milestones)
 I seperated these into the following Milestones...
@@ -233,11 +233,6 @@ JavaScript is integrated to control the behavior of toast messages. By default, 
 User login and all shopping done and changes made to the shopping bag are then displayed with toasts on the right hand corner. This allows the user to click on the messages and make changes but also have a clear idea of their shopping and navigation experience.
 
 ![toasts](./assets/readme-images/features/messages.PNG)
-
-### Breadcrumbs
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-
-![breadcrumbs](./assets/readme-images/features/breadcrumbs.PNG)
 
 #### Footer
 lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
@@ -416,6 +411,68 @@ A few of the features that would be applied in future.
 
 ### Business Model
 
+**Business Type:** Business to Customer (B2C)
+
+Nature of Business: Nordic Art Collective operates as an online print shop specializing in the sale of digital and photo prints to individual customers.
+
+**Revenue Streams:**
+
+- Sales Revenue: Generated through the direct sale of digital and photo prints to customers. 
+- Advertising Revenue: Potential income from sponsored content or advertisements displayed on the website.
+- Affiliate Marketing Revenue: By signing up to affiliate websites there is potential to make commission from click through ads to other websites.
+
+**Customer Segments:**
+
+- Art Enthusiasts: Individuals interested in purchasing high-quality digital and photo prints for personal use or decoration.
+- Gift Shoppers: Individuals looking to buy art prints as gifts for friends, family, or colleagues.
+
+**Value Proposition:**
+
+- Artistic Excellence: Offering a diverse range of high-quality digital and photo prints sourced from talented artists and photographers.
+- Convenience: Providing a user-friendly online platform for customers to explore, purchase, and receive prints from the comfort of their homes.
+- Community Engagement: Building a community of art lovers through social media engagement, fostering a sense of belonging and loyalty.
+
+**Channels:**
+
+- E-commerce Website: The primary platform for showcasing prints, processing orders, and facilitating transactions.
+- Social Media: Utilizing platforms such as Instagram, Pinterest, and Twitter for marketing, customer engagement, and community building.
+- Newsletter: Sending regular updates, promotions, and announcements to subscribers via email.
+
+**Customer Relationships:**
+
+- Personalized Support: Offering responsive customer support to address inquiries, provide assistance, and resolve issues promptly.
+- Engagement: Actively engaging with customers through social media interactions, responding to comments, and sharing user-generated content.
+
+**Key Activities:**
+
+- Artwork Curation: Identifying and curating a diverse collection of digital and photo prints from talented artists and photographers.
+- Website Management: Maintaining and updating the e-commerce platform to ensure a seamless shopping experience for customers.
+- Marketing and Promotion: Implementing marketing strategies to attract new customers, retain existing ones, and promote brand awareness.
+
+**Key Resources:**
+
+- E-commerce Platform: Investing in a robust and user-friendly website for online sales and transactions.
+- Social Media Presence: Building and maintaining an active presence on social media platforms to engage with customers and drive traffic to the website.
+
+**Cost Structure:**
+
+- Artwork Costs: Expenses related to acquiring digital and photo prints from artists and photographers.
+- Website Maintenance: Costs associated with hosting, domain registration, website development, and maintenance.
+- Marketing Expenses: Budget allocated for advertising, promotions, and social media marketing campaigns.
+
+**Key Partnerships:**
+
+- Artists and Photographers: Establishing partnerships with talented creators to ensure a consistent supply of unique and appealing prints. This relationship is vital as the happier the artists are and the strength of the relationship will foster good marketing from their side too for the website and brand.
+- Delivery Services: Collaborating with reliable shipping and delivery services to fulfill customer orders efficiently and reliably.
+- Influencers and Affiliates: Partnering with art influencers or affiliates to promote prints and reach a broader audience.
+
+**Growth Strategies:**
+
+- Expansion of Print Range: Continuously adding new and innovative prints to cater to evolving customer preferences and trends.
+
+- Geographic Expansion: Scaling operations to reach new geographic markets and expand the customer base. (Norway, Denmark and other Nordic countries added later targeting only the best artists)
+- Customer Loyalty Programs: Implementing loyalty programs, discounts, and rewards to incentivize repeat purchases and foster customer loyalty.
+
 
 ### SEO
 
@@ -433,7 +490,7 @@ I made a facebook business page for my site as I felt that was the best way to e
 
 Below is a video showing the page with a few articles posted, all of these posts could be boosted to gain a greater audience depending on the companies marketing budget.
 
-video src="static/edia/readme/facebook-page.mp4">
+<video src="static/media/readme/facebook-page.mp4">
 
 ![]("media/readme/facebook-screenshot.webp")
 
