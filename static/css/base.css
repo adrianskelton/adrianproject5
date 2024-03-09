@@ -53,27 +53,28 @@ article {
 }
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    color: #212529;
-    position: ;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
-    display: inline;
+    padding-top: 10px;
 }
 
 .footer-header {
-    display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: #f8f9fa;
 }
 
-.footer-icon {
-    margin-right: 10px;
+.footer-content {
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px; 
+}
+
+.footer-icon,
+.contact-info {
+    margin-right: 20px; 
+}
+
+.contact-info div {
+    margin-top: 5px; 
 }
 
 .hero-text {

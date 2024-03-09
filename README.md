@@ -68,10 +68,11 @@
 
 ### Site Goals
 1. To provide users with a place to purchase art prints from different artists in Sweden.
-2. To provide the users the ability to search artists and style of art.
-3. To provide the users with the ability to save art to their wishlist
-4. To provide the users with the ability to check their order history.
-6. To provide the users with the ability to leave a feedback for the artists.
+2. To provide the users the ability to search artists and style of art
+3. To provide the users with the ability to view each artists profile
+4. To provide the users with the ability to check their order history
+5. To provide the users the ability to read blog posts
+6. To provide the users with the ability to leave comments on blog posts
 
 ### Scope
 
@@ -156,10 +157,24 @@ Included below are the wireframes I made for the most detailed pages, the accoun
 
 ### Agile Methodology
 #### Overview
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
+The inception of the Nordic Art Collective website traces back to the establishment of a GitHub Projects Page, functioning as the central hub for project management. This platform played a crucial role in systematically organizing tasks, creating user stories, and breaking them down into actionable steps. The primary objective was to construct a well-organized roadmap that could effectively guide the project to its successful completion within the specified timeframe. Leveraging the GitHub Projects Page facilitated the monitoring of the project's progression, task assignment, and milestone accomplishment, ensuring a streamlined and organized development process. The implementation of the MoSCoW method, coupled with customized GitHub project labels, proved invaluable in helping me prioritize essential tasks within the constraints of my available time.
+
+For accessing specific details:
+
+To view the project Kanban board, kindly [follow this link](https://github.com/users/adrianskelton/projects/7)
+For milestones, please [follow this link](https://github.com/leec313/Fetch-and-Feast/milestones)
+To explore issues, please [follow this link](https://github.com/adrianskelton/adrianproject5/issues?q=is%3Aissue)
 
 #### Epics(Milestones)
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
+I seperated these into the following Milestones...
+- Project Setup
+- User Setup
+- Products
+- Orders, checkout and gift card discounts
+- Admin Functionality
+- Artist Profile
+- Marketing and SEO
+- Documentation and testing
 
 ![Milestones](./assets/readme-images/milestones.PNG)
 
@@ -199,7 +214,23 @@ On the mobile version of the navbar, all content is revealed upon clicking a ham
 
 
 ### Toasts
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
+Toasts and shopping bag
+Toast Messages play a vital role in promptly updating users on the outcomes of their actions within the e-commerce platform. Below is an overview of the implementation of Toast Messages:
+
+**Purpose:**
+
+Toast Messages are employed to notify users of the completion of various actions, such as successful login, product deletion, and other significant events.
+They act as subtle notifications that briefly appear on the screen, ensuring users are promptly informed without disrupting their browsing experience.
+
+**Implementation:**
+
+The platform uses a standardized toast template to maintain consistency in appearance and functionality across different scenarios.
+Specifically, the toast success template is applied to the bag preview popup, ensuring visual coherence and reinforcing positive feedback for successful bag updates.
+JavaScript is integrated to control the behavior of toast messages. By default, all toast messages disappear after three seconds, improving user experience by minimizing visual clutter.
+
+**User Interaction:**
+
+User login and all shopping done and changes made to the shopping bag are then displayed with toasts on the right hand corner. This allows the user to click on the messages and make changes but also have a clear idea of their shopping and navigation experience.
 
 ![toasts](./assets/readme-images/features/messages.PNG)
 
