@@ -241,37 +241,21 @@ lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ip
 ![product card sale](./assets/readme-images/features/card-sale.PNG)
 
 ### Single Products Page
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
+The single product page shows the main image, product writeup, category and the price/sizing options. You can then select the number of prints you want and clicking add to bag or click keep shopping to choose something else.
 
-![product page](./assets/readme-images/features/single-product.PNG)
+![product page](static/media/feature-product-single.png)
 
-![reviews](./assets/readme-images/features/reviews.PNG)
 
-![not enough stock](./assets/readme-images/features/not-enough-stock.PNG)
-
-![add to wishlist](./assets/readme-images/features/add-to-wishlist.PNG)
-
-### Edit review page
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-
-![edit-review](./assets/readme-images/features/edit-review.PNG)
-
-### Delete review confirmation
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-
-![delete-review](./assets/readme-images/features/delete-review.PNG)
-
-### FAQ Page
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-
+### Size options page (TODO)
+This is accessed by the size guide floating button.
 ![faq-page](./assets/readme-images/features/faq-page.PNG)
 
-### About Us Page
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
+### Contact Us Page
+The contact page is a simple contact form with your name, email and message box. An image of a photography exhibition is to the right. 
 
-![about-us](./assets/readme-images/features/about-us.PNG)
+![contact-us](static/media/readme/feature-contact.png)
 
-### All Authors Page
+### Artists Page (custom model)
 lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
 
 ![all authors](./assets/readme-images/features/authors.PNG)
