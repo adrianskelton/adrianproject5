@@ -215,17 +215,13 @@ lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum
 
 ### Home Page
 #### Hero Section
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
+The hero section has a brief description of what web site is about and then has a shop now button which will take the user to the shop where all the prints will be displayed. There is also an image of the listed artists on the right hand side of the text.
 
-![hero section](./assets/readme-images/features/hero-section.PNG)
+![hero section](static/media/readme/features-hero.png)
 
-#### Trust Badges
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-
-![trust badges](./assets/readme-images/features/trust-badges.PNG)
 
 #### Products
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
+The products page
 
 ![products](./assets/readme-images/features/products-home.PNG)
 
@@ -235,9 +231,7 @@ lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum
 I made a way to update the prices of the products in a batch manner instead of doing the tedious changes one by one. I did this by using djangos basecommand feature. ![Django basecommand](https://docs.djangoproject.com/en/5.0/howto/custom-management-commands/)
 I then made simple script to do this. 
 
-![pagination](./assets/readme-images/features/pagination.PNG)
-
-![all products](./assets/readme-images/features/all-products.PNG)
+![all products](static/media/readme/feature-products.png)
 
 ### Products Card
 lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 

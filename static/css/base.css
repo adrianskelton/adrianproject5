@@ -43,6 +43,10 @@ article {
     color: grey; !important
 }
 
+.card {
+    display: !important;
+}
+
 .comment-crud {
     padding-top: 10px;
     padding-bottom: 22px;
@@ -420,13 +424,7 @@ input[name='q']::placeholder {
 /* Large devices (992px to 1199px) */
 @media (min-width: 992px) and (max-width: 1199px) {
     /* Desktop-specific styles */
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
+
 
     .header-padding {
         padding-top: 84px;
@@ -440,23 +438,18 @@ input[name='q']::placeholder {
 /* Extra-large devices (1200px and above) */
 @media (min-width: 1200px) {
     /* Large desktop-specific styles */
-    .container {
-        max-width: 1342px;
-    }
 
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
+
 
     .header-padding {
         padding-top: 94px;
     }
 
     .header-container {
-        padding-top: 364px;
+        padding-top: 79px;
+    }
+
+    .container {
+        max-width: 1342px;
     }
 }
