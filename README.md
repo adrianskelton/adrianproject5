@@ -256,14 +256,7 @@ The contact page is a simple contact form with your name, email and message box.
 ![contact-us](static/media/readme/feature-contact.png)
 
 ### Artists Page (custom model)
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-
-![all authors](./assets/readme-images/features/authors.PNG)
-
-### Author Page
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-
-![author](./assets/readme-images/features/author.PNG)
+In the left column the artists name, bio and website are displayed as well as a scrollable display of their prints as images. When you hover over the print it displays a link to buy now which can be clicked to see the single product detail page. The artists image is shown on the right column. 
 
 ### My Profile Page
 lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
