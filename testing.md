@@ -63,23 +63,17 @@ Go back to [README.md](/README.md)
 
 | File     | App      | Image                                                                     | Result           | Comment                                                             |
 | -------- | -------- | ------------------------------------------------------------------------- | ---------------- | ------------------------------------------------------------------- |
-| views    | home     | ![views](./documentation/images/testing/python/homeviewspy.png)           | <mark>PASS<mark> |                                                                     |
-| urls     | home     | ![urls](./documentation/images/testing/python/homeurlspy.png)             | <mark>PASS<mark> |                                                                     |
-| tests    | home     | ![test](./documentation/images/testing/python/hometestspy.png)            | <mark>PASS<mark> |                                                                     |
-| views    | products | ![views](./documentation/images/testing/python/productsviewspy.png)       | <mark>PASS<mark> |                                                                     |
-| utils    | products | ![utils](./documentation/images/testing/python/productsutilspy.png)       | <mark>PASS<mark> |                                                                     |
-| urls     | products | ![urls](./documentation/images/testing/python/productsurlspy.png)         | <mark>PASS<mark> |                                                                     |
-| tests    | products | ![tests](./documentation/images/testing/python/productstestspy.png)       | <mark>PASS<mark> |                                                                     |
-| models   | products | ![models](./documentation/images/testing/python/productsmodelspy.png)     | <mark>PASS<mark> |                                                                     |
-| admin    | products | ![admin](./documentation/images/testing/python/productsadminpy.png)       | <mark>PASS<mark> |                                                                     |
-| forms    | products | ![forms](./documentation/images/testing/python/productformspy.png)        | <mark>PASS<mark> |                                                                     |                                                                    |
-| views    | profiles | ![views](./documentation/images/testing/python/profilesviewspy.png)       | <mark>PASS<mark> |                                                                     |
-| urls     | profiles | ![urls](./documentation/images/testing/python/profilesurlspy.png)         | <mark>PASS<mark> |                                                                     |
-| tests    | profiles | ![tests](./documentation/images/testing/python/profilestestspy.png)       | <mark>PASS<mark> |                                                                     |
-| models   | profiles | ![models](./documentation/images/testing/python/profilesmodelspy.png)     | <mark>PASS<mark> |                                                                     |
-| forms    | profiles | ![forms](./documentation/images/testing/python/profilesformspy.png)       | <mark>PASS<mark> |                                                                     |
-| admin    | profiles | ![admin](./documentation/images/testing/python/profilesadminpy.png)       | <mark>PASS<mark> |                                                                     |
-| webhooks | checkout | ![webhooks](./documentation/images/testing/python/checkoutwebhookspy.png) | <mark>PASS<mark> | Line too long - code from CI walkthrough on webhook - left unedited |
+| views    | home     | ![views](static/media/readme/testing/testing-pyhome-views.png)           | <mark>PASS<mark> |                                                                     |
+| urls     | home     | ![urls](static/media/readme/testing/testing-pyhome-urls.png)             | <mark>PASS<mark> |                                                                     |<mark>PASS<mark> |                                                                     |
+| views    | products | ![views](static/media/readme/testing/testing-pyproducts-views.png)       | <mark>PASS<mark> |                                                                     |
+| urls     | products | ![urls](static/media/readme/testing/testing-pyproducts-urls.png)         | <mark>PASS<mark> |                                                                     |
+| models   | products | ![models](static/media/readme/testing/testing-pyproducts-models.png)     | <mark>PASS<mark> |                                                                     |
+| admin    | products | ![admin](static/media/readme/testing/testing-pyproducts-admin.png)       | <mark>PASS<mark> |                                                                     |
+| forms    | products | ![forms](static/media/readme/testing/testing-pyproducts-forms.png)        | <mark>PASS<mark> |                                                                     |                                                                    |
+| views    | profiles | ![views](static/media/readme/testing/testing-pyprofile-views.png)       | <mark>PASS<mark> |                                                                     |
+| urls     | profiles | ![urls](static/media/readme/testing/testing-pyprofile-urls.png)         | <mark>PASS<mark> |                                                                     |
+| models   | profiles | ![models](static/media/readme/testing/testing-pyprofile-models.png)     | <mark>PASS<mark> |                                                                     |
+| webhooks | checkout | ![webhooks](static/media/readme/testing/testing-pycheckout-webhooks.png) | <mark>PASS<mark> |  |
 | handler  | checkout | ![handler](./documentation/images/testing/python/checkouthandlerpy.png)   | <mark>PASS<mark> |                                                                     |
 | view     | checkout | ![view](./documentation/images/testing/python/checkoutviewspy.png)        | <mark>PASS<mark> |                                                                     |
 | urls     | checkout | ![urls](./documentation/images/testing/python/checkouturlspy.png)         | <mark>PASS<mark> |                                                                     |
@@ -96,7 +90,7 @@ Go back to [README.md](/README.md)
 
 ## Responsiveness
 
-The responsiveness of the website was thoroughly tested on various devices, including a MacBook Pro 15-inch, a Huawei P30 Pro, and a 24-inch monitor. Across all devices, the elements displayed cleanly and were well-organized, ensuring a consistent and user-friendly experience.
+The responsiveness of the website was thoroughly tested on various devices, including a Huawei matebook 15-inch, and a 24-inch monitor. Across all devices, the elements displayed cleanly and were well-organized, ensuring a consistent and user-friendly experience. I also tested it on my google pixel 7a and on google chrome's responsiveness checker with inspector tools.
 
 ## Browser Compatibility
 
