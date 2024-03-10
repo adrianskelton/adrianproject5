@@ -79,6 +79,31 @@
 Key Features:
 
 
+The project aims to develop an E-Commerce website featuring three distinct models, facilitating users to undergo a test payment using the Stripe payment processor. Additionally, the website will host a blog, enabling staff members to generate content offering articles on artists and possibly products with affiliate links to them. A newsletter signup form will be incorporated to gather emails for marketing initiatives.
+
+Key Features of the Website:
+
+User Authentication:
+- Account creation, login, logout, and deletion.
+
+User Profile Management:
+- Account/profile update.
+- User profile with a summary of orders.
+
+E-Commerce Functionality:
+- Product creation, update, and deletion.
+- Add/remove products to/from the cart.
+- View order summary.
+- Payment processing and checkout completion.
+
+User Interaction:
+
+- Creation, update, and deletion of reviews.
+- Blog post management, including creation, update, and deletion.
+- Comment creation, update, and deletion.
+- Moreover, the website will include a newsletter signup form to gather emails for marketing purposes. - Additionally, a Facebook business page will be set up to share content with customers, fostering engagement through comments and messages.
+
+
 
 Benefits:
 
@@ -175,24 +200,19 @@ I seperated these into the following Milestones...
 - Marketing and SEO
 - Documentation and testing
 
-![Milestones](./assets/readme-images/milestones.PNG)
+![Milestones](static/media/milestones.png)
 
 #### User Stories Issues
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
+I tried to keep my user story issues as simple and uncomplicated as necessary. This helped me not get caught up on too many issues but focused on the design of the site and tick off the major issues in one go, I found it easier to manage personally this way.
 
-![User Story](./assets/readme-images/user-stories.PNG)
+![User Story](static/media/readme/issues.png)
 
-![User Story](./assets/readme-images/commits.PNG)
 
 #### MoSCoW prioritization
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
+My board was fairly simple with Todo, In Progress, Done and Future Additions.
 
-![MoSCoW](./assets/readme-images/moscow.PNG)
+![MoSCoW](static/media/readme/moskow.png)
 
-#### GitHub Projects
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-
-![Project](./assets/readme-images/agile-project.PNG)
 
 ## Features
 #### Navbar

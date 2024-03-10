@@ -407,33 +407,6 @@ The main custom crud functionality of this website pertains to the comments by t
 | Logout Button | Click          | Redirected to Home page                        | <mark>Pass</mark> |
 | Form Button   | Hover/Focus    | Darken Background                              | <mark>Pass</mark> |
 
-### Password Reset Page
-
-| Element           | Action      | Expected Result                                   | Pass/Fail         |
-| ----------------- | ----------- | ------------------------------------------------- | ----------------- |
-| Email Input Valid | Submit      | Sends An Email with a reset link to entered email | <mark>Pass</mark> |
-| Login Button      | Click       | Redirects to login page                           | <mark>Pass</mark> |
-| Reset Button      | Click       | Sends An Email with a reset link to entered email | <mark>Pass</mark> |
-| Login Button      | Hover/Focus | Darken Background                                 | <mark>Pass</mark> |
-| Reset Button      | Hover/Focus | Darken Background                                 | <mark>Pass</mark> |
-
-### Password Reset Email
-
-| Element    | Action | Expected Result                                   | Pass/Fail         |
-| ---------- | ------ | ------------------------------------------------- | ----------------- |
-| Email Link | Submit | Link directs the user to the password change form | <mark>Pass</mark> |
-
-### Password Change Page
-
-| Element       | Action      | Expected Result                       | Pass/Fail         |
-| ------------- | ----------- | ------------------------------------- | ----------------- |
-| Form Valid    | Submit      | Updates the users password            | <mark>Pass</mark> |
-| Form Valid    | Submit      | Redirects to password updated page    | <mark>Pass</mark> |
-| Form(Valid)   | Submit      | Change Password Notification received | <mark>Pass</mark> |
-| Form(Invalid) | Submit      | Error Notification received           | <mark>Pass</mark> |
-| Form Invalid  | Submit      | Renders the error context to the user | <mark>Pass</mark> |
-| Reset Button  | Click       | Updates the users password            | <mark>Pass</mark> |
-| Reset Button  | Hover/Focus | Darken Background                     | <mark>Pass</mark> |
 
 ### Django Administration Panel
 
@@ -555,7 +528,7 @@ Select an option:
 The above still did not work so I had to rollback to a previous migration before the errors. I found this information on [Stackoverflow](https://stackoverflow.com/questions/32123477/how-to-revert-the-last-migration)
 
 ### bug no white space
-I was posting all the blog posts from the admin and for some reason it was stripping 
+I was posting all the blog posts from the admin and for some reason it was stripping the paragraph gaps. Fixed it with whitespace css setting.
 
 [White space article](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space)
 
@@ -565,12 +538,3 @@ While trying to create custom 404 and 500 pages I kept just getting a simple err
 ***Fix:*** 
 Reading up I saw I could not use extends from tags in custom 404 and 500 pages [Stackoverflow](https://stackoverflow.com/questions/75071972/i-have-problem-with-cutomizing-the-404-page-in-django)
 
-### Bug Comments
-
-Issue number [76](<(https://github.com/DarrachBarneveld/ci-swag/issues/76)>) was the largest and most difficult issue I encountered. My solution is not fool proof as stated in the issue card comments but as it was related to the course walkthrough I couldnt find signficant support to help me resolve this issue. I tried my very best to provide a solution that was error free and and mimimal security errors.
-
-Minor bugs left unfixed for future features. Documented.
-
-### Noteable issues
-
-When purchasing the senior dev subscription you can add all courses to cart. This means even upon cancellation of the monthly subscription the courses will still be available which is a hack. All courses should have a payment attached to them in a future feature.
