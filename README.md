@@ -245,18 +245,19 @@ They act as subtle notifications that briefly appear on the screen, ensuring use
 
 The platform uses a standardized toast template to maintain consistency in appearance and functionality across different scenarios.
 Specifically, the toast success template is applied to the bag preview popup, ensuring visual coherence and reinforcing positive feedback for successful bag updates.
-JavaScript is integrated to control the behavior of toast messages. By default, all toast messages disappear after three seconds, improving user experience by minimizing visual clutter.
 
 **User Interaction:**
 
 User login and all shopping done and changes made to the shopping bag are then displayed with toasts on the right hand corner. This allows the user to click on the messages and make changes but also have a clear idea of their shopping and navigation experience.
 
-![toasts](./assets/readme-images/features/messages.PNG)
+![toasts](static/media/readme/toasts.png)
 
 #### Footer
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
 
-![footer](./assets/readme-images/features/footer.PNG)
+The footer is divided into two columns with the mailchimp mailing list form on the left and the social icons for github and facebook on the right. 
+The facebook link only opens to facebook as I deleted the facebook page shortly after creating it as facebook has a policy of creating fake pages. 
+
+![footer](static/media/readme/footer.png)
 
 ### Home Page
 #### Hero Section
@@ -266,9 +267,9 @@ The hero section has a brief description of what web site is about and then has 
 
 
 #### Products
-The products page
+The products page shows all the products with the artist name and category below the image. This image is clickable and follows to the individual product page where the product can then be added to the cart. The product page also has a sort by button dropdown that 
 
-![products](./assets/readme-images/features/products-home.PNG)
+![products](static/media/readme/products.png)
 
 
 
@@ -279,7 +280,7 @@ I then made simple script to do this.
 ![all products](static/media/readme/feature-products.png)
 
 ### Products Card
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
+The product card is very simple and shows 
 
 ![product card](./assets/readme-images/features/card.png)
 
