@@ -106,10 +106,10 @@ The responsiveness of the website was thoroughly tested on various devices, incl
 | Page                   | Validator                                                                                    | Result                 |
 | ---------------------- | -------------------------------------------------------------------------------------------- | ---------------------- |
 | Home                   | ![home](static/media/readme/testing/testing-lighthouse-home.png)                                  | <mark>Excellent</mark> |
-| Home Mobile            | ![home mobile](./documentation/images/testing/lighthouse/homemobile.png)                     | <mark>Good</mark>      |
-| Products               | ![products](./documentation/images/testing/lighthouse/products.png)                          | <mark>Excellent</mark> |
-| Product Mobile         | ![products mobile](./documentation/images/testing/lighthouse/productsmobile.png)             | <mark>Pass</mark>      |
-| Product Detail         | ![product detail](./documentation/images/testing/lighthouse/productdetail.png)               | <mark>Good</mark>      |
+| Home Mobile            | ![home mobile](static/media/readme/testing/testing-lighthouse-home-mobile.png)                     | <mark>Good</mark>      |
+| Products               | ![products](static/media/readme/testing/testing-lighthouse-products.png)                          | <mark>Good</mark> |
+| Product Mobile         | ![products mobile](static/media/readme/testing/testing-lighthouse-products-mobile.png)             | <mark>Pass</mark>      |
+| Product Detail         | ![product detail](static/media/readme/testing/testing-lighthouse-productsdetail.png)               | <mark>Good</mark>      |
 | Product Detail Mobile  | ![product detail mobile](./documentation/images/testing/lighthouse/productdetailmobile.png)  | <mark>Pass</mark>      |
 | Add Product            | ![add product](./documentation/images/testing/lighthouse/addproduct.png)                     | <mark>Excellent</mark> |
 | Add Product Mobile     | ![add product mobile](./documentation/images/testing/lighthouse/addproductmobile.png)        | <mark>Excellent</mark> |
