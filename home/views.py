@@ -5,16 +5,18 @@ from django.shortcuts import render
 
 def index(request):
     """ A view to return the index page """
-    
     return render(request, 'home/index.html')
+
 
 def contact(request):
     """ A view to return the about us page """
-    
+
     return render(request, 'home/contact_us.html')
+
 
 def custom_404(request, exception):
     return render(request, '404.html', status=404)
+
 
 def custom_500(request, exception):
     return render(request, '500.html', status=500)

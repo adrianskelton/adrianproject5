@@ -46,20 +46,18 @@ Go back to [README.md](/README.md)
 
 | File     | Validator                                                       | Result           |
 | -------- | --------------------------------------------------------------- | ---------------- |
-| Base     | ![base](./documentation/images/testing/css/basecss.png)         | <mark>PASS<mark> |
-| Program  | ![program](./documentation/images/testing/css/programscss.png)  | <mark>PASS<mark> |
-| Profile  | ![profile](./documentation/images/testing/css/profilescss.png)  | <mark>PASS<mark> |
-| Product  | ![product](./documentation/images/testing/css/productscss.png)  | <mark>PASS<mark> |
-| Checkout | ![checkout](./documentation/images/testing/css/checkoutcss.png) | <mark>PASS<mark> |
-| Cart     | ![cart](./documentation/images/testing/css/cartcss.png)         | <mark>PASS<mark> |
+| Base     | ![base](static/media/readme/testing/testing-css-pass.webp)         | <mark>PASS<mark> |
+| Home  | ![program](static/media/readme/testing/testing-css-home.png)  | <mark>PASS<mark> |
+| Profile  | ![profile](static/media/readme/testing/testing-css-profiles.png)  | <mark>PASS<mark> |
+| Checkout | ![checkout](static/media/readme/testing/testing-css-checkout.png) | <mark>PASS<mark> |
+
 
 ## JavaScript
 
 | File               | Validator                                                                   | Result           | Comment                          |
 | ------------------ | --------------------------------------------------------------------------- | ---------------- | -------------------------------- |
-| stripe_elements.js | ![stripe elements](./documentation/images/testing/js/stripe_elementsjs.png) | <mark>PASS<mark> | Global variables and es6 enabled |
-| mailchimp.js       | ![mailchimp](./documentation/images/testing/js/mailchimpjs.png)             | <mark>PASS<mark> | Global variable errors           |
-| toast.js           | ![toast](./documentation/images/testing/js/toastsjs.png)                    | <mark>PASS<mark> | Global variables and es6 enabled |
+| stripe_elements.js | ![stripe elements](static/media/readme/testing/testing-jshint-stripe.png) | <mark>PASS<mark> | Global variables and es6 enabled |
+| countryfield.js           | ![country](static/media/readme/testing/testing-jshint-country.png)                    | <mark>PASS<mark> | 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz). |
 
 ## Python
 
@@ -74,12 +72,7 @@ Go back to [README.md](/README.md)
 | tests    | products | ![tests](./documentation/images/testing/python/productstestspy.png)       | <mark>PASS<mark> |                                                                     |
 | models   | products | ![models](./documentation/images/testing/python/productsmodelspy.png)     | <mark>PASS<mark> |                                                                     |
 | admin    | products | ![admin](./documentation/images/testing/python/productsadminpy.png)       | <mark>PASS<mark> |                                                                     |
-| forms    | products | ![forms](./documentation/images/testing/python/productformspy.png)        | <mark>PASS<mark> |                                                                     |
-| views    | programs | ![views](./documentation/images/testing/python/programsviewspy.png)       | <mark>PASS<mark> |                                                                     |
-| urls     | programs | ![urls](./documentation/images/testing/python/programsurlspy.png)         | <mark>PASS<mark> |                                                                     |
-| tests    | programs | ![tests](./documentation/images/testing/python/programstestspy.png)       | <mark>PASS<mark> |                                                                     |
-| models   | programs | ![models](./documentation/images/testing/python/programsmodelspy.png)     | <mark>PASS<mark> |                                                                     |
-| admin    | programs | ![admin](./documentation/images/testing/python/programsadminpy.png)       | <mark>PASS<mark> |                                                                     |
+| forms    | products | ![forms](./documentation/images/testing/python/productformspy.png)        | <mark>PASS<mark> |                                                                     |                                                                    |
 | views    | profiles | ![views](./documentation/images/testing/python/profilesviewspy.png)       | <mark>PASS<mark> |                                                                     |
 | urls     | profiles | ![urls](./documentation/images/testing/python/profilesurlspy.png)         | <mark>PASS<mark> |                                                                     |
 | tests    | profiles | ![tests](./documentation/images/testing/python/profilestestspy.png)       | <mark>PASS<mark> |                                                                     |
