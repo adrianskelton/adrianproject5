@@ -105,7 +105,7 @@ The responsiveness of the website was thoroughly tested on various devices, incl
 
 | Page                   | Validator                                                                                    | Result                 |
 | ---------------------- | -------------------------------------------------------------------------------------------- | ---------------------- |
-| Home                   | ![home](./documentation/images/testing/lighthouse/home.png)                                  | <mark>Excellent</mark> |
+| Home                   | ![home](static/media/readme/testing/testing-lighthouse-home.png)                                  | <mark>Excellent</mark> |
 | Home Mobile            | ![home mobile](./documentation/images/testing/lighthouse/homemobile.png)                     | <mark>Good</mark>      |
 | Products               | ![products](./documentation/images/testing/lighthouse/products.png)                          | <mark>Excellent</mark> |
 | Product Mobile         | ![products mobile](./documentation/images/testing/lighthouse/productsmobile.png)             | <mark>Pass</mark>      |
