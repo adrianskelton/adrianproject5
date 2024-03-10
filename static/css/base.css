@@ -40,11 +40,11 @@ article {
 
 /* over-ride font awesome default color */
 .fab {
-    color: grey; !important
+    color: grey !important;
 }
 
 .card {
-    display: !important;
+    display: block !important;
 }
 
 .comment-crud {
@@ -121,7 +121,6 @@ footer {
 .main-logo-link {
     width: fit-content;
     color: black;
-    size: large;
 }
 
 .btn-nordic {
@@ -366,30 +365,28 @@ input[name='q']::placeholder {
 }
 
 .home-bg 
-/* -------------------------------- Media Queries */
+
+/* Media Queries */
 
 /* Small devices (up to 767px) */
 @media (max-width: 767px) {
-    /* Mobile-specific styles */
+
     .header-container {
         padding-top: 116px;
     }
-
+    
     .hero-text {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
-
     body {
         height: calc(100vh - 116px);
     }
-
     .custom-hr {
         margin: 20px auto;
         width: 80%;
     }
-
     .header-padding {
         padding-top: 0px;
     }
@@ -401,22 +398,18 @@ input[name='q']::placeholder {
     .header-container {
         padding-top: 116px;
     }
-
     .hero-text {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
-
     body {
         height: calc(100vh - 116px);
     }
-
     .custom-hr {
         margin: 20px auto;
         width: 80%;
     }
-
     .header-padding {
         padding-top: 0px;
     }
@@ -425,12 +418,9 @@ input[name='q']::placeholder {
 /* Large devices (992px to 1199px) */
 @media (min-width: 992px) and (max-width: 1199px) {
     /* Desktop-specific styles */
-
-
     .header-padding {
         padding-top: 84px;
     }
-
     .header-container {
         padding-top: 12px;
     }
@@ -439,17 +429,12 @@ input[name='q']::placeholder {
 /* Extra-large devices (1200px and above) */
 @media (min-width: 1200px) {
     /* Large desktop-specific styles */
-
-
-
     .header-padding {
         padding-top: 94px;
     }
-
     .header-container {
         padding-top: 79px;
     }
-
     .container {
         max-width: 1342px;
     }

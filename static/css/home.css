@@ -13,3 +13,7 @@ body {
     max-width: 450px;
     float: right;
 }
+
+.home-article {
+    padding-bottom: 4vh;
+}
