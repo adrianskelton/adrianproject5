@@ -43,7 +43,6 @@
 -   [Marketing](#marketing)
 -   [Search Engine Optimization SEO](#search-engine-optimization-seo)
 -   [Testing](#testing)
--   [Bugs](#Bugs)
 -   [Technologies And Languages](#technologies-and-languages)
     -   [Languages Used](#languages-used)
     -   [Python Modules](#python-modules)
@@ -497,30 +496,6 @@ Below is a video showing the page with a few articles posted, all of these posts
 
 ## Testing
 Testing documentation can be found [here.](TESTING.md)
-## Bugs
-|Bug|Status|
-| ---| ---|
-|[BUG: report #35](https://github.com/adrianskelton)|Closed|
-### bug non-nullable
-While making changes to the models in my post and comment app I kept getting errors. 
-You are trying to add a non-nullable field 'image' to post without a default; we can't do that (the database needs something to populate existing rows).
-Please select a fix:
- 1) Provide a one-off default now (will be set on all existing rows with a null value for this column)
- 2) Quit, and let me add a default in models.py
-Select an option: 
-### Fix: 
-The above still did not work so I had to rollback to a previous migration before the errors. I found this information on [Stackoverflow](https://stackoverflow.com/questions/32123477/how-to-revert-the-last-migration)
-
-### bug no white space
-I was posting all the blog posts from the admin and for some reason it was stripping 
-
-[White space article](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space)
-
-***Bug:***
-While trying to create custom 404 and 500 pages I kept just getting a simple error "A server error occurred. Please contact the administrator." instead of the custom pages I had made. 
-
-***Fix:*** 
-Reading up I saw I could not use extends from tags in custom 404 and 500 pages [Stackoverflow](https://stackoverflow.com/questions/75071972/i-have-problem-with-cutomizing-the-404-page-in-django)
 
 ## Technologies And Languages
 
@@ -543,7 +518,7 @@ Reading up I saw I could not use extends from tags in custom 404 and 500 pages [
 
 # Deployment
 
-The live deployed application can be found deployed on [Heroku](https://fetch-and-feast-4ceb13480b0c.herokuapp.com/).
+The live deployed application can be found deployed on [Heroku](https://nordic-art-22f58cb8c917.herokuapp.com).
 
 ### ElephantSQL Database
 
@@ -552,7 +527,7 @@ This project uses [ElephantSQL](https://www.elephantsql.com/) for the PostgreSQL
 To obtain your own Postgres Database, sign-up with your GitHub account, then follow these steps:
 
 - Click **Create New Instance** to start a new database.
-- Provide a name (this is commonly the name of the project: fetch-and-feast).
+- Provide a name 
 - Select the **Tiny Turtle (Free)** plan.
 - You can leave the **Tags** blank.
 - Select the **Region** and **Data Center** closest to you.
@@ -646,7 +621,7 @@ Once you've created an AWS account and logged-in, follow these series of steps t
 Back on the AWS Services Menu, search for and open **IAM** (Identity and Access Management). Once on the IAM page, follow these steps:
 
 - From **User Groups**, click **Create New Group**.
-    - Suggested Name: `group-fetch-and-feast` (group + the project name)
+    - Suggested Name: `group-nordic-art` (group + the project name)
 - Tags are optional, but you must click it to get to the **review policy** page.
 - From **User Groups**, select your newly created group, and go to the **Permissions** tab.
 - Open the **Add Permissions** dropdown, and click **Attach Policies**.
@@ -674,20 +649,20 @@ Back on the AWS Services Menu, search for and open **IAM** (Identity and Access 
         
     - Click **Review Policy**.
         
-    - Suggested Name: `policy-fetch-and-feast` (policy + the project name)
+    - Suggested Name: `policy-nordic-art` (policy + the project name)
         
     - Provide a description:
         
-        - "Access to S3 Bucket for fetch-and-feast static files."
+        - "Access to S3 Bucket for nordic-art static files."
     - Click **Create Policy**.
         
-- From **User Groups**, click your "group-fetch-and-feast".
+- From **User Groups**, click your "group-nordic-art".
 - Click **Attach Policy**.
-- Search for the policy you've just created ("policy-fetch-and-feast") and select it, then **Attach Policy**.
+- Search for the policy you've just created ("policy-nordic-art") and select it, then **Attach Policy**.
 - From **User Groups**, click **Add User**.
-    - Suggested Name: `user-fetch-and-feast` (user + the project name)
+    - Suggested Name: `user-nordic-art` (user + the project name)
 - For "Select AWS Access Type", select **Programmatic Access**.
-- Select the group to add your new user to: `group-feast-and-feast`
+- Select the group to add your new user to: `group-nordic-art`
 - Tags are optional, but you must click it to get to the **review user** page.
 - Click **Create User** once done.
 - You should see a button to **Download .csv**, so click it to save a copy on your system.
@@ -719,7 +694,7 @@ As a backup, in case users prematurely close the purchase-order page during paym
 
 - From your Stripe dashboard, click **Developers**, and select **Webhooks**.
 - From there, click **Add Endpoint**.
-    - `https://fetch-and-feast-4ceb13480b0c.herokuapp.com/checkout/wh/`
+    - `https://nordic-art-22f58cb8c917.herokuapp.com/checkout/wh/`
 - Click **receive all events**.
 - Click **Add Endpoint** to complete the process.
 - You'll have a new key here:
@@ -741,7 +716,7 @@ Once you've created a Gmail (Google) account and logged-in, follow these series 
 - This might prompt you once again to confirm your password and account.
 - Select **Mail** for the app type.
 - Select **Other (Custom name)** for the device type.
-    - Any custom name, such as "Django" or fetch-and-feast
+    - Any custom name, such as "Django" or nordic-art
 - You'll be provided with a 16-character password (API key).
     - Save this somewhere locally, as you cannot access this key again later!
     - `EMAIL_HOST_PASS` = user's 16-character API key
@@ -852,7 +827,7 @@ If you'd like to backup your database models, use the following command for each
 
 You can clone the repository by following these steps:
 
-1. Go to the [GitHub repository](https://github.com/leec313/Fetch-and-Feast)
+1. Go to the [GitHub repository](https://github.com/adrianskelton/adrianproject5)
 2. Locate the Code button above the list of files and click it
 3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
 4. Open Git Bash or Terminal
