@@ -110,72 +110,27 @@ The responsiveness of the website was thoroughly tested on various devices, incl
 | Products               | ![products](static/media/readme/testing/testing-lighthouse-products.png)                          | <mark>Good</mark> |
 | Product Mobile         | ![products mobile](static/media/readme/testing/testing-lighthouse-products-mobile.png)             | <mark>Pass</mark>      |
 | Product Detail         | ![product detail](static/media/readme/testing/testing-lighthouse-productsdetail.png)               | <mark>Good</mark>      |
-| Product Detail Mobile  | ![product detail mobile](./documentation/images/testing/lighthouse/productdetailmobile.png)  | <mark>Pass</mark>      |
-| Add Product            | ![add product](./documentation/images/testing/lighthouse/addproduct.png)                     | <mark>Excellent</mark> |
-| Add Product Mobile     | ![add product mobile](./documentation/images/testing/lighthouse/addproductmobile.png)        | <mark>Excellent</mark> |
-| Edit Product           | ![edit product](./documentation/images/testing/lighthouse/editproduct.png)                   | <mark>Excellent</mark> |
-| Edit Product Mobile    | ![edit product mobile](./documentation/images/testing/lighthouse/editproductmobile.png)      | <mark>Excellent</mark> |
-| Programs               | ![programs](./documentation/images/testing/lighthouse/programs.png)                          | <mark>Excellent</mark> |
-| Programs Mobile        | ![programs mobile](./documentation/images/testing/lighthouse/programsmobile.png)             | <mark>Pass</mark>      |
-| Programs Detail        | ![programs detail](./documentation/images/testing/lighthouse/programsdetail.png)             | <mark>Good</mark>      |
-| Programs Detail Mobile | ![programs detail mobile](./documentation/images/testing/lighthouse/programdetailmobile.png) | <mark>Pass</mark>      |
-| Cart                   | ![cart](./documentation/images/testing/lighthouse/cart.png)                                  | <mark>Good</mark>      |
-| Cart Mobile            | ![cart mobile](./documentation/images/testing/lighthouse/cartmobile.png)                     | <mark>Pass</mark>      |
-| Checkout               | ![checkout](./documentation/images/testing/lighthouse/checkout.png)                          | <mark>Pass</mark>      |
-| Checkout Mobile        | ![checkout mobile](./documentation/images/testing/lighthouse/checkoutmobile.png)             | <mark>Pass</mark>      |
-| Confirmation           | ![confirmation](./documentation/images/testing/lighthouse/confirmation.png)                  | <mark>Excellent</mark> |
-| Confirmation Mobile    | ![confirmation mobile](./documentation/images/testing/lighthouse/confirmationmobile.png)     | <mark>Pass</mark>      |
-| Subscription           | ![subscription](./documentation/images/testing/lighthouse/subscriptions.png)                 | <mark>Excellent</mark> |
-| Subscription Mobile    | ![subscription mobile](./documentation/images/testing/lighthouse/subscriptionsmobile.png)    | <mark>Pass</mark>      |
-| My courses             | ![my courses](./documentation/images/testing/lighthouse/mycourses.png)                       | <mark>Excellent</mark> |
-| My courses Mobile      | ![my courses mobile](./documentation/images/testing/lighthouse/mycoursesmobile.png)          | <mark>Excellent</mark> |
-| My courses Mobile      | ![my courses mobile](./documentation/images/testing/lighthouse/mycoursesmobile.png)          | <mark>Excellent</mark> |
+| Product Detail Mobile  | ![product detail mobile](static/media/readme/testing/lighthouse-productdetail-mobile.png)  | <mark>Pass</mark>      |
+| Artists Mobile    | ![artist mobile](static/media/readme/testing/lighthouse-artists-mobile.png)     | <mark>Pass</mark>      |
+| Artists     | ![artist Desktop](static/media/readme/testing/lighthouse-artists-desktop.png)     | <mark>Pass</mark>      |
+| Artists Mobile    | ![subscription mobile](static/media/readme/testing/lighthouse-blog-mobile.png)    | <mark>Pass</mark>      |
+| Blog            | ![Blog](static/media/readme/testing/lighthouse-blog-desktop.png)                       | <mark>Excellent</mark> |
+| Blog Mobile      | ![Blog mobile](static/media/readme/testing/lighthouse-blog-mobile.png)          | <mark>Good</mark> |
+| Contact us      | ![Contact ](static/media/readme/testing/lighthouse-contact-desktop.png)          | <mark>Excellent</mark> |
+| Contact us Mobile     | ![Contact Mobile ](static/media/readme/testing/lighthouse-contact-mobile.png)          | <mark>Excellent</mark> |
 
 Signficant optimisation practices were used to try and increase the Largest Contentful Paint (LCP)
 
-1. Optimisation of images in webp format
-2. Post load all JS to stop blocking script downloads in head
-3. Image lazy load below the fold
+1. Lazy load of images where possible
+2. Defer load non essential JS scripts
+3. Use of online image convertor to webp images
 
-Main issues that could not be resolved which drastically reduced the LCP and performance score was server delays from Heroku which impacted the first byte load.
-After must research I could not find a solution to this issue. I will continue to try optimise and research best practices but for now I need further guidance.
-
-### Heroku Server Delay Issue
-
-![Server Delay](./documentation/images/testing/lighthouse/serverdelay.png)
+I could further reduce the size of images possibly and also minify the scripts but due to time constraints this will need to be done later.
 
 ## CRUD
 
-The main crud functionality of this website pertains to user accounts and product purchases
+The main custom crud functionality of this website pertains to the comments by the users who are allowed to submit, edit and delete comments. However users can also view products and orders as well as create a user profile for themselves and edit order information such as delivery address.
 
-### Create
-
-1. Users can create accounts
-2. Users can create cart items
-3. Users can create orders
-4. Admins and Moderators can create products
-
-### Read
-
-1. All products are read from DB
-2. All programs are read from DB
-3. All subscriptions are read from DB
-4. All user orders are read from DB
-5. All user information is read from DB
-
-### Update
-
-1. Users can update cart items
-2. Users can update user account information
-3. Users can update user profile information
-4. Users can update subscription status
-5. Admins and Moderators can update products
-
-### Delete
-
-1. Users can remove items from cart
-2. User can delete thier accounts
-3. Admins and Moderators can delete products
 
 ## Manual Testing
 
@@ -184,23 +139,18 @@ The main crud functionality of this website pertains to user accounts and produc
 | Element                  | Action      | Expected Result                                         | Pass/Fail         |
 | ------------------------ | ----------- | ------------------------------------------------------- | ----------------- |
 | Logo                     | Click       | Redirect to Home page                                   | <mark>Pass</mark> |
-| Swag Button              | Click       | Render a dropdown menu of all product categories        | <mark>Pass</mark> |
-| Swag Dropdown Link       | Click       | Redirect to selected product category page              | <mark>Pass</mark> |
-| Courses Button           | Click       | Render a dropdown menu of all program categories        | <mark>Pass</mark> |
-| Courses Dropdown Link    | Click       | Redirect to selected program category page              | <mark>Pass</mark> |
-| Subscription Link        | Click       | Redirect to subscription page                           | <mark>Pass</mark> |
-| Profile Button           | Click       | Render a dropdown menu of all profile sections          | <mark>Pass</mark> |
+| My Account Button        | Click       | Render a dropdown menu of all account options           | <mark>Pass</mark> |
+| Prints Link              | Click       | Dropdown expands showing photography and digital subcategories              | <mark>Pass</mark> |
+| Photography Link         | Click       | Redirect to selected photography prints category page   | <mark>Pass</mark> |
+| Digital Link             | Click       | Redirect to selected digital prints category page       | <mark>Pass</mark> |
+| Artists Link             | Click       | Redirect to selected artists page                       | <mark>Pass</mark> |
 | Profile Dropdown         | Click       | Redirect to selected page                               | <mark>Pass</mark> |
 | Profile Dropdown Link    | Click       | Redirect to selected page                               | <mark>Pass</mark> |
 | Profile Dropdown Auth    | Display     | Render logout, profile, courses, add product links      | <mark>Pass</mark> |
 | Profile Dropdown NonAuth | Click       | Render login and register links                         | <mark>Pass</mark> |
 | Cart Icon Link           | Click       | Redirect to cart page                                   | <mark>Pass</mark> |
 | Hamburger Menu           | Click       | Render a dropdown menu of all links                     | <mark>Pass</mark> |
-| Footer Socials           | Click       | Redirect in a new tab to all respective media platforms | <mark>Pass</mark> |
-| Privacy and Policy Link  | Click       | Redirect to privacy policy page                         | <mark>Pass</mark> |
-| About Page               | Click       | Redirect to about page                                  | <mark>Pass</mark> |
-| Footer Email             | Click       | Open up an email provider with developer email attached | <mark>Pass</mark> |
-| Newsletter Input Valid   | Submit      | User email logged in mailchimp                          | <mark>Pass</mark> |
+| Contact Page             | Click       | Redirect to contact page                                | <mark>Pass</mark> |
 | Newsletter Input Valid   | Submit      | User notified of success                                | <mark>Pass</mark> |
 | Newsletter Input Invalid | Submit      | Error context displayed to UI                           | <mark>Pass</mark> |
 | Register Link            | Display     | Render for non authenticated users                      | <mark>Pass</mark> |
@@ -208,17 +158,14 @@ The main crud functionality of this website pertains to user accounts and produc
 | Log out Link             | Display     | Render only if user is authenticated                    | <mark>Pass</mark> |
 | Profile Link             | Display     | Render only if user is authenticated                    | <mark>Pass</mark> |
 | Nav Link                 | Hover/Focus | Darken colour of text                                   | <mark>Pass</mark> |
-| Footer Socials           | Hover/Focus | Provide background colour feedback change               | <mark>Pass</mark> |
+| Footer Socials           | Click       | Opens the related github or facebook page in new tab    | <mark>Pass</mark> |
 
 ### Home Page
 
 | Element            | Action | Expected Result                           | Pass/Fail         |
 | ------------------ | ------ | ----------------------------------------- | ----------------- |
 | Shop Now Button    | Click  | Redirect to selected product page         | <mark>Pass</mark> |
-| Buy Courses Button | Click  | Redirect to selected programs page        | <mark>Pass</mark> |
-| Carousel Arrow     | Click  | Navigate to next slide based on direction | <mark>Pass</mark> |
-| Carousel Button    | Click  | Navigate to next slide based on number    | <mark>Pass</mark> |
-| Membership Link    | Click  | Redirect to Subscription page             | <mark>Pass</mark> |
+
 
 ### Product Page
 
@@ -422,16 +369,6 @@ The main crud functionality of this website pertains to user accounts and produc
 | Update Delivery Button | Hover/Focus | Background darkens                                               | <mark>Pass</mark> |
 | Past Order             | Hover/Focus | Text darkens                                                     | <mark>Pass</mark> |
 
-### My Courses Page
-
-| Element                | Action      | Expected Result                                    | Pass/Fail         |
-| ---------------------- | ----------- | -------------------------------------------------- | ----------------- |
-| Program Cards          | Display     | All enrolled program Cards Rendered in grid layout | <mark>Pass</mark> |
-| Explore Courses Button | Click       | Redirect to programs page                          | <mark>Pass</mark> |
-| Explore Courses Button | Display     | No Courses associated with user                    | <mark>Pass</mark> |
-| Program Card           | Click       | Redirect to program detail page                    | <mark>Pass</mark> |
-| Product Card           | Hover/Focus | Border outline turns blue, cursor is a pointer     | <mark>Pass</mark> |
-| Explore Courses Button | Click       | Background darkens                                 | <mark>Pass</mark> |
 
 ### Sign Up Page
 
