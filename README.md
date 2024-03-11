@@ -28,17 +28,10 @@
     -   [Footer](#Footer)
     -   [Home](#Home)
         -   [Hero Section](#hero-section)
-        -   [Search Form](#search-form)
-        -   [Product Card](#product-card)
-    -   [Profile Page](#profile-page)
+    -   [Products Page](#products-page)
     -   [Sign In Page](#sign-in-page)
     -   [Sign Up Page](#sign-up-page)
     -   [Sign Out Confirmation](#sign-out-confirmation)
-    -   [Password reset](#password-reset)
-    -   [Password reset email sent](#password-reset-email-sent)
-    -   [Enter a new password](#enter-a-new-password)
-    -   [Password Reset Completed](#password-reset-completed)
-    -   [Error Pages](#error-pages)
 -   [Future Features](#future-features)
 -   [Marketing](#marketing)
 -   [Search Engine Optimization SEO](#search-engine-optimization-seo)
@@ -339,8 +332,6 @@ The products page shows all the products with the artist name and category below
 
 ![products](static/media/readme/products.png)
 
-
-
 ### Products Page
 I made a way to update the prices of the products in a batch manner instead of doing the tedious changes one by one. I did this by using djangos basecommand feature. ![Django basecommand](https://docs.djangoproject.com/en/5.0/howto/custom-management-commands/)
 I then made simple script to do this. 
@@ -383,22 +374,6 @@ This page shows a breakdown of what the user has put in their shopping back and 
 Admin dashboard:
 
 ![admin dashboard](static/media/readme/admin-dashboard.png)
-
-### Checkout
-
-![checkout](static/media/readme/checkout.png)
-
-### Order confirmation page
-
-
-![order confirmation](./assets/readme-images/features/order-confirmation.PNG)
-
-### Confirmation email
-
-
-![email confirmation](./assets/readme-images/features/confirmation-email.PNG)
-
-### User Authentication
 
 
 ## Future Features
@@ -854,12 +829,16 @@ By forking the GitHub Repository, we make a copy of the original repository on o
 
 
 ## Credits
+
+I took inspiration from other students and tips from looking at their readme layout. 
+
 ### Media
 - [Research for color combinations](https://www.color-hex.com/color-palette/11590)
 - [Digital artwork from freepik.com](https://www.freepik.com/free-photos-vectors/digital-art)
 - [Favicon generator](https://favicon.io/favicon-converter/)
 - [Color pallette idea](https://www.color-hex.com/color-palette/11590)\
 - [Tutorial on custom 404](https://www.youtube.com/watch?v=oX_XKlPJAQk&ab_channel=ThinkThank)
+- [All photographs have been sourced from pexels](https://www.pexels.com)
 
 
 

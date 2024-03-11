@@ -3,7 +3,6 @@ Go back to [README.md](/README.md)
 # Testing
 
 - [Code Validation](#code-validation)
-  - [HTML](#html)
   - [CSS](#css)
   - [JavaScript](#JavaScript)
   - [Python](#python)
@@ -18,17 +17,6 @@ Go back to [README.md](/README.md)
 - [Bugs](#bugs)
 
 ## Code Validation
-
-### HTML
-
-| Page               | Validator                                                                            | Result            | Comment                                         |
-| ------------------ | ------------------------------------------------------------------------------------ | ----------------- | ----------------------------------------------- |
-| Home               | ![home](static/media/readme/testing/html-home.png)                        | <mark>PASS<mark>  |                                                 |
-| Products           | ![products](./documentation/images/testing/html/productshtml.png)                    | <mark>PASS<mark>  |                                                 |
-| Product Detail     | ![product detail](./documentation/images/testing/html/productdetailhtml.png)         | <mark>PASS<mark>  |                                                 |
-| Add Product        | ![add product](./documentation/images/testing/html/addproducthtml.png)               | <mark>PASS<mark>  |                                                 |
-| Edit Product       | ![add product](./documentation/images/testing/html/editproducthtml.png)              |                                             |
-
 
 ### CSS
 
@@ -65,7 +53,9 @@ Go back to [README.md](/README.md)
 
 ## Responsiveness
 
-The responsiveness of the website was thoroughly tested on various devices, including a Huawei matebook 15-inch, and a 24-inch monitor. Across all devices, the elements displayed cleanly and were well-organized, ensuring a consistent and user-friendly experience. I also tested it on my google pixel 7a and on google chrome's responsiveness checker with inspector tools.
+The responsiveness of the website was thoroughly tested on various devices, including a Huawei matebook 15-inch, and a 24-inch monitor. 
+
+Across all devices, the elements displayed cleanly and were well-organized, ensuring a consistent and user-friendly experience. I also tested it on my google pixel 7a and on google chrome's responsiveness checker with inspector tools.
 
 ## Browser Compatibility
 
@@ -166,85 +156,6 @@ The main custom crud functionality of this website pertains to the comments by t
 | Back Link           | Click       | Redirects back to the products page                              | <mark>Pass</mark> |
 | Add to Cart Button  | Hover/Focus | Background darkens, text lightens                                | <mark>Pass</mark> |
 
-### Add Product Page
-
-| Element            | Action      | Expected Result                                | Pass/Fail         |
-| ------------------ | ----------- | ---------------------------------------------- | ----------------- |
-| Authentication     | Display     | Only Moderators and Admins can access the page | <mark>Pass</mark> |
-| Form               | Display     | A form is rendered with all fields editable    | <mark>Pass</mark> |
-| Form               | Display     | Required fields are clearly marked             | <mark>Pass</mark> |
-| Form Valid         | Submit      | A a product is saved to the database           | <mark>Pass</mark> |
-| Form Valid         | Submit      | User is redirected to the products page        | <mark>Pass</mark> |
-| Form Valid         | Submit      | A notification displays the success message    | <mark>Pass</mark> |
-| Form Invalid       | Submit      | Error context is rendered to the UI            | <mark>Pass</mark> |
-| Form Invalid       | Submit      | A notification display an error occured        | <mark>Pass</mark> |
-| Form Invalid       | Submit      | User is redirected to the add product page     | <mark>Pass</mark> |
-| Products Link      | Click       | Navigate to products page                      | <mark>Pass</mark> |
-| Products Link      | Hover/Focus | Darkens text                                   | <mark>Pass</mark> |
-| Form Image Button  | Hover/Focus | Darkens background                             | <mark>Pass</mark> |
-| Form Submit Button | Hover/Focus | Darkens background                             | <mark>Pass</mark> |
-
-### Edit Product Page
-
-| Element             | Action      | Expected Result                                           | Pass/Fail         |
-| ------------------- | ----------- | --------------------------------------------------------- | ----------------- |
-| Tests Add Products  | All         | All validation and display context from add products pass | <mark>Pass</mark> |
-| Form                | Display     | Product data is pre rendered to the page                  | <mark>Pass</mark> |
-| Form                | Display     | Product data is pre rendered to the page                  | <mark>Pass</mark> |
-| Current Image       | Display     | Link to current image displayed                           | <mark>Pass</mark> |
-| Current Image Clear | Checked     | Image is removed from the product                         | <mark>Pass</mark> |
-| Current Image Clear | Checked     | Image is removed from the product                         | <mark>Pass</mark> |
-| Form Update Button  | Click       | Form is submitted                                         | <mark>Pass</mark> |
-| Form Delete Button  | Click       | Confirmation modal appears                                | <mark>Pass</mark> |
-| Modal Delete Button | Click       | Product is removed from the database                      | <mark>Pass</mark> |
-| Modal Delete Button | Click       | User is redirected to the products page                   | <mark>Pass</mark> |
-| Modal Delete Button | Click       | A notification message is displayed to user               | <mark>Pass</mark> |
-| Modal Cancel Button | Click       | Modal is hidden                                           | <mark>Pass</mark> |
-| Products Link       | Click       | Navigate to products page                                 | <mark>Pass</mark> |
-| Products Link       | Hover/Focus | Darkens text                                              | <mark>Pass</mark> |
-| Form Update Button  | Hover/Focus | Darkens background                                        | <mark>Pass</mark> |
-| Form Delete Button  | Hover/Focus | Darkens background                                        | <mark>Pass</mark> |
-
-### Program Page
-
-| Element                 | Action      | Expected Result                                                 | Pass/Fail         |
-| ----------------------- | ----------- | --------------------------------------------------------------- | ----------------- |
-| Category Widgets        | Click       | Redirect to selected program category page                      | <mark>Pass</mark> |
-| Filter By Price Button  | Click       | Filter queried programs based on price                          | <mark>Pass</mark> |
-| Filter By Rating Button | Click       | Filter queried programs based on rating                         | <mark>Pass</mark> |
-| Filter By Sale Button   | Click       | Filter queried programs based on sale                           | <mark>Pass</mark> |
-| Filter Direction        | Display     | Filter direction displayed via an arrow                         | <mark>Pass</mark> |
-| Current Category        | Display     | Current displayed category is shown in the header               | <mark>Pass</mark> |
-| Search Bar              | Search      | Filter programs based on query to category, name or description | <mark>Pass</mark> |
-| Program Cards           | Display     | All filtered program Cards Rendered in grid layout              | <mark>Pass</mark> |
-| Program Card            | Click       | Redirect to program detail page                                 | <mark>Pass</mark> |
-| Product Card            | Hover/Focus | Border outline turns blue, cursor is a pointer                  | <mark>Pass</mark> |
-| Filter Button           | Hover/Focus | Background darkens                                              | <mark>Pass</mark> |
-| Search Icon             | Hover/Focus | Background darkens                                              | <mark>Pass</mark> |
-| Category Widgets        | Hover/Focus | Background turns orange, text turns white                       | <mark>Pass</mark> |
-
-### Program Detail Page
-
-| Element                  | Action      | Expected Result                                                | Pass/Fail         |
-| ------------------------ | ----------- | -------------------------------------------------------------- | ----------------- |
-| Enroll Button            | Click       | Adds course to cart                                            | <mark>Pass</mark> |
-| Remove from Cart Button  | Click       | Removes course from cart                                       | <mark>Pass</mark> |
-| Login to Enroll          | Click       | Redirects to login page                                        | <mark>Pass</mark> |
-| Enrolled Button          | Click       | Button is disabled if already enrolled                         | <mark>Pass</mark> |
-| Add / Remove Cart Button | Click       | Notification appears upon outcome of adding/removing from cart | <mark>Pass</mark> |
-| Module Accordion         | Click       | Display hidden text and rotate arrow                           | <mark>Pass</mark> |
-| Back Link                | Click       | Redirects back to the programs page                            | <mark>Pass</mark> |
-| Paginator                | Click       | All navigations buttons redirect to correct paginated results  | <mark>Pass</mark> |
-| View Product Button      | Click       | Redirect to related program detail page                        | <mark>Pass</mark> |
-| Related Products         | Display     | Display program cards of 4 related items with pagination       | <mark>Pass</mark> |
-| Video                    | Display     | Display Video if course is purchased in orders                 | <mark>Pass</mark> |
-| Enrolled Button          | Display     | Display Enrolled grey button if course is purchased            | <mark>Pass</mark> |
-| Back Link                | Hover/Focus | Text darkens                                                   | <mark>Pass</mark> |
-| Add to Cart Button       | Hover/Focus | Background darkens, text lightens                              | <mark>Pass</mark> |
-| Remove from Cart Button  | Hover/Focus | Background darkens, text lightens                              | <mark>Pass</mark> |
-| Login to Enroll          | Hover/Focus | Background darkens, text lightens                              | <mark>Pass</mark> |
-| Paginator Button         | Hover/Focus | Background darkens                                             | <mark>Pass</mark> |
-
 ### Cart Page
 
 | Element                     | Action      | Expected Result                                                | Pass/Fail         |
@@ -278,8 +189,7 @@ The main custom crud functionality of this website pertains to the comments by t
 | Loading Spinner            | Display     | A loading spinner is displayed when await payment results  | <mark>Pass</mark> |
 | Cart Items                 | Display     | All Cart items are displayed with a price breakdown        | <mark>Pass</mark> |
 | Total Cost                 | Display     | The total cost is accounted for for a price breakdown      | <mark>Pass</mark> |
-| Pay Now Button             | Hover/Focus | Background darkens                                         | <mark>Pass</mark> |
-| Checkout Form Save Details | Checked     | Background darkens                                         | <mark>Pass</mark> |
+
 
 ### Checkout Success/ Past Order Page
 
@@ -288,8 +198,6 @@ The main custom crud functionality of this website pertains to the comments by t
 | Checkout Form | Display | Checkout form rendered all Order information, price, user, delivery | <mark>Pass</mark> |
 | Checkout Form | Display | Total cost breakdown is displayed for the user                      | <mark>Pass</mark> |
 | Notification  | Display | A Notification appears highlighting the successful order number     | <mark>Pass</mark> |
-
-
 
 ## User Story Testing
 ## Manual Testing
@@ -311,22 +219,21 @@ I performed manual testing based on my user stories. For it to be deemed success
 | **remove products from my cart** to **manage items before finalizing my purchase** (as a **customer**).                      | Passed ✅|   
 | **see an order summary in the cart** to **review my order before completing the purchase** (as a **customer**).              | Passed ✅|   
 | **complete the checkout process and pay** to **finalise my order** (as a **customer**).                                      | Passed ✅|   
-| **create comments for posts** to **share my opinion with others** (as a **registered customer**).                       | Passed ✅|  
-| **update my comments** to **modify my feedback if my opinion changes** (as a **registered customer**).                        | Passed ✅|  
-| **delete my comments** to **remove my feedback if I no longer wish it to be displayed** (as a **registered customer**).       | Passed ✅|   
+| **create comments for posts** to **share my opinion with others** (as a **registered customer**).                            | Passed ✅|  
+| **update my comments** to **modify my feedback if my opinion changes** (as a **registered customer**).                       | Passed ✅|  
+| **delete my comments** to **remove my feedback if I no longer wish it to be displayed** (as a **registered customer**).      | Passed ✅|   
 | **create blog posts** to **provide valuable content to customers and visitors** (as a **staff member**).                     | Passed ✅|  
 | **update blog posts** to **keep the content current and relevant** (as a **staff member**).                                  | Passed ✅|   
 | **delete blog posts** to **remove outdated or irrelevant content** (as a **staff member**).                                  | Passed ✅|   
 | **create comments on blog posts** to **engage in discussions and share my thoughts** (as a **registered customer**).         | Passed ✅|   
 | **update my comments** to **change my input or correct mistakes** (as a **registered customer**).                            | Passed ✅|  
-| **delete my comments** to **remove my input if I change my mind (as a registered customer).**                                  | Passed ✅|        
+| **delete my comments** to **remove my input if I change my mind (as a registered customer).**                                | Passed ✅|        
 
 
 ## Bugs
 
-|Bug|Status|
-| ---| ---|
-|[BUG: report #35](https://github.com/adrianskelton)|Closed|
+
+
 ### bug non-nullable
 While making changes to the models in my post and comment app I kept getting errors. 
 You are trying to add a non-nullable field 'image' to post without a default; we can't do that (the database needs something to populate existing rows).
