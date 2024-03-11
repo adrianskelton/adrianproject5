@@ -23,7 +23,7 @@ Go back to [README.md](/README.md)
 
 | Page               | Validator                                                                            | Result            | Comment                                         |
 | ------------------ | ------------------------------------------------------------------------------------ | ----------------- | ----------------------------------------------- |
-| Home               | ![home](./documentation/images/testing/html/homepagehtml.png)                        | <mark>PASS<mark>  |                                                 |
+| Home               | ![home](static/media/readme/testing/html-home.png)                        | <mark>PASS<mark>  |                                                 |
 | Products           | ![products](./documentation/images/testing/html/productshtml.png)                    | <mark>PASS<mark>  |                                                 |
 | Product Detail     | ![product detail](./documentation/images/testing/html/productdetailhtml.png)         | <mark>PASS<mark>  |                                                 |
 | Add Product        | ![add product](./documentation/images/testing/html/addproducthtml.png)               | <mark>PASS<mark>  |                                                 |
