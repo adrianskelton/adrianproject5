@@ -61,9 +61,50 @@
 
 ## User Experience
 
-### User Stories
-1. As a user
+## User Stories and Epics
 
+### Account Features
+
+- As a user, I can create an account to access personalised features and save my preferences.
+- As a user, I can log into my account to access my personal settings and history, or prefill my details at checkout.
+- As a user, I can log out of my account to ensure my account is secure when I'm not using it.
+- As a user, I can update my account/profile to keep my personal information up to date for checking out.
+- As a user, I can access and view my user profile to see my personal information, order history, and manage my account settings.
+
+### User Features (Registered Customer)
+
+- As a registered customer, I can view a summary of my orders to keep track of my purchases.
+
+### Product Features (Staff)
+
+- As a staff member, I can create new products to offer more choices to customers as well as adding categories.
+- As a staff member, I can update product details to ensure all information about the products is current and accurate.
+- As a staff member, I can delete products to remove items that are no longer available or relevant.
+
+### Cart/Checkout Features
+
+- As a customer, I can add products to my cart so that I can purchase them.
+- As a customer, I can remove products from my cart so that I can manage items before finalizing my purchase.
+- As a customer, I can see an order summary in the cart so that I can review my order before completing the purchase.
+- As a customer, I can complete the checkout process and pay so that I can finalize my order.
+
+### Review Features (Registered Customer)
+
+- As a registered customer, I can create reviews for products so that I can share my experience with others.
+- As a registered customer, I can update my reviews so that I can modify my feedback if my opinion changes.
+- As a registered customer, I can delete my reviews so that I can remove my feedback if I no longer wish it to be displayed.
+
+### Blog Post Features (Staff)
+
+- As a staff member, I can create blog posts so that I can provide valuable content to customers and visitors.
+- As a staff member, I can update blog posts so that I can keep the content current and relevant.
+- As a staff member, I can delete blog posts so that I can remove outdated or irrelevant content.
+
+### Comment Features (Registered Customer)
+
+- As a registered customer, I can create comments on blog posts so that I can engage in discussions and share my thoughts.
+- As a registered customer, I can update my comments so that I can change my input or correct mistakes.
+- As a registered customer, I can delete my comments so that I can remove my input if I change my mind.
 
 ### Site Goals
 1. To provide users with a place to purchase art prints from different artists in Sweden.
@@ -75,9 +116,7 @@
 
 ### Scope
 
-
 Key Features:
-
 
 The project aims to develop an E-Commerce website featuring three distinct models, facilitating users to undergo a test payment using the Stripe payment processor. Additionally, the website will host a blog, enabling staff members to generate content offering articles on artists and possibly products with affiliate links to them. A newsletter signup form will be incorporated to gather emails for marketing initiatives.
 
@@ -103,10 +142,9 @@ User Interaction:
 - Comment creation, update, and deletion.
 - Moreover, the website will include a newsletter signup form to gather emails for marketing purposes. - Additionally, a Facebook business page will be set up to share content with customers, fostering engagement through comments and messages.
 
+Benefits: 
 
-
-Benefits:
-
+This innovative website promises a myriad of benefits for users and enthusiasts. With a seamless user authentication system, customers can create and manage their accounts. The website functionality ensures a smooth navigation experience, allowing users to explore three unique models, perform test payments with Stripe, and efficiently manage their orders. The platform encourages user interaction through the creation, modification, and removal of reviews, blog posts, and comments. The incorporation of a newsletter signup form not only keeps users informed but also supports targeted marketing initiatives. Furthermore, the integration of a Facebook business page amplifies engagement, providing a dynamic space for customers to interact and explore a wealth of content related to artists and affiliated products. Overall, this website blends convenience, interaction, and information, creating a holistic and rewarding online experience.
 
 
 ## Design
@@ -126,8 +164,6 @@ The colour scheme is of the website is quite toned down as not to take away from
 ### Fonts
 I chose 2 fonts that look clean and minimalistic from google fonts.
 
-
-
 ![Chivo](static/media/readme/font-krub.webp)
 
 **Chivo** - Used for body and some of the titles.
@@ -142,9 +178,9 @@ I chose 2 fonts that look clean and minimalistic from google fonts.
 
 Included below are the wireframes I made for the most detailed pages, the account functionality and shopping pages I skipped over as they didnt require much layout planning visually and were mostly text and no images to be layed out so it would have been largely uneccessary.
 
-**Home**
 
-The landing page will have a short writeup of Nordic art collective, thereby removing the need for an about us page which I thought of origonally. A shop now button is then underneath the text taking the users to the shop displaying all the products.
+
+
 
 
 
@@ -156,7 +192,8 @@ The landing page will have a short writeup of Nordic art collective, thereby rem
 
 </details>
 
-**Product list**
+- The landing page will have a short writeup of Nordic art collective, thereby removing the need for an about us page which I thought of origonally. A shop now button is then underneath the text taking the users to the shop displaying all the products.
+
 <details>
 <summary>Product list wireframe</summary> 
 ![product](static/media/readme/wireframe-artist-list.webp)
@@ -169,7 +206,7 @@ The landing page will have a short writeup of Nordic art collective, thereby rem
 ![product](static/media/readme/wireframe-product-detail.webp)
 </details>
 
-- The product detail page is where users can buy products, they can select the size of prints that they desire and then they can 
+- The product detail page is where users can buy products, they can select the size of prints that they desire and then they can add them to their cart.
 
 <details>
 <summary>Artists wireframe</summary> 
@@ -199,6 +236,7 @@ The landing page will have a short writeup of Nordic art collective, thereby rem
 ![single blog](static/media/readme/wireframe-blog-single.png)
 </details>
 
+- The single blog post page displays an individual posts full details and also has a comment section for logged in users to comment on the blogs. They will have access to edit and delete their comments here. 
 
 ### Agile Methodology
 #### Overview
@@ -336,89 +374,14 @@ This page shows a breakdown of what the user has put in their shopping back and 
 
 ![wishlist](static/media/readme/shopping-bag.png)
 
-### Admin
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-#### Dashboard
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
 
 Admin dashboard:
 
-![admin dashboard](./assets/readme-images/features/admin-dashboard.PNG)
-
-Refine Products:
-![refine products admin](./assets/readme-images/features/refine-products.PNG)
-
-#### Add Products
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-
-![add products](./assets/readme-images/features/add-product.PNG)
-
-#### Add author
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-![add author](./assets/readme-images/features/add-author.PNG)
-
-#### Edit Product
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-
-![edit product](./assets/readme-images/features/edit-product.PNG)
-
-#### Delete Product
-![delete product](./assets/readme-images/features/delete-product-confirmation.PNG)
-
-#### Orders Admin
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-
-Admin Orders;
-
-![admin orders](./assets/readme-images/features/admin-orders.PNG)
-
-Orders Refine:
-
-![admin orders refine](./assets/readme-images/features/admin-orders-refine.PNG)
-
-#### Edit Order Status
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-
-![edit order status](./assets/readme-images/features/admin-order-edit-status.PNG)
-
-#### Admin Discount Codes
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-
-Admin Discounts
-
-![admin codes](./assets/readme-images/features/admin-codes.PNG)
-
-Admin Refine Codes
-
-![admin refine codes](./assets/readme-images/features/admin-code-refine.PNG)
-
-Admin Add Code
-
-![admin add code](./assets/readme-images/features/admin-code-add.PNG)
-
-Admin Edit Code
-
-![admin edit codes](./assets/readme-images/features/admin-code-edit.PNG)
-
-Admin Delete Code
-
-![admin delete codes](./assets/readme-images/features/admin-code-delete.PNG)
-
-### Shopping Cart
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-
-![shopping cart](./assets/readme-images/features/cart.PNG)
-![shopping cart empty](./assets/readme-images/features/cart-empty.PNG)
-
-##### Stock Quantity
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-
-![shopping cart no stock](./assets/readme-images/features/cart-no-stock.PNG)
-
+![admin dashboard](static/media/readme/admin-dashboard.png)
 
 ### Checkout
 
-![checkout](./assets/readme-images/features/checkout.PNG)
+![checkout](static/media/readme/checkout.png)
 
 ### Order confirmation page
 

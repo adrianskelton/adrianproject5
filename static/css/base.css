@@ -61,6 +61,12 @@ footer {
     background-color: #f8f9fa;
 }
 
+.container-contact {
+    padding-top: 6px;
+    margin-bottom: 49px;
+}
+
+
 .footer-content {
     display: flex;
     justify-content: space-evenly;
