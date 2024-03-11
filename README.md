@@ -465,10 +465,6 @@ The alt image descriptions were also thought of with the artists name and name o
 
 I made a facebook business page for my site as I felt that was the best way to engage with a large audience and build up a clientbase organically. As most artists are on facebook and have their own social media pages, the business facebook page could then link up to all of theirs and generate interest by the artists also promoting Nordic Art Collective and visa versa. Regular posts to the page such as new art, interviews with artists and other art related articles could be posted both on the site at a later stage in development and then shared on social media via the business page. 
 
-Below is a video showing the page with a few articles posted, all of these posts could be boosted to gain a greater audience depending on the companies marketing budget.
-
-<video src="static/media/readme/facebook-page.mp4">
-
 ![facebook](static/media/facebook-screenshot.webp)
 
 ## Testing
@@ -490,7 +486,6 @@ Testing documentation can be found [here.](TESTING.md)
 ### Technologies and programs
  - [Favicon Generator](https://favicon.io/favicon-converter/) was used to generate Favicon
  - [Image to Webp](https://tiny-img.com/webp/)
- - []
 
 
 # Deployment
@@ -844,7 +839,6 @@ I took inspiration from other students and tips from looking at their readme lay
 ### Code
 
 [CSS idea for custom horizontal rule](https://jsfiddle.net/yLKNh/186/)
-
 
 ### Acknowledgements
 
