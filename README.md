@@ -144,7 +144,9 @@ User Interaction:
 
 Benefits: 
 
-This innovative website promises a myriad of benefits for users and enthusiasts. With a seamless user authentication system, customers can create and manage their accounts. The website functionality ensures a smooth navigation experience, allowing users to explore three unique models, perform test payments with Stripe, and efficiently manage their orders. The platform encourages user interaction through the creation, modification, and removal of reviews, blog posts, and comments. The incorporation of a newsletter signup form not only keeps users informed but also supports targeted marketing initiatives. Furthermore, the integration of a Facebook business page amplifies engagement, providing a dynamic space for customers to interact and explore a wealth of content related to artists and affiliated products. Overall, this website blends convenience, interaction, and information, creating a holistic and rewarding online experience.
+This innovative website promises a myriad of benefits for users and enthusiasts. With a seamless user authentication system, customers can create and manage their accounts. The website functionality ensures a smooth navigation experience, allowing users to explore three unique models, perform test payments with Stripe, and efficiently manage their orders. The platform encourages user interaction through the creation, modification, and removal comments and via the facebook page.
+
+The incorporation of a newsletter signup form not only keeps users informed but also supports targeted marketing initiatives. Furthermore, the integration of a Facebook business page amplifies engagement, providing a dynamic space for customers to interact and explore a wealth of content related to artists and affiliated products. Overall, this website blends convenience, interaction, and information, creating a holistic and rewarding online experience.
 
 
 ## Design
@@ -196,6 +198,7 @@ Included below are the wireframes I made for the most detailed pages, the accoun
 
 <details>
 <summary>Product list wireframe</summary> 
+
 ![product](static/media/readme/wireframe-artist-list.webp)
 </details>
 
@@ -209,7 +212,8 @@ Included below are the wireframes I made for the most detailed pages, the accoun
 - The product detail page is where users can buy products, they can select the size of prints that they desire and then they can add them to their cart.
 
 <details>
-<summary>Artists wireframe</summary> 
+<summary>Artists wireframe</summary>
+
 ![Artists](static/media/readme/wireframe-artist-list.webp)
 </details>
 
@@ -217,7 +221,8 @@ Included below are the wireframes I made for the most detailed pages, the accoun
 
 <details>
 <summary>Contact us wireframe</summary> 
-![contact](static/media/readme/wireframe-contact-us.png)
+
+![Contact](static/media/readme/wireframe-contact-us.png)
 </details>
 
 - The contact us page has a basic form that allows users and guests to send the company a message, it includes an entry for their name, email and message.
@@ -853,6 +858,9 @@ By forking the GitHub Repository, we make a copy of the original repository on o
 - [Research for color combinations](https://www.color-hex.com/color-palette/11590)
 - [Digital artwork from freepik.com](https://www.freepik.com/free-photos-vectors/digital-art)
 - [Favicon generator](https://favicon.io/favicon-converter/)
+- [Color pallette idea](https://www.color-hex.com/color-palette/11590)\
+- [Tutorial on custom 404](https://www.youtube.com/watch?v=oX_XKlPJAQk&ab_channel=ThinkThank)
+
 
 
 ### Code
@@ -860,12 +868,13 @@ By forking the GitHub Repository, we make a copy of the original repository on o
 [CSS idea for custom horizontal rule](https://jsfiddle.net/yLKNh/186/)
 
 
-
 ### Acknowledgements
 
-[Color pallette idea](https://www.color-hex.com/color-palette/11590)\
-[Tutorial on custom 404](https://www.youtube.com/watch?v=oX_XKlPJAQk&ab_channel=ThinkThank)
+I would like to thank my mentor spencer for all the help and guidance, to everyone on slack who helped me and tutor support for when I got stuck
+
 ### Comments
+
+During the last portion of the project I had to finish off things really quickly and this led to last minute changes so I apologise if some of the screenshots to not match up or if this readme is not perfect. I would have spent more time updating it afterwards but such was the nature of the project. Thank you for your time and for any feedback negative or postive.
 
 
 

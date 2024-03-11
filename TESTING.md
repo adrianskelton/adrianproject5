@@ -27,20 +27,8 @@ Go back to [README.md](/README.md)
 | Products           | ![products](./documentation/images/testing/html/productshtml.png)                    | <mark>PASS<mark>  |                                                 |
 | Product Detail     | ![product detail](./documentation/images/testing/html/productdetailhtml.png)         | <mark>PASS<mark>  |                                                 |
 | Add Product        | ![add product](./documentation/images/testing/html/addproducthtml.png)               | <mark>PASS<mark>  |                                                 |
-| Edit Product       | ![add product](./documentation/images/testing/html/editproducthtml.png)              | <mark>PASS<mark>  |                                                 |
-| Programs           | ![programs](./documentation/images/testing/html/programshtml.png)                    | <mark>PASS<mark>  |                                                 |
-| Program Detail     | ![program detail](./documentation/images/testing/html/programdetailhtml.png)         | <mark>Error<mark> | Youtube embed issue outdated property           |
-| Cart               | ![cart](./documentation/images/testing/html/carthtml.png)                            | <mark>PASS<mark>  |                                                 |
-| Checkout           | ![checkout](./documentation/images/testing/html/checkouthtml.png)                    | <mark>PASS<mark>  |                                                 |
-| Subscription       | ![subscription](./documentation/images/testing/html/subscriptionhtml.png)            | <mark>PASS<mark>  |                                                 |
-| Profile            | ![profile](./documentation/images/testing/html/profilehtml.png)                      | <mark>PASS<mark>  |                                                 |
-| Order Confirmation | ![order confirmation](./documentation/images/testing/html/orderconfirmationhtml.png) | <mark>PASS<mark>  |                                                 |
-| My Courses         | ![my courses](./documentation/images/testing/html/mycourseshtml.png)                 | <mark>PASS<mark>  |                                                 |
-| Logout             | ![logout](./documentation/images/testing/html/logouthtml.png)                        | <mark>PASS<mark>  |                                                 |
-| Login              | ![login](./documentation/images/testing/html/loginhtml.png)                          | <mark>PASS<mark>  |                                                 |
-| Register           | ![register](./documentation/images/testing/html/registerhtml.png)                    | <mark>Error<mark> | Prerendered all auth form - ul within small tag |
-| Errors             | ![errors](./documentation/images/testing/html/errorshtml.png)                        | <mark>PASS<mark>  |                                                 |
-| Privacy            | ![errors](./documentation/images/testing/html/privacyhtml.png)                       | <mark>PASS<mark>  |                                                 |
+| Edit Product       | ![add product](./documentation/images/testing/html/editproducthtml.png)              |                                             |
+
 
 ### CSS
 
@@ -467,20 +455,6 @@ I performed manual testing based on my user stories. For it to be deemed success
 | **update my comments** to **change my input or correct mistakes** (as a **registered customer**).                            | Passed ✅|  
 | **delete my comments** to **remove my input if I change my mind (as a registered customer).**                                  | Passed ✅|        
 
-
-## Stripe
-
-- Payment Element
-
-![Order](./documentation/images/testing/stripecardelement.png)
-
-- Stripe webhooks
-
-![Webhook](./documentation/images/testing/stripewh.png)
-
-- Stripe Events/Payments
-
-![Events](./documentation/images/testing/stripepayments.png)
 
 ## Bugs
 
