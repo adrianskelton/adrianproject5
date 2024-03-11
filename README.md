@@ -467,10 +467,9 @@ I made a facebook business page for my site as I felt that was the best way to e
 
 Below is a video showing the page with a few articles posted, all of these posts could be boosted to gain a greater audience depending on the companies marketing budget.
 
-<vido src="static/media/readme/facebook-page.mp4">
+<video src="static/media/readme/facebook-page.mp4">
 
-![]("media/readme/facebook-screenshot.webp")
-
+![facebook](static/media/facebook-screenshot.webp)
 
 ## Testing
 Testing documentation can be found [here.](TESTING.md)
