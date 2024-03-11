@@ -62,19 +62,6 @@ Go back to [README.md](/README.md)
 | urls     | profiles | ![urls](static/media/readme/testing/testing-pyprofile-urls.png)         | <mark>PASS<mark> |                                                                     |
 | models   | profiles | ![models](static/media/readme/testing/testing-pyprofile-models.png)     | <mark>PASS<mark> |                                                                     |
 | webhooks | checkout | ![webhooks](static/media/readme/testing/testing-pycheckout-webhooks.png) | <mark>PASS<mark> |  |
-| handler  | checkout | ![handler](./documentation/images/testing/python/checkouthandlerpy.png)   | <mark>PASS<mark> |                                                                     |
-| view     | checkout | ![view](./documentation/images/testing/python/checkoutviewspy.png)        | <mark>PASS<mark> |                                                                     |
-| urls     | checkout | ![urls](./documentation/images/testing/python/checkouturlspy.png)         | <mark>PASS<mark> |                                                                     |
-| tests    | checkout | ![urls](./documentation/images/testing/python/checkouttestspy.png)        | <mark>PASS<mark> |                                                                     |
-| signals  | checkout | ![signals](./documentation/images/testing/python/checkoutsignalspy.png)   | <mark>PASS<mark> |                                                                     |
-| models   | checkout | ![models](./documentation/images/testing/python/checkoutmodelspy.png)     | <mark>PASS<mark> |                                                                     |
-| forms    | checkout | ![forms](./documentation/images/testing/python/checkoutformspy.png)       | <mark>PASS<mark> |                                                                     |
-| admin    | checkout | ![admin](./documentation/images/testing/python/checkoutadminpy.png)       | <mark>PASS<mark> |                                                                     |
-| views    | cart     | ![views](./documentation/images/testing/python/cartviewspy.png)           | <mark>PASS<mark> |                                                                     |
-| utils    | cart     | ![utils](./documentation/images/testing/python/cartutilspy.png)           | <mark>PASS<mark> |                                                                     |
-| urls     | cart     | ![urls](./documentation/images/testing/python/carturlspy.png)             | <mark>PASS<mark> |                                                                     |
-| tests    | cart     | ![tests](./documentation/images/testing/python/carttestspy.png)           | <mark>PASS<mark> |                                                                     |
-| context  | cart     | ![context](./documentation/images/testing/python/cartcontextpy.png)       | <mark>PASS<mark> |                                                                     |
 
 ## Responsiveness
 
@@ -160,21 +147,12 @@ The main custom crud functionality of this website pertains to the comments by t
 | Element                  | Action      | Expected Result                                                 | Pass/Fail         |
 | ------------------------ | ----------- | --------------------------------------------------------------- | ----------------- |
 | Category Widgets         | Click       | Redirect to selected product category page                      | <mark>Pass</mark> |
-| Filter By Price Button   | Click       | Filter queried products based on price                          | <mark>Pass</mark> |
-| Filter By Rating Button  | Click       | Filter queried products based on rating                         | <mark>Pass</mark> |
-| Filter By Sale Button    | Click       | Filter queried products based on sale                           | <mark>Pass</mark> |
+| Filter By..option   | Click       | Filter queried products based on selection                        | <mark>Pass</mark>
 | Filter Direction         | Display     | Filter direction displayed via an arrow                         | <mark>Pass</mark> |
-| Current Category         | Display     | Current displayed category is shown in the header               | <mark>Pass</mark> |
 | Search Bar               | Search      | Filter products based on query to category, name or description | <mark>Pass</mark> |
 | Product Cards            | Display     | All filtered Product Cards Rendered in grid layout              | <mark>Pass</mark> |
 | Product View Card Button | Click       | Redirect to product detail page                                 | <mark>Pass</mark> |
-| Product Edit Button      | Display     | Only moderators and admins can see this button                  | <mark>Pass</mark> |
-| Product Edit Button      | Click       | Redirect to edit product page                                   | <mark>Pass</mark> |
-| Product View Card Button | Hover/Focus | Background darkens, text lightens                               | <mark>Pass</mark> |
-| Product Edit Button      | Hover/Focus | Background darkens                                              | <mark>Pass</mark> |
-| Filter Button            | Hover/Focus | Background darkens                                              | <mark>Pass</mark> |
-| Search Icon              | Hover/Focus | Background darkens                                              | <mark>Pass</mark> |
-| Category Widgets         | Hover/Focus | Background turns orange, text turns white                       | <mark>Pass</mark> |
+| Artist        | Click | See artist page                       | <mark>Pass</mark> |
 
 ### Product Detail Page
 
@@ -184,15 +162,9 @@ The main custom crud functionality of this website pertains to the comments by t
 | Add to Cart Button  | Click       | Total quantity of item added to cart                             | <mark>Pass</mark> |
 | Add to Cart Button  | Click       | Notification appears upon outcome of adding to cart              | <mark>Pass</mark> |
 | Product Edit Button | Display     | Only moderators and admins can see this button                   | <mark>Pass</mark> |
-| Product Edit Button | Click       | Redirect to edit product page                                    | <mark>Pass</mark> |
+| Product image hover | Hover       | Shows buy text over image                                    | <mark>Pass</mark> |
 | Back Link           | Click       | Redirects back to the products page                              | <mark>Pass</mark> |
-| Paginator           | Click       | All navigations buttons redirect to correct paginated results    | <mark>Pass</mark> |
-| View Product Button | Click       | Redirect to related product detail page                          | <mark>Pass</mark> |
-| Related Products    | Display     | Display product cards of 4 related items with pagination         | <mark>Pass</mark> |
-| Back Link           | Hover/Focus | Text darkens                                                     | <mark>Pass</mark> |
 | Add to Cart Button  | Hover/Focus | Background darkens, text lightens                                | <mark>Pass</mark> |
-| Product Edit Button | Hover/Focus | Background darkens                                               | <mark>Pass</mark> |
-| Paginator Button    | Hover/Focus | Background darkens                                               | <mark>Pass</mark> |
 
 ### Add Product Page
 
@@ -273,37 +245,19 @@ The main custom crud functionality of this website pertains to the comments by t
 | Login to Enroll          | Hover/Focus | Background darkens, text lightens                              | <mark>Pass</mark> |
 | Paginator Button         | Hover/Focus | Background darkens                                             | <mark>Pass</mark> |
 
-### Subscription Page
-
-| Element                     | Action      | Expected Result                                                | Pass/Fail         |
-| --------------------------- | ----------- | -------------------------------------------------------------- | ----------------- |
-| Subscribe Button            | Click       | Adds subscription to cart                                      | <mark>Pass</mark> |
-| Subscribe Button            | Click       | If subscription is already in cart it is replaced              | <mark>Pass</mark> |
-| Remove Subscription Button  | Click       | A confirmation modal is displayed                              | <mark>Pass</mark> |
-| Remove Subscription Confirm | Click       | Current active subscription is removed                         | <mark>Pass</mark> |
-| Add / Remove Cart Button    | Click       | Notification appears upon outcome of adding/removing from cart | <mark>Pass</mark> |
-| Non authenticated users     | Visit       | Redirected to Login page                                       | <mark>Pass</mark> |
-| Remove Subscription Button  | Display     | If already subscribed remove button rendered and card is grey  | <mark>Pass</mark> |
-| Subscription status         | Display     | Current subscription noticed in subheading                     | <mark>Pass</mark> |
-| Subscribe Button            | Hover/Focus | Text darkens, border darkens                                   | <mark>Pass</mark> |
-
 ### Cart Page
 
 | Element                     | Action      | Expected Result                                                | Pass/Fail         |
 | --------------------------- | ----------- | -------------------------------------------------------------- | ----------------- |
 | Update Cart Button          | Click       | Updates the quantity of product by desired amount              | <mark>Pass</mark> |
 | Remove from Cart Button     | Click       | Removes all quantity of selected item from cart                | <mark>Pass</mark> |
-| Remove Subscription Button  | Click       | A confirmation modal is displayed                              | <mark>Pass</mark> |
-| Remove Subscription Confirm | Click       | Current active subscription is removed                         | <mark>Pass</mark> |
 | Add / Remove Cart Button    | Click       | Notification appears upon outcome of adding/removing from cart | <mark>Pass</mark> |
 | Checkout Button             | Click       | Redirects to checkout page                                     | <mark>Pass</mark> |
 | Continue Shopping Link      | Click       | Redirects to products page                                     | <mark>Pass</mark> |
 | Update Cart Button          | Display     | Only available for products                                    | <mark>Pass</mark> |
-| Discounts                   | Display     | All added discounts are displayed (sale, membership)           | <mark>Pass</mark> |
 | Total Cost                  | Display     | Total cost is accurately displayed with breakdown              | <mark>Pass</mark> |
 | Update Cart Button          | Hover/Focus | Background darkens, text darkens                               | <mark>Pass</mark> |
 | Remove from cart Button     | Hover/Focus | Background darkens, text darkens                               | <mark>Pass</mark> |
-| Checkout Button             | Hover/Focus | Background darkens                                             | <mark>Pass</mark> |
 | Continue Shopping Link      | Hover/Focus | Text darkens                                                   | <mark>Pass</mark> |
 
 ### Checkout Page
@@ -335,95 +289,7 @@ The main custom crud functionality of this website pertains to the comments by t
 | Checkout Form | Display | Total cost breakdown is displayed for the user                      | <mark>Pass</mark> |
 | Notification  | Display | A Notification appears highlighting the successful order number     | <mark>Pass</mark> |
 
-### Profile Page
 
-| Element                | Action      | Expected Result                                                  | Pass/Fail         |
-| ---------------------- | ----------- | ---------------------------------------------------------------- | ----------------- |
-| User Form              | Submit      | A valid user form updates the users first/last name and username | <mark>Pass</mark> |
-| User Form              | Submit      | Non valid form returns the context of the error                  | <mark>Pass</mark> |
-| User Notification      | Submit      | A Notification appears highlighting outcome of form submission   | <mark>Pass</mark> |
-| Delivery Form          | Submit      | A valid form updates the user delivery information               | <mark>Pass</mark> |
-| Delivery Form          | Submit      | Non valid form returns the context of the error                  | <mark>Pass</mark> |
-| Delivery Notification  | Submit      | A Notification appears highlighting outcome of form submission   | <mark>Pass</mark> |
-| Delete Account Button  | Click       | A confirmation modal appears warning the user of the action      | <mark>Pass</mark> |
-| Delete Account Confirm | Click       | The user account is deleted from the database                    | <mark>Pass</mark> |
-| Delete Account Confirm | Click       | A notification informs the user of the outcome of the operation  | <mark>Pass</mark> |
-| Checkout Form          | Display     | Total cost breakdown is displayed for the user                   | <mark>Pass</mark> |
-| Update Profile Button  | Click       | Submits the user form                                            | <mark>Pass</mark> |
-| Update Delivery Button | Click       | Submits the user profile form for delivery information           | <mark>Pass</mark> |
-| Past Order Link        | Click       | Redirects the user to the checkout success page / past order     | <mark>Pass</mark> |
-| Past Orders            | Display     | Renders all authenticated users past orders                      | <mark>Pass</mark> |
-| Update Profile Button  | Hover/Focus | Background darkens                                               | <mark>Pass</mark> |
-| Update Delivery Button | Hover/Focus | Background darkens                                               | <mark>Pass</mark> |
-| Past Order             | Hover/Focus | Text darkens                                                     | <mark>Pass</mark> |
-
-
-### Sign Up Page
-
-| Element       | Action         | Expected Result                             | Pass/Fail         |
-| ------------- | -------------- | ------------------------------------------- | ----------------- |
-| Page          | Authentication | Authenticated users redirected to Home page | <mark>Pass</mark> |
-| Form(Valid)   | Submit         | Redirected to Home page                     | <mark>Pass</mark> |
-| Form(Valid)   | Submit         | Sign up in Notification received            | <mark>Pass</mark> |
-| Form(Invalid) | Submit         | Error Context rendered to UI                | <mark>Pass</mark> |
-| Form(Invalid) | Submit         | Error Notification received                 | <mark>Pass</mark> |
-| Login Link    | Click          | Redirect to Login Page                      | <mark>Pass</mark> |
-| Form Button   | Hover/Focus    | Darken Background                           | <mark>Pass</mark> |
-| Login Link    | Hover/Focus    | Darken Text                                 | <mark>Pass</mark> |
-
-### Sign In Page
-
-| Element              | Action         | Expected Result                             | Pass/Fail         |
-| -------------------- | -------------- | ------------------------------------------- | ----------------- |
-| Page                 | Authentication | Authenticated users redirected to Home page | <mark>Pass</mark> |
-| Form(Valid)          | Submit         | Redirected to Home page                     | <mark>Pass</mark> |
-| Form(Valid)          | Submit         | Sign up in Notification received            | <mark>Pass</mark> |
-| Form(Invalid)        | Submit         | Error Context rendered to UI                | <mark>Pass</mark> |
-| Form(Invalid)        | Submit         | Error Notification received                 | <mark>Pass</mark> |
-| Register Link        | Click          | Redirect to Sign In Page                    | <mark>Pass</mark> |
-| Forgot Password Link | Click          | Redirect to Password Reset Page             | <mark>Pass</mark> |
-| Form Button          | Hover/Focus    | Darken Background                           | <mark>Pass</mark> |
-| Register Link        | Hover/Focus    | Darken Text                                 | <mark>Pass</mark> |
-| Forgot Password Link | Hover/Focus    | Darken Text                                 | <mark>Pass</mark> |
-
-### Log Out Page
-
-| Element       | Action         | Expected Result                                | Pass/Fail         |
-| ------------- | -------------- | ---------------------------------------------- | ----------------- |
-| Page          | Authentication | Un-authenticated users redirected to Home page | <mark>Pass</mark> |
-| Logout Button | Click          | User session is Logged out                     | <mark>Pass</mark> |
-| Logout Button | Click          | Redirected to Home page                        | <mark>Pass</mark> |
-| Form Button   | Hover/Focus    | Darken Background                              | <mark>Pass</mark> |
-
-
-### Django Administration Panel
-
-| Element            | Action | Expected Result                           | Pass/Fail         |
-| ------------------ | ------ | ----------------------------------------- | ----------------- |
-| Product Model      | Create | Admins can create new products            | <mark>Pass</mark> |
-| Program Model      | Create | Admins can create new programs            | <mark>Pass</mark> |
-| Artist Model       | Create | Admins can create new Artists             | <mark>Pass</mark> |
-| Module Model       | Create | Admins can create new modules             | <mark>Pass</mark> |
-| Category Model     | Create | Admins can create new Categories          | <mark>Pass</mark> |
-| Order Model        | Create | Admins can create new Orders              | <mark>Pass</mark> |
-| Product Model      | Update | Admins can update exisiting products      | <mark>Pass</mark> |
-| Blog Model         | Update | Admins can update exisiting blogs      | <mark>Pass</mark> |
-| Subscription Model | Update | Admins can update exisiting subscriptions | <mark>Pass</mark> |
-| Module Model       | Update | Admins can update exisiting modules       | <mark>Pass</mark> |
-| Category Model     | Update | Admins can update exisiting Categories    | <mark>Pass</mark> |
-| Order Model        | Update | Admins can update exisiting Orders        | <mark>Pass</mark> |
-| Product Model      | Delete | Admins can delete exisiting products      | <mark>Pass</mark> |
-| Program Model      | Delete | Admins can delete exisiting programs      | <mark>Pass</mark> |
-| Subscription Model | Delete | Admins can delete exisiting subscriptions | <mark>Pass</mark> |
-| Module Model       | Delete | Admins can delete exisiting modules       | <mark>Pass</mark> |
-| Category Model     | Delete | Admins can delete exisiting Categories    | <mark>Pass</mark> |
-| Order Model        | Delete | Admins can delete exisiting Orders        | <mark>Pass</mark> |
-
-## Automated testing
-
-Automated testing was conducted to verify the accuracy of the page responses and templates. However, due to time constraints, there was no opportunity for further elaboration or expansion. Future features include full automated test coverage.
-
-All automated tests are documented in test.py files and pass without error.
 
 ## User Story Testing
 ## Manual Testing
