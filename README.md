@@ -113,8 +113,6 @@ Benefits:
 ### Colour Scheme
 The colour scheme is of the website is quite toned down as not to take away from the prints so that they are the main focus and the user experience of the website is ease of functionality in focus without color distractions in the navigation. I did this also in mind that most Scandinavian homes have subdued interior home colours and the website then mimics this.
 
-
-
     1. Background color usage - #d7e1ea
     2. Background color (same as boothstrap bg-lite) - #f8f9fa 
 
@@ -124,15 +122,6 @@ The colour scheme is of the website is quite toned down as not to take away from
 ### Database Schema
 ![database schema](static/media/readme/database.webp)
 
-1. User:
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-
-2. UserProfile:
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-
-3. Category
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-
 
 ### Fonts
 I chose 2 fonts that look clean and minimalistic from google fonts.
@@ -141,47 +130,83 @@ I chose 2 fonts that look clean and minimalistic from google fonts.
 
 ![Chivo](static/media/readme/font-krub.webp)
 
-#### Chivo #### - used for 
+**Chivo** - Used for body and some of the titles.
 
 ![Krub](static/media/readme/font-chivo.webp)
 
-Krub - Used for the headings of  
+**Krub** - Used for headings.
 
 
 
 ### Wireframes
 
-Included below are the wireframes I made for the most detailed pages, the account functionality pages I skipped over as they didnt require much layout planning. 
+Included below are the wireframes I made for the most detailed pages, the account functionality and shopping pages I skipped over as they didnt require much layout planning visually and were mostly text and no images to be layed out so it would have been largely uneccessary.
 
-- Home
+**Home**
+
+The landing page will have a short writeup of Nordic art collective, thereby removing the need for an about us page which I thought of origonally. A shop now button is then underneath the text taking the users to the shop displaying all the products.
+
+
+
 <details>
-<summary>Home</summary>
+
+<summary>Home wireframe</summary>
 
 ![Home](static/media/readme/wireframe-landing.webp)
 
 </details>
 
-- Product
-
+**Product list**
 <details>
-<summary>Product list</summary> 
-
+<summary>Product list wireframe</summary> 
 ![product](static/media/readme/wireframe-artist-list.webp)
-
 </details>
 
-- Product
-
+- Product Detail
 <details>
-<summary>Product detail</summary> 
+<summary>Product detail wireframe</summary> 
 
 ![product](static/media/readme/wireframe-product-detail.webp)
-
 </details>
+
+- The product detail page is where users can buy products, they can select the size of prints that they desire and then they can 
+
+<details>
+<summary>Artists wireframe</summary> 
+![Artists](static/media/readme/wireframe-artist-list.webp)
+</details>
+
+- The Artist page displays a list of artists with a short bio, a link to their website and their profile picture on the right hand side of the page.
+
+<details>
+<summary>Contact us wireframe</summary> 
+![contact](static/media/readme/wireframe-contact-us.png)
+</details>
+
+- The contact us page has a basic form that allows users and guests to send the company a message, it includes an entry for their name, email and message.
+
+<details>
+<summary>Blog posts wireframe</summary> 
+
+![blogs](static/media/readme/wireframe-blog-list.png)
+</details>
+
+- The blog posts are listed full width with a read more link to access the main single post of that article.
+
+<details>
+<summary>Single blog post wireframe</summary> 
+
+![single blog](static/media/readme/wireframe-blog-single.png)
+</details>
+
 
 ### Agile Methodology
 #### Overview
-The inception of the Nordic Art Collective website traces back to the establishment of a GitHub Projects Page, functioning as the central hub for project management. This platform played a crucial role in systematically organizing tasks, creating user stories, and breaking them down into actionable steps. The primary objective was to construct a well-organized roadmap that could effectively guide the project to its successful completion within the specified timeframe. Leveraging the GitHub Projects Page facilitated the monitoring of the project's progression, task assignment, and milestone accomplishment, ensuring a streamlined and organized development process. The implementation of the MoSCoW method, coupled with customized GitHub project labels, proved invaluable in helping me prioritize essential tasks within the constraints of my available time.
+The inception of the Nordic Art Collective website traces back to the establishment of a GitHub Projects Page, functioning as the central hub for project management.
+
+This platform played a crucial role in systematically organizing tasks, creating user stories, and breaking them down into actionable steps. The primary objective was to construct a well-organized roadmap that could effectively guide the project to its successful completion within the specified timeframe. Leveraging the GitHub Projects Page facilitated the monitoring of the project's progression, task assignment, and milestone accomplishment, ensuring a streamlined and organized development process. 
+
+The implementation of the MoSCoW method, coupled with customized GitHub project labels, proved invaluable in helping me prioritize essential tasks within the constraints of my available time.
 
 For accessing specific details:
 
@@ -280,21 +305,16 @@ I then made simple script to do this.
 ![all products](static/media/readme/feature-products.png)
 
 ### Products Card
-The product card is very simple and shows 
+The product card is very simple and shows the image of the print, print name, artist, and category.
 
-![product card](./assets/readme-images/features/card.png)
+![product card](static/media/readme/card.png)
 
-![product card sale](./assets/readme-images/features/card-sale.PNG)
 
 ### Single Products Page
 The single product page shows the main image, product writeup, category and the price/sizing options. You can then select the number of prints you want and clicking add to bag or click keep shopping to choose something else.
 
 ![product page](static/media/feature-product-single.png)
 
-
-### Size options page (TODO)
-This is accessed by the size guide floating button.
-![faq-page](./assets/readme-images/features/faq-page.PNG)
 
 ### Contact Us Page
 The contact page is a simple contact form with your name, email and message box. An image of a photography exhibition is to the right. 
@@ -304,23 +324,17 @@ The contact page is a simple contact form with your name, email and message box.
 ### Artists Page (custom model)
 In the left column the artists name, bio and website are displayed as well as a scrollable display of their prints as images. When you hover over the print it displays a link to buy now which can be clicked to see the single product detail page. The artists image is shown on the right column. 
 
-### My Profile Page
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
+![Artist Page](static/media/readme/artists-page.png)
 
-#### Profile
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
+#### My Profile
+This page shows the users order history on the right and the users address details on the left column. 
 
-![profile](./assets/readme-images/features//profile.PNG)
+![profile](static/media/readme/profile.png)
 
-#### Order History
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
+### Shopping bag
+This page shows a breakdown of what the user has put in their shopping back and also allows deletion or editing of the shopping bag. From this page the user can checkout or continue shopping. 
 
-![orders](./assets/readme-images/features/order-history.PNG)
-
-#### My Wishlist
-lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
-
-![wishlist](./assets/readme-images/features/my-wishlist.PNG)
+![wishlist](static/media/readme/shopping-bag.png)
 
 ### Admin
 lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum 
