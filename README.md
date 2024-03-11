@@ -824,13 +824,13 @@ By forking the GitHub Repository, we make a copy of the original repository on o
 
 ## Credits
 
-I took inspiration from other students and tips from looking at their readme layout. 
+I took inspiration from other students and tips from looking at their readme layout and some of the layout was used.
 
 ### Media
 - [Research for color combinations](https://www.color-hex.com/color-palette/11590)
 - [Digital artwork from freepik.com](https://www.freepik.com/free-photos-vectors/digital-art)
 - [Favicon generator](https://favicon.io/favicon-converter/)
-- [Color pallette idea](https://www.color-hex.com/color-palette/11590)\
+- [Color pallette idea](https://www.color-hex.com/color-palette/11590)
 - [Tutorial on custom 404](https://www.youtube.com/watch?v=oX_XKlPJAQk&ab_channel=ThinkThank)
 - [All photographs have been sourced from pexels](https://www.pexels.com)
 
