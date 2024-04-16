@@ -13,11 +13,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+#DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = False
 
 ALLOWED_HOSTS = ['nordic-art-22f58cb8c917.herokuapp.com',
                  '8000-adrianskelt-adrianproje-kkcdyjvttop.ws-eu107.gitpod.io',
-                 '8000-adrianskelt-adrianproje-kkcdyjvttop.ws-eu108.gitpod.io',]
+                 '8000-adrianskelt-adrianproje-id2lybb0pae.ws-eu110.gitpod.io',]
 
 
 # Application definition
