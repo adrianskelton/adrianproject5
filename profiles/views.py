@@ -44,3 +44,24 @@ def order_history(request, order_number):
     }
 
     return render(request, template, context)
+
+    # Function that will be called when a 404 error occurs
+def custom_404(request, exception):
+    """
+    Custom 404 error view.
+    """
+    return render(request, '404.html', status=404)
+
+# Function that will be called when a 404 error occurs
+def custom_400(request):
+    """
+    Custom 400 error view.
+    """
+    return render(request, '400.html', status=404)
+
+# Function that will be called when a 500 error occurs
+def custom_500(request):
+    """
+    Custom 500 error view.
+    """
+    return render(request, '500.html', status=500)
