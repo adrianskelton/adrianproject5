@@ -21,6 +21,7 @@ ALLOWED_HOSTS = ['nordic-art-22f58cb8c917.herokuapp.com',
                  '8000-adrianskelt-adrianproje-id2lybb0pae.ws-eu110.gitpod.io',]
 
 
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -57,6 +58,15 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+# Custom 400 error handler
+HANDLER400 = 'home.views.custom_400'
+
+# Custom 404 error handler
+HANDLER404 = 'home.views.custom_404'
+
+# Custom 500 error handler
+HANDLER500 = 'home.views.custom_500'
 
 ROOT_URLCONF = 'nordic_art.urls'
 
@@ -158,8 +168,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/3.2/howto/static-files/
+#Static File settings
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
