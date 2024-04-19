@@ -2,7 +2,6 @@ from pathlib import Path
 import os
 import dj_database_url
 
-import os 
 print("EMAIL USER:", os.environ.get('EMAIL_HOST_USER')) 
 print("EMAIL PASSWORD:", os.environ.get('EMAIL_HOST_PASS'))
 

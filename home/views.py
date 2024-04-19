@@ -1,8 +1,6 @@
 from django.shortcuts import render
 
 # Create your views here.
-
-
 def index(request):
     """ A view to return the index page """
     return render(request, 'home/index.html')
@@ -19,18 +17,18 @@ def custom_404(request, exception):
     """
     Custom 404 error view.
     """
-    return render(request, '404.html', status=404)
+    return render(request, '404.html')
 
-# Function that will be called when a 404 error occurs
-def custom_400(request):
+# Function that will be called when a 400 error occurs
+def custom_400(request, exception):
     """
     Custom 400 error view.
     """
-    return render(request, '400.html', status=404)
+    return render(request, '400.html')
 
 # Function that will be called when a 500 error occurs
 def custom_500(request):
     """
     Custom 500 error view.
     """
-    return render(request, '500.html', status=500)
+    return render(request, '500.html')

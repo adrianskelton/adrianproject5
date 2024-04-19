@@ -1,8 +1,5 @@
-from django.contrib.sites.models import Site
-from django.urls import path, include
+from django.urls import path
 from . import views
-from .views import contact
-
 
 handler404 = 'home.views.custom_404'
 handler400 = 'home.views.custom_400'
