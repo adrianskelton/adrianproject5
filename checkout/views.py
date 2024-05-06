@@ -150,6 +150,8 @@ def checkout(request):
     return render(request, template, context)
 
 
+from django.core.mail import send_mail
+
 def checkout_success(request, order_number):
     """
     Handle successful checkouts
@@ -178,11 +180,18 @@ def checkout_success(request, order_number):
             if user_profile_form.is_valid():
                 user_profile_form.save()
 
+    # Send confirmation email
+    subject = f"Order Confirmation - Order #{order_number}"
+    message = f"Dear {order.full_name},\n\nThank you for your order. Your order number is {order_number}."
+    from_email = settings.EMAIL_HOST_USER
+    recipient_list = [order.email]
+    send_mail(subject, message, from_email, recipient_list)
+
     messages.success(
         request,
         f"Order successfully processed! \
         Your order number is {order_number}. A confirmation \
-        email will be sent to {order.email}.",
+        email has been sent to {order.email}.",
     )
 
     if "bag" in request.session:
