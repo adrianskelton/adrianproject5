@@ -3,14 +3,18 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+
 .background {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-image: url('static/background404.webp');
+    background-image: url('{% static 'media/lost.webp' %}');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .overlay {
