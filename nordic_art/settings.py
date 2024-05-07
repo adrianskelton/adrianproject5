@@ -115,10 +115,10 @@ if os.getenv('DEBUG') == 'True':
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 else:
     # Use SMTP email backend for production
-    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
     EMAIL_USE_TLS = True
+    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
     EMAIL_PORT = 587
-    EMAIL_HOST = 'smtp.fatcow.com'
+    EMAIL_HOST = 'smtp.gmail.com'
     EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
