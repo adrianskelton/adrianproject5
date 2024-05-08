@@ -137,7 +137,23 @@ LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'nordic_art.wsgi.application'
 
+# Retrieve the database URL from the environment variables
 DATABASE_URL = os.environ.get('DATABASE_URL')
+
+# Check if DATABASE_URL is set
+if DATABASE_URL:
+    # Parse the database URL using dj_database_url
+    DATABASES = {
+        'default': dj_database_url.parse(DATABASE_URL)
+    }
+else:
+    # If DATABASE_URL is not set, use a default database configuration
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
 
 AUTH_PASSWORD_VALIDATORS = [
     {
