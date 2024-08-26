@@ -1,0 +1,22 @@
+databases:
+  - name: postgres://kafogeuz:VZ7IuW94pq8octrWT8qxO1r5yIUYAYqZ@abul.db.elephantsql.com/kafogeuz
+    plan: free
+    databaseName: postgres://kafogeuz:VZ7IuW94pq8octrWT8qxO1r5yIUYAYqZ@abul.db.elephantsql.com/kafogeuz
+    user: mysite
+
+services:
+  - type: web
+    plan: free
+    name: mysite
+    runtime: python
+    buildCommand: "./build.sh"
+    startCommand: "python -m gunicorn mysite.asgi:application -k uvicorn.workers.UvicornWorker"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: mysitedb
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: WEB_CONCURRENCY
+        value: 4
