@@ -17,7 +17,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['*', 'https://adrianproject5.onrender.com/' 'nordic-art-22f58cb8c917.herokuapp.com',
+ALLOWED_HOSTS = ['*', 'https://adrianproject5.onrender.com/', 'nordic-art-22f58cb8c917.herokuapp.com',
                  '8000-adrianskelt-adrianproje-kkcdyjvttop.ws-eu107.gitpod.io',
                  '8000-adrianskelt-adrianproje-id2lybb0pae.ws-eu110.gitpod.io',]
 
